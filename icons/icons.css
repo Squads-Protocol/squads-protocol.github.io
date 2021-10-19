@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.icon {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+
+    mask-size: contain;
+    -webkit-mask-size: contain;
+
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+
+    mask-position: center;
+    -webkit-mask-position: center;
+
+    font-size: 16px;
+    background-color: #000;
+}
+
+.icon.plus {
+    mask-image: url(plus.svg);
+    -webkit-mask-image: url(plus.svg);
+}
+
+.icon.minus {
+    mask-image: url(minus.svg);
+    -webkit-mask-image: url(minus.svg);
+}
+
+.icon.arrow_right {
+    mask-image: url(arrow_right.svg);
+    -webkit-mask-image: url(arrow_right.svg);
+}
+
+.icon.logo-solano {
+    mask-image: url(logo-solano.svg);
+    -webkit-mask-image: url(logo-solano.svg);
+}
+
+.icon.lang {
+    mask-image: url(lang.svg);
+    -webkit-mask-image: url(lang.svg);
+}
+
+.icon.map {
+    mask-image: url(map.svg);
+    -webkit-mask-image: url(map.svg);
+}
