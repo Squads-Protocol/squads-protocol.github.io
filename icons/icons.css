@@ -47,3 +47,8 @@
     mask-image: url(map.svg);
     -webkit-mask-image: url(map.svg);
 }
+
+.icon.twitter {
+    mask-image: url(twitter.svg);
+    -webkit-mask-image: url(twitter.svg);
+}
