@@ -1,3 +1,5 @@
+new WOW().init();
+
 $(document).ready(function () {
 
     let widthWindow = $(window).width();

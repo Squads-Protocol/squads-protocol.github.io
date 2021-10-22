@@ -25,6 +25,8 @@
 
     <!-- CSS Reset -->
     <link rel="stylesheet" href="/css/reset.css?v=1.0">
+    <!-- Animated CSS -->
+    <link rel="stylesheet" href="/libs/animate.min.css">
     <!-- Icons -->
     <link rel="stylesheet" href="/icons/icons.css?v=1.0">
     <!-- CSS -->
@@ -41,12 +43,12 @@
 
 
 <!-- шапка -->
-<header class="xl-container">
+<header class="xl-container animate__animated animate__fadeIn">
     <div class="content flex-vb">
 
         <!-- Лого -->
         <a href="/">
-            <img src="img/logo.png" alt="logo">
+            <embed src="/img/logo.svg"></embed>
         </a>
 
         <!-- Навигация -->
@@ -55,14 +57,15 @@
                 <li><a href="#anchor_squads">Squads</a></li>
                 <li><a href="#anchor_roadmap">Roadmap</a></li>
                 <li><a href="#anchor_team">Team</a></li>
-                <li><a href="#anchor_twitter">Twitter</a></li>
-                <li><a href="#anchor_discord">Discord</a></li>
-                <li><a href="#anchor_notion">Notion</a></li>
+                <li><a target="_blank" href="https://twitter.com/squads_dapp?s=21">Twitter</a></li>
+                <li><a target="_blank" href="https://discord.gg/97AXgecF">Discord</a></li>
+                <li><a target="_blank" href="https://www.notion.so/Squads-566742499a10435cbc9ea0313df539fe">Notion</a></li>
             </ul>
         </nav>
 
         <!-- Навигация -->
-        <a href="#" class="btn btn-primary small">Launch App</a>
+        <div></div>
+<!--        <a href="#" class="btn btn-primary small">Launch App</a>-->
 
     </div>
 </header>
@@ -72,10 +75,10 @@
 <!-- первый блок -->
 <section>
     <div class="index-block">
-        <div class="powered-by">
+        <div class="powered-by animate__animated animate__fadeInUp">
             <p>Powered by<i class="icon logo-solano"></i>Solana</p>
         </div>
-        <div class="index-text">
+        <div class="index-text animate__animated animate__fadeInUp">
             <h1 class="title">One stop shop for<br>all the DAO primitives</h1>
         </div>
     </div>
@@ -88,12 +91,12 @@
 <section class="section-features" id="anchor_squads">
     <div class="lr-container">
         <div class="center-text">
-            <p class="sq-tag">fuatere</p>
-            <h2 class="index-header_h2">What are Squads</h2>
-            <p class="text-md">Squads is user-friendly DAO generator on Solana, which combines a treasury, on-chain voting and a chat all in one interface</p>
+            <p class="sq-tag wow animate__animated animate__fadeInUp">squads</p>
+            <h2 class="index-header_h2 wow animate__animated animate__fadeInUp">What are Squads</h2>
+            <p class="text-md wow animate__animated animate__fadeInUp">Squads is user-friendly DAO generator on Solana, which combines a treasury, on-chain voting and a chat all in one interface</p>
         </div>
 <!--        <img src="/img/proposals.png" alt="img" class="img-preview">-->
-        <embed src="/img/proposals.png" class="img-preview"></embed>
+        <embed src="/img/proposals.png" class="img-preview wow animate__animated animate__fadeInUp"></embed>
     </div>
 </section>
 <!-- конец - первый блок -->
@@ -103,8 +106,8 @@
 <section class="section-text_col bc-color-gray">
     <div class="lr-container">
         <div class="grid-col">
-            <embed src="/img/RoomArt.svg" class="img-col"></embed>
-            <div class="text-col">
+            <embed src="/img/RoomArt.svg" class="img-col wow animate__animated animate__fadeInLeft"></embed>
+            <div class="text-col wow animate__animated animate__fadeInRight">
                 <p class="sq-tag">who is Squads for?</p>
                 <h2 class="index-header_h2">Protocol and NFT DAOs</h2>
                 <p class="text-md">DeFi protocols and NFT communities can register their token with Squads to allow their holders to participate in governance via proposals and on-chain voting</p>
@@ -119,12 +122,12 @@
 <section class="section-text_col">
     <div class="lr-container">
         <div class="grid-col">
-            <div class="text-col">
+            <div class="text-col wow animate__animated animate__fadeInLeft">
                 <p class="sq-tag">who is Squads for?</p>
                 <h2 class="index-header_h2">Startup teams, investors and freelancers</h2>
                 <p class="text-md">Joining a hackathon with your team, looking to co-invest with friends or doing development work for a bounty? Just spin up a Squad in a few clicks to run your internal governance or just use Squads as a multisig</p>
             </div>
-            <embed src="/img/RoomStartup.svg" class="img-col"></embed>
+            <embed src="/img/RoomStartup.svg" class="img-col wow animate__animated animate__fadeInRight"></embed>
         </div>
     </div>
 </section>
@@ -135,8 +138,8 @@
 <section class="section-text_col bc-color-gray">
     <div class="lr-container">
         <div class="grid-col">
-            <embed src="/img/RoomGaming.svg" class="img-col"></embed>
-            <div class="text-col">
+            <embed src="/img/RoomGaming.svg" class="img-col wow animate__animated animate__fadeInLeft"></embed>
+            <div class="text-col wow animate__animated animate__fadeInRight">
                 <p class="sq-tag">who is Squads for?</p>
                 <h2 class="index-header_h2">Gaming guilds and communities</h2>
                 <p class="text-md">Looking to conquer Star Atlas or Aurory with your guild? Create a Squad to hold in-game assets jointly and manage your guild via on-chain proposals</p>
@@ -151,35 +154,33 @@
 <section class="section-check_history" id="anchor_roadmap">
     <div class="lr-container">
         <p class="sq-tag">roadmap</p>
-        <h2 class="index-header_h2">Wen DAO?</h2>
+        <h2 class="index-header_h2 wow animate__animated animate__fadeInDown">Wen DAO?</h2>
 
         <div class="items-line">
-            <div class="item">
+            <div class="item wow animate__animated animate__fadeInUp">
                 <div class="count one flex-vb-center"><p>Q4</p><span>2021</span></div>
-                <div class="text-content">
-                    <h3 class="title">Squads v0.5 mainnet beta</h3>
-                    <p class="desc text-md">Core proposal functionality goes to mainnet first to allow NFT communities to initiate proposals and set up on-chain voting</p>
+                <div class="text-container">
+                    <div class="text-content">
+                        <h3 class="title">Squads v0.5 mainnet beta</h3>
+                        <p class="desc text-md">Core proposal functionality goes to mainnet first to allow NFT communities to initiate proposals and set up on-chain voting</p>
+                    </div>
+                    <div class="text-content">
+                        <h3 class="title">Squads v1 devnet beta</h3>
+                        <p class="desc text-md">All the DAO primitives (deployment, voting and treasury) in one simple interface are coming to devnet</p>
+                    </div>
                 </div>
             </div>
-            <div class="item">
-                <div class="count two flex-vb-center"><p>Q4</p><span>2021</span></div>
-                <div class="text-content">
-                    <h3 class="title">Squads v1 devnet beta</h3>
-                    <p class="desc text-md">All the DAO primitives (deployment, voting and treasury) in one simple interface are coming to devnet</p>
-                </div>
-            </div>
-            <div class="item">
+            <div class="item wow animate__animated animate__fadeInUp">
                 <div class="count three flex-vb-center"><p>Q1</p><span>2022</span></div>
-                <div class="text-content">
-                    <h3 class="title">Squads v1 mainnet launch</h3>
-                    <p class="desc text-md">Glorius transition of Squads v1 to mainnet</p>
-                </div>
-            </div>
-            <div class="item">
-                <div class="count four flex-vb-center"><p>Q1</p><span>2022</span></div>
-                <div class="text-content">
-                    <h3 class="title">Squads v2</h3>
-                    <p class="desc text-md">Expanded Vault functionality with treasury management components (swaps, staking, token vesting, payroll and streams)</p>
+                <div class="text-container">
+                    <div class="text-content">
+                        <h3 class="title">Squads v1 mainnet launch</h3>
+                        <p class="desc text-md">Glorius transition of Squads v1 to mainnet</p>
+                    </div>
+                    <div class="text-content">
+                        <h3 class="title">Squads v2</h3>
+                        <p class="desc text-md">Expanded Vault functionality with treasury management components (swaps, staking, token vesting, payroll and streams)</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -198,46 +199,45 @@
         </div>
 
         <div class="grid-teams">
-            <div class="item">
+            <div class="item wow animate__animated animate__fadeInDown">
                 <img src="/img/team-1.png" alt="img">
                 <div class="flex-vb">
                     <p class="name">Stepan Simkin</p>
-                    <a href="https://twitter.com/" target="_blank"><i class="icon twitter"></i></a>
+                    <a href="https://twitter.com/simkinstepan?s=21" target="_blank"><i class="icon twitter"></i></a>
                 </div>
             </div>
-            <div class="item">
+            <div class="item wow animate__animated animate__fadeInDown">
                 <img src="/img/team-2.png" alt="img">
                 <div class="flex-vb">
                     <p class="name">Sean Ganser</p>
-                    <a href="https://twitter.com/" target="_blank"><i class="icon twitter"></i></a>
                 </div>
             </div>
-            <div class="item">
+            <div class="item wow animate__animated animate__fadeInDown">
                 <img src="/img/team-3.png" alt="img">
                 <div class="flex-vb">
                     <p class="name">Deni Ershtukaev</p>
-                    <a href="https://twitter.com/" target="_blank"><i class="icon twitter"></i></a>
+                    <a href="https://twitter.com/deni_ersht" target="_blank"><i class="icon twitter"></i></a>
                 </div>
             </div>
-            <div class="item">
+            <div class="item wow animate__animated animate__fadeInDown">
                 <img src="/img/team-4.png" alt="img">
                 <div class="flex-vb">
                     <p class="name">Alpha Ketchum</p>
-                    <a href="https://twitter.com/" target="_blank"><i class="icon twitter"></i></a>
+                    <a href="https://twitter.com/alphaketchum" target="_blank"><i class="icon twitter"></i></a>
                 </div>
             </div>
-            <div class="item">
+            <div class="item wow animate__animated animate__fadeInDown">
                 <img src="/img/team-5.png" alt="img">
                 <div class="flex-vb">
                     <p class="name">Bastien Guillaumat</p>
-                    <a href="https://twitter.com/" target="_blank"><i class="icon twitter"></i></a>
+                    <a href="https://twitter.com/bguillaumat" target="_blank"><i class="icon twitter"></i></a>
                 </div>
             </div>
-            <div class="item">
+            <div class="item wow animate__animated animate__fadeInDown">
                 <img src="/img/team-6.png" alt="img">
                 <div class="flex-vb">
                     <p class="name">Fil Ryabchikov</p>
-                    <a href="https://twitter.com/" target="_blank"><i class="icon twitter"></i></a>
+                    <a href="https://twitter.com/iamfilian?s=21" target="_blank"><i class="icon twitter"></i></a>
                 </div>
             </div>
         </div>
@@ -251,32 +251,32 @@
         <div class="content">
 
             <div class="col">
-                <img src="/img/logo.png" alt="logo" class="logo">
-                <p class="title"><i class="icon map"></i>United States</p>
-                <p class="title"><i class="icon lang"></i>English (United States)</p>
-                <p class="title md-hidden">made by <a href="https://roobinium.io/" target="_blank">roobinium.io</a></p>
-                <p class="title md-hidden">© 2021 SQUADS</p>
+                <embed src="/img/logo.svg" alt="logo" class="logo"></embed>
+<!--                <p class="title"><i class="icon map"></i>United States</p>-->
+<!--                <p class="title"><i class="icon lang"></i>English (United States)</p>-->
+<!--                <p class="title md-hidden">made by <a href="https://roobinium.io/" target="_blank">roobinium.io</a></p>-->
+<!--                <p class="title md-hidden">© 2021 SQUADS</p>-->
             </div>
 
-            <div class="col toggle_menu">
-                <p class="head">DOCUMENTS<i class="icon plus"></i></p>
-                <div class="accordion">
-                    <a href="#" class="title" target="_blank">Cookies policy</a>
-                    <a href="#" class="title" target="_blank">Privacy</a>
-                    <a href="#" class="title" target="_blank">Purchase agreement</a>
-                    <a href="#" class="title" target="_blank">Terms of use</a>
-                </div>
-            </div>
+<!--            <div class="col toggle_menu">-->
+<!--                <p class="head">DOCUMENTS<i class="icon plus"></i></p>-->
+<!--                <div class="accordion">-->
+<!--                    <a href="#" class="title" target="_blank">Cookies policy</a>-->
+<!--                    <a href="#" class="title" target="_blank">Privacy</a>-->
+<!--                    <a href="#" class="title" target="_blank">Purchase agreement</a>-->
+<!--                    <a href="#" class="title" target="_blank">Terms of use</a>-->
+<!--                </div>-->
+<!--            </div>-->
 
-            <div class="col toggle_menu">
-                <p class="head">RESOURCES<i class="icon plus"></i></p>
-                <div class="accordion">
-                    <a href="#" class="title" target="_blank">Whitepaper</a>
-                    <a href="#" class="title" target="_blank">Yellowpaper</a>
-                    <a href="#" class="title" target="_blank">Support</a>
-                    <a href="#" class="title" target="_blank">Api</a>
-                </div>
-            </div>
+<!--            <div class="col toggle_menu">-->
+<!--                <p class="head">RESOURCES<i class="icon plus"></i></p>-->
+<!--                <div class="accordion">-->
+<!--                    <a href="#" class="title" target="_blank">Whitepaper</a>-->
+<!--                    <a href="#" class="title" target="_blank">Yellowpaper</a>-->
+<!--                    <a href="#" class="title" target="_blank">Support</a>-->
+<!--                    <a href="#" class="title" target="_blank">Api</a>-->
+<!--                </div>-->
+<!--            </div>-->
 
             <div class="col toggle_menu">
                 <p class="head">FOLLOW<i class="icon plus"></i></p>
@@ -293,7 +293,7 @@
 </footer>
 
 
-
+<script src="/libs/wow.min.js"></script>
 <script src="libs/jquery.js?v=1.0"></script>
 <script src="js/script.js?v=1.0"></script>
 
