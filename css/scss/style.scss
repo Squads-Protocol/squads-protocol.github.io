@@ -231,6 +231,8 @@ header {
 
     .logo {
       position: relative;
+      height: 75px;
+      width: 139px;
       margin-left: -9px;
 
       &:after {
@@ -544,12 +546,6 @@ header {
         line-height: 28px;
         letter-spacing: -0.4px;
         color: #FFFFFF;
-
-        &:visited {
-          color: #5279EC;
-          border-bottom: 1px solid red;
-        }
-
       }
 
       .desc {
@@ -559,7 +555,7 @@ header {
         color: rgba(224, 224, 255, 0.6);
       }
 
-      .twitter-icon {
+      a {
         display: flex;
         align-items: center;
         justify-content: center;
