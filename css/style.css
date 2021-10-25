@@ -277,6 +277,8 @@ header .content nav li a:hover {
   line-height: 36px;
   text-align: center;
   color: rgba(224, 224, 255, 0.6);
+  display:flex;
+  align-items: center;
 }
 
 .index-block .powered-by p i.icon {
