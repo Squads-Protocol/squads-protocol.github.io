@@ -229,6 +229,20 @@ header {
   .content {
     padding: 6px 0;
 
+    .logo {
+      position: relative;
+      margin-left: -9px;
+
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
     nav {
       li {
         margin-right: 16px;
@@ -530,6 +544,12 @@ header {
         line-height: 28px;
         letter-spacing: -0.4px;
         color: #FFFFFF;
+
+        &:visited {
+          color: #5279EC;
+          border-bottom: 1px solid red;
+        }
+
       }
 
       .desc {
@@ -539,7 +559,7 @@ header {
         color: rgba(224, 224, 255, 0.6);
       }
 
-      a {
+      .twitter-icon {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -565,6 +585,7 @@ footer {
 
   .content {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     //display: grid;
     //grid-gap: 30px;
@@ -581,6 +602,7 @@ footer {
 
       .logo {
         margin-right: 30px;
+        margin-left: -16px;
       }
 
       .head {

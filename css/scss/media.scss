@@ -3,7 +3,7 @@
 @media (max-width: 1000px) {
   header {
     .content {
-      padding: 18px 0;
+      padding: 0;
 
       nav {
         li {
@@ -128,17 +128,18 @@
   footer {
     padding-bottom: 0;
 
+    .content {
+      flex-direction: column;
+    }
+
     .lr-container {
       padding: 0;
 
       .content {
+        align-items: flex-start;
         border-radius: 0;
         padding: 30px;
         grid-gap: 24px;
-
-        .col:first-child {
-          margin-bottom: 24px;
-        }
 
         .head {
           padding-top: 0;
@@ -154,8 +155,7 @@
         }
 
         .accordion {
-          //display: none;
-          margin-bottom: 24px;
+          display: grid;
         }
       }
     }
