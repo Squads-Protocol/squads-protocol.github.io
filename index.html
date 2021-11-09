@@ -28,9 +28,9 @@
     <!-- Icons -->
     <link rel="stylesheet" href="/icons/icons.css?v=1.0">
     <!-- CSS -->
-    <link rel="stylesheet" href="/css/style.css?v=1.0">
+    <link rel="stylesheet" href="/css/style.css?v=2.131">
     <!-- CSS Media -->
-    <link rel="stylesheet" href="/css/media.css?v=1.0">
+    <link rel="stylesheet" href="/css/media.css?v=2.127">
     <!-- Fonts -->
     <link rel="stylesheet" href="/fonts/fonts.css?v=1.0">
     <link rel="stylesheet" href="/fonts/gilroy/fonts.css?v=1.0">
@@ -60,13 +60,13 @@
         <!-- Навигация -->
         <nav class="">
             <ul class="flex-g-center">
-                <li><a href="#anchor_squads">Squads</a></li>
-                <li><a href="#anchor_roadmap">Roadmap</a></li>
-                <li><a href="#anchor_team">Team</a></li>
-                <li><a target="_blank" href="https://squads.medium.com/">Medium</a></li>
+<!--                <li><a href="#anchor_squads">Squads</a></li>-->
+<!--                <li><a href="#anchor_roadmap">Roadmap</a></li>-->
+<!--                <li><a href="#anchor_team">Team</a></li>-->
                 <li><a target="_blank" href="https://twitter.com/squads_dapp?s=21">Twitter</a></li>
                 <li><a target="_blank" href="https://discord.gg/YPXz64TrKs">Discord</a></li>
-                <li><a target="_blank" href="https://squads.notion.site/Squads-566742499a10435cbc9ea0313df539fe">Notion</a></li>
+                <li><a target="_blank" href="https://squads.medium.com/">Medium</a></li>
+<!--                <li><a target="_blank" href="https://squads.notion.site/Squads-566742499a10435cbc9ea0313df539fe">Notion</a></li>-->
             </ul>
         </nav>
 
@@ -81,15 +81,35 @@
 
 <!-- первый блок -->
 <section id="anchor_header">
-    <div class="index-block">
+    <div class="index-block" style="background-image: url(/img/background-index2.svg)">
         <div class="powered-by animate__animated animate__fadeInUp">
             <p>Powered by<i class="icon logo-solano"></i>Solana</p>
         </div>
         <div class="index-text animate__animated animate__fadeInUp">
             <h1 class="title">One app for all<br>your DAO needs</h1>
         </div>
+        <div class="grid-scope">
+            <div class="left-col">
+                <a href="https://app.sqds.io/" class="btn btn-primary medium">mainnet</a>
+                <p class="title">On-chain governance client</p>
+                <div class="grid-col-item">
+                    <p>NTF-based governance</p>
+                    <p>gated access</p>
+                </div>
+            </div>
+            <div class="right-col">
+                <a class="btn btn-secondary medium disable">devnet</a>
+                <p class="title-min">v2 coming soon</p>
+                <p class="title">Full stack DAO generator</p>
+                <div class="grid-col-item">
+                    <p>easy deployment</p>
+                    <p>on-chain voting</p>
+                    <p>governance multisig</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="background-img" style="background-image: url(/img/background-index.svg)"></div>
+<!--    <div class="background-img" style="background-image: url(/img/background-index.svg)"></div>-->
 </section>
 <!-- конец - первый блок -->
 
@@ -102,7 +122,6 @@
             <h2 class="index-header_h2 wow animate__animated animate__fadeInUp">What is Squads?</h2>
             <p class="text-md wow animate__animated animate__fadeInUp">Squads is a user-friendly DAO generator on Solana, which combines a treasury, on-chain voting and a chat all in one interface</p>
         </div>
-<!--        <img src="/img/proposals.png" alt="img" class="img-preview">-->
         <embed src="/img/proposals.png" class="img-preview wow animate__animated animate__fadeInUp"></embed>
     </div>
 </section>
@@ -156,8 +175,34 @@
 </section>
 <!-- конец - первый блок -->
 
+
+
+<!-- our partner -->
+<section class="section-our-partner">
+    <div class="lr-container">
+        <div class="center-text">
+            <p class="sq-tag">our parnters</p>
+            <h2 class="title index-header_h2">Supported by the best out there</h2>
+            <p class="text-md desc">Get to know our amazing support network</p>
+        </div>
+        <div class="grid-img-partners">
+            <div><img src="/img/partner-1.svg" class="img_first" alt="img"></div>
+            <img src="/img/partner-2.svg" alt="img">
+            <img src="/img/partner-3.svg" alt="img">
+            <img src="/img/partner-4.svg" alt="img">
+            <img src="/img/partner-5.svg" alt="img">
+            <img src="/img/partner-6.svg" alt="img">
+            <img src="/img/partner-7.svg" alt="img">
+            <img src="/img/partner-8.svg" alt="img">
+        </div>
+    </div>
+</section>
+<!-- end - our partner -->
+
+
+
 <!-- check-history -->
-<section class="section-check_history" id="anchor_roadmap">
+<section class="section-check_history bc-color-gray" id="anchor_roadmap">
     <div class="lr-container">
         <p class="sq-tag">roadmap</p>
         <h2 class="index-header_h2 wow animate__animated animate__fadeInDown">Wen DAO?</h2>
@@ -167,11 +212,11 @@
                 <div class="count one flex-vb-center"><p>Q4</p><span>2021</span></div>
                 <div class="text-container">
                     <div class="text-content">
-                        <h3 class="title">Squads v0.1<br>mainnet beta</h3>
+                        <h3 class="title">Squads v1<br>mainnet beta</h3>
                         <p class="desc text-md">Core proposal functionality goes to mainnet first to allow NFT communities to initiate proposals and set up on-chain voting</p>
                     </div>
                     <div class="text-content">
-                        <h3 class="title">Squads v0.2<br>devnet beta</h3>
+                        <h3 class="title">Squads v2<br>devnet beta</h3>
                         <p class="desc text-md">All the DAO primitives (deployment, voting and treasury) in one simple interface are coming to devnet</p>
                     </div>
                 </div>
@@ -180,11 +225,11 @@
                 <div class="count three flex-vb-center"><p>Q1</p><span>2022</span></div>
                 <div class="text-container">
                     <div class="text-content">
-                        <h3 class="title">Squads v0.2<br>mainnet launch</h3>
-                        <p class="desc text-md">Glorius transition of Squads v0.2 to mainnet</p>
+                        <h3 class="title">Squads v2<br>mainnet launch</h3>
+                        <p class="desc text-md">Glorious transition of Squads v0.2 to mainnet</p>
                     </div>
                     <div class="text-content">
-                        <h3 class="title">Squads v0.3</h3>
+                        <h3 class="title">Squads v3</h3>
                         <p class="desc text-md">Expanded Vault functionality with treasury management components (swaps, staking, token vesting, payroll and streams)</p>
                     </div>
                 </div>
@@ -214,7 +259,6 @@
                 <img src="/img/team-2.jpg" alt="img">
                 <div class="flex-vb1">
                     <p class="name">Sean Ganser</p>
-                    <a href="https://twitter.com/coderinavan" target="_blank"><i class="icon twitter"></i></a>
                 </div>
             </div>
             <div class="item wow animate__animated animate__fadeIn">
@@ -290,6 +334,7 @@
                     <a class="title" target="_blank" href="https://twitter.com/squads_dapp?s=21">Twitter</a>
                     <a class="title" target="_blank" href="https://discord.gg/YPXz64TrKs">Discord</a>
                     <a class="title" target="_blank" href="https://squads.notion.site/Squads-566742499a10435cbc9ea0313df539fe">Notion</a>
+                    <a class="title" target="_blank" href="https://squads.gitbook.io/squads/">Docs</a>
                 </div>
             </div>
 
