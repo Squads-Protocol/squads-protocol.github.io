@@ -353,10 +353,6 @@ header .content nav li a:hover {
   margin: 30px 0;
 }
 
-.index-block .grid-scope > div .title-min {
-  margin-top: 10px;
-  font-weight: 500;
-}
 
 .index-block .grid-scope > div .grid-col-item {
   display: flex;
