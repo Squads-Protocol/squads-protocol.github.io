@@ -337,9 +337,6 @@ header .content nav li a:hover {
   width: max-content;
 }
 
-.index-block .grid-scope > .left-col .title {
-  margin-top: 58px;
-}
 
 .index-block .grid-scope > div .btn {
   font-weight: 600;
