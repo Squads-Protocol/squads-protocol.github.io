@@ -1,0 +1,386 @@
+<?php
+$v = time();
+header('Cache-Control: no-cache, no-store, must-revalidate'); // HTTP 1.1.
+header('Pragma: no-cache'); // HTTP 1.0.
+header('Expires: 0'); // Proxies.
+?>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- ==================== -META-TAG-SEO-START- ==================== -->
+    <meta name="copyright" content="Информация о вашей фирме">
+    <meta name="keywords" content="Ваши ключевые слова">
+    <meta name="description" content="Описание Вашей страницы">
+    <!-- ==================== -META-TAG-SEO-END- ==================== -->
+    <title>Name</title>
+    <link rel="icon" href="./assets/img/logo.png?v=<?=$v?>">
+
+    <!-- ====================== -LINKS-MY-START- ====================== -->
+    <link rel="stylesheet" href="./assets/style/flexbox.css?v=<?=$v?>">
+    <link rel="stylesheet" href="./assets/style/normalize.css?v=<?=$v?>">
+    <link rel="stylesheet" href="./assets/style/global.css?v=<?=$v?>">
+    <link rel="stylesheet" href="./assets/style/style.css?v=<?=$v?>">
+    <link rel="stylesheet" href="./assets/style/media.css?v=<?=$v?>">
+    <link rel="stylesheet" href="./assets/font/icons/style.css?v=<?=$v?>">
+
+    <!-- ======================= -LINKS-MY-END- ======================= -->
+</head>
+<body style="overflow-x: hidden">
+
+
+<!-- ====================== -HTML5-HEADER-START- ====================== -->
+<header class="P-header">
+    <div class="G-container">
+        <div class="P-header-block G-flex G-justify-between">
+            <a href="#" class="P-header-logo G-bg-contain" style="background-image: url('./assets/img/logo.png?v=<?=$v?>')"></a>
+            <div class="P-header-menu G-flex G-align-center G-justify-between">
+                <ul class="G-flex G-align-center G-bg-contain ">
+                    <li><a href="https://squads.medium.com/" class="P-new-chat-icon"
+                           style="background-image: url('./assets/img/header-images/new-chat.svg?v=<?=$v?>')"></a></li>
+                    <li><a href="https://twitter.com/squadsprotocol" class="P-twitter-icon G-bg-contain"
+                           style="background-image: url('./assets/img/header-images/twitter.svg?v=<?=$v?>')"></a></li>
+                    <li><a href="https://discord.gg/YPXz64TrKs" class="P-discord-icon G-bg-contain"
+                           style="background-image: url('./assets/img/header-images/discord.svg?v=<?=$v?>')"></a></li>
+                </ul>
+                <div class="P-header-button">
+                    <button class="G-bg-cover">Coming soon</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- ======================= -HTML5-HEADER-END- ======================= -->
+
+<section class="G-second-container" style="position: relative;z-index:999">
+    <picture>
+        <source media="(max-width: 575.98px)" srcset="/assets/img/Frame_15.png?v=<?=$v?>">
+        <img style="position:relative" src="/assets/img/svg/sec1.png?v=<?=$v?>">
+    </picture>
+    <picture>
+        <source media="(max-width: 575.98px)" srcset="/assets/img/Frame_15_1.png?v=<?=$v?>">
+        <img style="margin-top:-120px" src="">
+    </picture>
+
+<!--    <div class="P-squards G-bg-cover" style="background-image: url('./assets/img/cover-section/background-grey.png?v=<?=$v?>');">
+        <div class="P-squards-block">
+      <span class="P-squards-block-img G-bg-cover"
+            style="background-image: url('./assets/img/cover-section/tshirt.png?v=<?=$v?>');"></span>
+            <h1 class="P-squards-title">SQuads</h1>
+            <div class="P-squards-info">
+                <h3>Collaborative infrastructure for web3 native teams
+                    <span>
+                <img src="./assets/img/cover-section/nd.svg?v=<?=$v?>" alt="nd">
+                <p>Audited <br> by Neodyme</p>
+            </span>
+                </h3>
+            </div>
+        </div>
+    </div>
+--></section>
+<!--======================-SQUARDS-END-======================= -->
+
+
+<section class="P-blocks-section" style="position:relative;z-index:9">
+    <div class="G-container">
+        <div class="`P-blocks-main`">
+<!--      <span class="P-blocks-main-line G-bg-cover"
+            style="background-image: url('./assets/img/squards-images/lines-figur.png?v=<?=$v?>');"> </span>
+--><!--            <div class="tabs P-blocks-main-tabs G-bg-cover"></div>
+            <div class="P-blocks-main-users G-bg-cover"
+                 style="background-image: url('/assets/img/fond/fonfon1.png?v=<?=$v?>')"></div>
+            <div class=" P-blocks-main-owner G-bg-cover"
+                 style="background-image: url('/assets/img/fond/f1.png?v=<?=$v?>')"></div>
+
+            <div class="P-blocks-main-balance G-bg-cover"
+                 style="background-image: url('./assets/img/squards-images/group3.png?v=<?=$v?>');"></div>
+            <div class="P-blocks-main-sending G-bg-cover"
+                 style="background-image: url('./assets/img/squards-images/group4.png?v=<?=$v?>');"></div>
+            <span class="P-blocks-main-colorLine G-bg-cover"
+                  style="background-image:url('./assets/img/squards-images/color-tsirt.png?v=<?=$v?>');"></span>
+-->
+            <img class="sec-pc-none" src="/assets/img/svg/sec2.png?v=<?=$v?>" style="`transform:scale(1.1);margin-top:-40px;position: relative;z-index: 999;">
+
+<!--            <span class="P-blocks-main-owner-mobile G-bg-cover"
+                  style="background-image:url('./assets/img/squards-images/mobile-owner.png?v=<?=$v?>');"></span>
+-->        </div>
+    </div>
+</section>
+<!--======================-BLOCKS-END-======================= -->
+
+<section class="G-second-container P-support-section sec-pc-none">
+    <div class="P-support-block  G-bg-cover">
+        <h3 class="G-section-title">Supported by</h3>
+        <div class="P-support-partners G-flex G-wrap G-align-center" style="justify-content:center">
+            <div class="P-support-images P-support-1">
+                <picture>
+                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/Vector.png?v=<?=$v?>">
+                    <img class="fond1" src="./assets/img/fond1/f/vector.png?v=<?=$v?>" alt="support-svg">
+                </picture>
+            </div>
+            <div class="P-support-images P-support-2">
+                <picture>
+                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/jump.png?v=<?=$v?>">
+                    <img class="fond2" src="./assets/img/fond1/f/jump.png?v=<?=$v?>" alt="support-svg">
+                </picture>
+            </div>
+            <div class="P-support-images P-support-3">
+                <picture>
+                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/delphi.png?v=<?=$v?>">
+                    <img class="fond3" src="./assets/img/fond1/f/delphi.png?v=<?=$v?>" alt="support-svg">
+                </picture>
+            </div>
+            <div class="P-support-images P-support-4">
+                <picture>
+                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/collab.png?v=<?=$v?>">
+                    <img class="fond4" src="./assets/img/fond1/f/collab.png?v=<?=$v?>" alt="support-svg">
+                </picture>
+            </div>
+            <div class="P-support-images P-support-5">
+                <picture>
+                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/recip.png?v=<?=$v?>">
+                    <img class="fond5" src="./assets/img/fond1/f/recip.png?v=<?=$v?>" alt="support-svg">
+                </picture>
+            </div>
+            <div class="P-support-images P-support-6">
+                <picture>
+                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/volt_capital_1.png?v=<?=$v?>">
+                    <img class="fond6" src="./assets/img/fond1/f/volt.png?v=<?=$v?>" alt="support-svg">
+                </picture>
+            </div>
+            <div class="P-support-images P-support-7">
+                <picture>
+                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/davinc.png?v=<?=$v?>">
+                    <img class="fond7" src="./assets/img/fond1/f/davinci.png?v=<?=$v?>" alt="support-svg">
+                </picture>
+            </div>
+            <div class="P-support-images P-support-8">
+                <picture>
+                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/6thman.png?v=<?=$v?>">
+                    <img class="fond8" src="./assets/img/fond1/f/chaotic.png?v=<?=$v?>" alt="support-svg">
+                </picture>
+            </div>
+            <div class="P-support-images P-support-9">
+                <picture>
+                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/chaotic_capital.png?v=<?=$v?>">
+                    <img class="fond9" src="./assets/img/fond1/f/6thman.png?v=<?=$v?>" alt="support-svg">
+                </picture>
+            </div>
+            <div class="P-support-images P-support-10">
+                <picture>
+                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/seed_club.png?v=<?=$v?>">
+                    <img class="fond10" src="./assets/img/fond1/f/seed_club.png?v=<?=$v?>" alt="support-svg">
+                </picture>
+            </div>
+            <div class="P-support-images P-support-11">
+                <picture>
+                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/republic.png?v=<?=$v?>">
+                    <img class="fond11" src="./assets/img/fond1/f/solana.png?v=<?=$v?>" alt="support-svg">
+                </picture>
+            </div>
+            <div class="P-support-images P-support-12">
+                <picture>
+                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/soldana.png?v=<?=$v?>">
+                    <img class="fond12" src="./assets/img/fond1/f/republic.png?v=<?=$v?>" alt="support-svg">
+                </picture>
+            </div>
+            <div class="P-support-images P-support-13">
+                <picture>
+                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/block.png?v=<?=$v?>">
+                    <img class="fond13" src="./assets/img/fond1/f/block.png?v=<?=$v?>" alt="support-svg">
+                </picture>
+            </div>
+            <div class="P-support-images P-support-14">
+                <picture>
+                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/816.png?v=<?=$v?>">
+                    <img class="fond14" src="./assets/img/fond1/f/816.png?v=<?=$v?>" alt="support-svg">
+                </picture>
+            </div>
+            <div class="P-support-images P-support-15">
+                <picture>
+                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/reverie.png?v=<?=$v?>">
+                    <img class="fond15" src="./assets/img/fond1/f/reverie.png?v=<?=$v?>" alt="support-svg">
+                </picture>
+            </div>
+        </div>
+    </div>
+</section>
+<!--======================-SUPPORT-END-======================= -->
+
+<section class="P-organize-section">
+    <div class="G-container" style="padding:0 20px">
+
+        <picture>
+            <source media="(max-width: 575.98px)" srcset="assets/img/svg/sec4.png?v=<?=$v?>">
+            <img src="/assets/img/svg/sec41.png?v=<?=$v?>">
+        </picture>
+
+
+<!--        <div class="P-organize-block">
+            <h2>Organize,<br> make decisions and manage digital assets together</h2>
+            <div class="P-organize-block-item P-organize-item-first">
+                <h3 class="G-section-title">Ship together</h3>
+                <p>Vote on your project direction, store VC raised funds and pay
+                    contributors</p>
+                <span class="P-block-line-img G-bg-cover"
+                      style="background-image: url('./assets/img/mini-lines.png?v=<?=$v?>');"></span>
+            </div>
+            <div class="P-organize-block-item P-organize-item-second">
+                <h3 class="G-section-title">Contribute together</h3>
+                <p>Provide services to DAOs, receive bounties and distribute
+                    them</p>
+                <span class="P-block-line-img G-bg-cover"
+                      style="background-image: url('./assets/img/mini-lines.png?v=<?=$v?>');"></span>
+            </div>
+            <div class="P-organize-block-item P-organize-item-third">
+                <h3 class="G-section-title">Ape in together</h3>
+                <p>Pool funds, co-invest and share profits</p>
+                <span class="P-block-line-img G-bg-cover"
+                      style="background-image: url('./assets/img/mini-lines.png?v=<?=$v?>');"></span>
+            </div>
+        </div>
+-->    </div>
+</section>
+<!--======================-ORGANIZE-END-======================= -->
+
+<section class="P-multi-signature-section sec-pc-none">
+    <div class="G-container" style="padding:0 20px">
+        <img src="/assets/img/svg/sec5.png?v=<?=$v?>">
+<!--
+        <div class="P-right-position-block G-flex G-justify-end">
+            <div class="P-right-position-info G-bg-cover G-flex G-align-end G-direction-column"
+                 style="background-image: url('./assets/img/bg-grey.png?v=<?=$v?>');">
+                <h3 class="G-section-title">
+                    Multi-signature
+                </h3>
+                <p>Manage team assets by requiring multiple signatures to confirm a
+                    transaction</p>
+            </div>
+            <div class="P-multi-signature-result G-bg-cover" style="background-image: url('./assets/img/signatur-cover.png?v=<?=$v?>');">
+            </div>
+        </div>
+-->    </div>
+</section>
+<!--======================-MULTI-SIGNATURE-END-======================= -->
+
+<section class="P-treasuary-section sec-pc-none">
+    <div class="G-container" style="padding:0 20px">
+        <img src="/assets/img/svg/sec6.png?v=<?=$v?>">
+
+<!--        <div class="gradient1 P-left-position-block G-bg-cover G-flex G-justify-between">
+            <div class="P-left-position-info">
+                <h3 class="G-section-title">
+                    Treasury diversif<br/>ication
+                </h3>
+                <p>Diversify your assets via built in swap feature</p>
+            </div>
+            <div class="P-treasuary-results">
+                <div class="P-treasuary-results-block1 G-bg-cover"
+                     style="background-image: url('./assets/img/block2.png?v=<?=$v?>');"></div>
+                <div class="P-treasuary-results-block2 G-bg-cover"
+                     style="background-image: url('./assets/img/block3.png?v=<?=$v?>');"></div>
+            </div>
+        </div>
+-->    </div>
+
+</section>
+<!--======================-TREASURE-END-======================= -->
+
+<section class="P-secure-section sec-pc-none">
+    <div class="G-container" style="padding:0 20px">
+
+        <img src="/assets/img/svg/sec7.png?v=<?=$v?>">
+<!--
+        <div class="P-right-position-block G-flex G-justify-end">
+            <div class="P-right-position-info G-bg-cover G-flex G-align-end G-direction-column"
+                 style="background-image: url('./assets/img/bg-grey.png?v=<?=$v?>');">
+                <h3 class="G-section-title">
+                    Secure vault
+                </h3>
+                <p>Hold fungible tokens and NFTs in a secure vault owned and control
+                    by your team</p>
+            </div>
+            <div class="P-secure-result">
+                <div class="G-bg-cover P-secure-result-bg"
+                     style="background-image: url('./assets/img/block5.png?v=<?=$v?>');"></div>
+                <div class="G-bg-cover P-secure-result-img"
+                     style="background-image: url('./assets/img/squards-images/group3.png?v=<?=$v?>');"></div>
+            </div>
+
+        </div>
+-->    </div>
+</section>
+<!--======================-SECUREE-END-======================= -->
+
+<section class="P-proposal-section">
+    <div class="G-container" style="padding:0 20px">
+
+        <picture>
+            <source media="(max-width: 575.98px)" srcset="/assets/img/g111.png?v=<?=$v?>">
+            <img src="">
+        </picture>
+
+        <picture>
+            <source media="(max-width: 575.98px)" srcset="/assets/img/g113.png?v=<?=$v?>">
+            <img src="">
+        </picture>
+
+        <picture>
+            <source media="(max-width: 575.98px)" srcset="/assets/img/g112.png?v=<?=$v?>">
+            <img src="/assets/img/svg/sec8.png?v=<?=$v?>">
+        </picture>
+
+        <picture>
+            <source media="(max-width: 575.98px)" srcset="/assets/img/g114.png?v=<?=$v?>">
+            <img class="g114" src="">
+        </picture>
+<!--
+        <div class="gradient2 P-left-position-block G-bg-cover G-flex G-justify-between">
+            <div class="P-left-position-info">
+                <h3 class="G-section-title">
+                    Proposal framework
+                </h3>
+                <p>Initiate proposals and vote with your team, recording results
+                    on-chain</p>
+            </div>
+            <div class="P-proposal-results G-bg-cover" style="background-image: url('./assets/img/proposal-image1.png?v=<?=$v?>')">
+
+            </div>
+        </div>
+-->    </div>
+</section>
+<!--======================-PROPOSAL-END-======================= -->
+
+<!-- ===================== -HTML5-FOOTER-START- ======================= -->
+<footer class="P-footer">
+    <div class="G-container">
+        <div class="P-footer-main  G-flex">
+            <a href="#" class="P-footer-logo">
+                <img src="./assets/img/logo/logo-footer.svg?v=<?=$v?>" alt="logo-footer">
+            </a>
+            <ul class="P-footer-menu G-flex G-direction-column">
+                <li><a href="https://squads.medium.com/">Medium</a></li>
+                <li><a href="https://discord.gg/YPXz64TrKs">Discord</a></li>
+                <li><a href="https://twitter.com/squadsprotocol">Twitter</a></li>
+<!--                <li><a href="#">GitHub</a></li>-->
+            </ul>
+<!--            <ul class="P-footer-menu G-flex G-direction-column">
+                <li><a href="#">Docs</a></li>
+                <li><a href="#">Code</a></li>
+                <li><a href="#">Terms of service</a></li>
+            </ul>
+-->        </div>
+    </div>
+</footer>
+<!-- ======================= -HTML5-FOOTER-END- ======================= -->
+
+<!-- ===================== -SCRIPT-PLUGIN-START- ===================== -->
+<!-- ====================== -SCRIPT-PLUGIN-END- ====================== -->
+<!-- ======================= -SCRIPT-MY-START- ======================= -->
+<!-- ======================== -SCRIPT-MY-END- ======================== -->
+
+</body>
+</html>

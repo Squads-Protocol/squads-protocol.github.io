@@ -1,0 +1,33 @@
+.G-container {
+   max-width: 1440px;
+   width: 100%;
+   padding: 0 59px;
+   margin: 0 auto;
+}
+
+.G-second-container {
+   max-width: 1440px;
+   width: 100%;
+   padding: 0 20px;
+   margin: 0 auto;
+}
+
+.G-bg-cover {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.G-bg-contain {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+.G-section-title {
+   font-size: 50px;
+   font-family: 'Druk-wide-Medium';
+   line-height: 85%;
+   color: #FFFFFF;
+
+}

@@ -1,0 +1,566 @@
+/*========================STATIC-STYLE-END==========================*/
+
+/*=======================-HEADER-STYLE-START-=======================*/
+
+.P-header {
+    padding : 31px 0;
+}
+
+.P-header-logo {
+    width  : 50px;
+    height : 56px;
+}
+
+.P-new-chat-icon {
+    width  : 50px;
+    height : 30px;
+}
+
+.P-discord-icon {
+    width  : 38px;
+    height : 45px;
+}
+
+.P-twitter-icon {
+    width  : 34px;
+    height : 27px;
+}
+.P-support-images{margin: 9px 0;padding: 0 14px}
+.P-support-images:nth-child(1) img{width: 71px;}
+.P-support-images:nth-child(2) img{width: 152.88px;}
+.P-support-images:nth-child(3) img{width: 183px;}
+.P-support-images:nth-child(4) img{width: 241px;}
+.P-support-images:nth-child(5) img{width: 236px;}
+.P-support-images:nth-child(6) img{width: 126px;}
+.P-support-images:nth-child(7) img{width: 118px;}
+.P-support-images:nth-child(8) img{width: 199px;}
+.P-support-images:nth-child(9) img{width: 124px;}
+.P-support-images:nth-child(10) img{width: 85px;}
+.P-support-images:nth-child(11) img{width: 153px;}
+.P-support-images:nth-child(12) img{width: 50px;}
+.P-support-images:nth-child(13) img{width: 168px;}
+.P-support-images:nth-child(14) img{width: 76px;}
+.P-support-images:nth-child(15) img{width: 83.57px;}
+
+.P-header-button button {
+    width            : 198px;
+    height           : 47px;
+    background: linear-gradient(270deg, #273B7B -2.27%, #3C9EE0 100%);
+    padding          : 0 20px;
+    border-radius    : 5px;
+    font-size        : 20px;
+    color            : #FFFFFF;
+    transition       : 0.3s;
+}
+
+.P-header-button button:hover {
+    opacity : 0.9;
+}
+
+.P-header-menu ul {
+    margin-right : 28px;
+    margin-top   : 2px;
+}
+
+.P-header-menu ul li {
+    transition : 0.3s;
+}
+
+.P-header-menu ul li:first-child {
+    margin-right : 31px;
+}
+
+.P-header-menu ul li:nth-child(2) {
+    margin-right : 28px;
+}
+
+.P-header-menu ul li:hover {
+    opacity : 0.7;
+}
+
+/*========================-HEADER-STYLE-END-========================*/
+
+
+/*======================-SQUARDS-STYLE-START-=======================*/
+
+.P-squards {
+    padding-bottom : 45px;
+    margin-top     : 91px;
+    position       : relative;
+    min-height     : 460px;
+}
+
+.P-squards-title {
+    font-family    : 'Druk-wide-Medium';
+    font-size      : 170px;
+    line-height    : 80%;
+    text-transform : uppercase;
+    color          : #FFFFFF;
+    margin-top     : -68px;
+    display        : inline-flex;
+}
+
+.P-squards-block {
+    padding : 0 35px;
+}
+
+.P-squards-block-img {
+    position : absolute;
+    width    : 670px;
+    height   : 670px;
+    z-index  : 2;
+    right    : -10px;
+    top      : -97px;
+}
+
+.P-squards-info h3 {
+    font-family    : 'Druk-wide-Medium';
+    padding-top    : 50px;
+    font-size      : 90px;
+    line-height    : 80%;
+    text-transform : uppercase;
+    color          : #FFFFFF;
+}
+
+.P-squards-info img {
+    width  : 35px;
+    height : 35px;
+}
+
+.P-squards-info span {
+    text-transform : initial;
+    display        : inline-flex;
+    margin-left    : 10px;
+    margin-top     : -14px;
+    transform      : translateY(-2px);
+}
+
+.P-squards-info span p {
+    font-family : "Neue-Plak-Regular";
+    font-size   : 20px;
+    line-height : 105.5%;
+    color       : #FFFFFF;
+    text-shadow : 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width       : 180px;
+    margin-left : 14px;
+    transform   : translateY(-3px);
+}
+
+/*=======================-SQUARDS-STYLE-END-========================*/
+
+
+/*======================-BLOCKS-STYLE-START-========================*/
+
+.P-blocks-section {
+    margin-top : -59px;
+}
+
+.P-blocks-main {
+    position   : relative;
+    /*min-height : 800px;*/
+}
+
+.P-blocks-main-line {
+    width    : 400px;
+    height   : 460px;
+    position : absolute;
+    top      : -76px;
+    left     : -39px;
+}
+
+.P-blocks-main-colorLine {
+    width    : 430px;
+    height   : 531px;
+    position : absolute;
+    right    : -60px;
+    bottom   : -21px;
+    z-index  : 1;
+}
+
+
+.P-blocks-main-tabs {
+    position  : absolute;
+    max-width : 401px;
+    width     : 100%;
+    height    : 36px;
+    left      : 11px;
+    top       : 10px;
+    z-index   : 2;
+
+}
+.P-blocks-main-tabs.tabs{
+    background-image: url('/assets/img/squards-images/tabs.svg');
+    height:36px;
+}
+.gradient1{background-image:url('/assets/img/background3.png');}
+.gradient2{background-image:url('/assets/img/background2.png');}
+
+
+.P-blocks-main-owner {
+    position  : absolute;
+    max-width : 862px;
+    width     : 100%;
+    height    : 335px;
+    top       : 143px;
+    z-index   : 2;
+    right     : 28px;
+}
+
+.P-blocks-main-users {
+    position  : absolute;
+    max-width : 878px;
+    width     : 100%;
+    height    : 550px;
+    left      : 57px;
+    top       : 7px;
+    z-index   : 2;
+}
+
+.P-blocks-main-owner-mobile {
+    display : none;
+}
+
+.P-blocks-main-balance {
+    position  : absolute;
+    max-width : 515px;
+    width     : 100%;
+    height    : 251px;
+    left      : 91px;
+    bottom    : 138px;
+    z-index   : 2;
+}
+
+.P-blocks-main-sending {
+    position  : absolute;
+    max-width : 642px;
+    width     : 100%;
+    height    : 169px;
+    right     : 74px;
+    bottom    : 70px;
+    z-index   : 2;
+}
+
+/*=======================-BLOCKS-STYLE-END-=========================*/
+/*======================-SUPPORT-STYLE-START-=======================*/
+.P-support-section {
+    margin-top : -15px;
+}
+
+.P-support-partners {
+    margin-top : 55px;
+}
+
+.P-support-block {
+    background-image : url(../img/blue-orange-bg.png);
+    padding          : 38px 38px 0px;
+    border-radius    : 20px;
+    min-height: 336px;
+}
+
+.P-support-block h3 {
+    margin-bottom : 40px;
+
+}
+
+/*=======================-SUPPORT-STYLE-END-========================*/
+/*=====================-ORGANIZE-STYLE-START-=======================*/
+.P-organize-section {
+    margin-top : 62px;
+}
+
+.P-organize-block {
+    position : relative;
+}
+
+.P-organize-block h2 {
+    font-family    : 'Druk-wide-Medium';
+    font-size      : 100px;
+    color          : white;
+    line-height    : 80%;
+    width          : 100%;
+    text-transform : uppercase;
+}
+
+.P-organize-block-item {
+    border-radius   : 20px;
+    padding         : 32px 24px 33px;
+    backdrop-filter : blur(5px);
+    box-shadow      : 0px 0px 20px rgba(0, 0, 0, 0.5);
+    position        : absolute;
+    max-width       : 378px;
+    width           : 100%;
+}
+
+.P-organize-block-item h3 {
+    margin-bottom : 24px;
+}
+
+.P-organize-block-item p {
+    font-size   : 20px;
+    color       : white;
+    line-height : 105.5%;
+    max-width   : 310px;
+    width       : 100%;
+}
+
+.P-organize-item-first {
+    background : linear-gradient(180deg, rgba(54, 179, 223, 0.95) 0%, rgba(0, 217, 139, 0.8645) 100%);
+    right      : -2px;
+    top        : 34px;
+}
+
+.P-organize-item-first .P-block-line-img {
+    right : -21px;
+    top   : -26px;
+}
+
+.P-organize-item-second {
+    background     : linear-gradient(180deg, rgba(255, 122, 0, 0.95) 0%, rgba(197, 174, 115, 0.8645) 100%);
+    left           : -15px;
+    bottom         : -108px;
+    max-width      : 426px;
+    padding-bottom : 27px;
+    min-height     : 206px;
+}
+
+.P-organize-item-second .P-block-line-img {
+    right  : -18px;
+    bottom : 32px;
+}
+
+.P-organize-item-second.P-organize-block-item h3 {
+    margin-bottom : 25px;
+}
+
+.P-organize-item-third {
+    background : linear-gradient(180deg, rgba(47, 168, 255, 0.9) 0%, rgba(0, 65, 190, 0.81) 100%);
+    left       : 597px;
+    bottom     : -161px;
+    max-width  : 368px;
+    height     : 225px;
+}
+
+.P-organize-item-third.P-organize-block-item p {
+    max-width : 230px;
+}
+
+.P-organize-item-third .P-block-line-img {
+    right  : -22px;
+    bottom : -26px;
+}
+
+.P-block-line-img {
+    width    : 83px;
+    height   : 96px;
+    position : absolute;
+
+}
+section{position:relative}
+
+/*======================-ORGANIZE-STYLE-END-========================*/
+/*================-MULTI-SIGNATURE-STYLE-START-=====================*/
+.P-multi-signature-section {
+    margin-top       : 52px;
+    background-color : transparent;
+}
+
+.P-right-position-block {
+    position : relative;
+}
+
+.P-right-position-info {
+    max-width     : 952px;
+    width         : 100%;
+    min-height    : 279px;
+    border-radius : 20px;
+    padding       : 65px 40px 45px;
+    margin-right  : 59px;
+    margin-top    : 40px;
+}
+
+.P-right-position-info h3 {
+    max-width    : 560px;
+    width        : 100%;
+    margin-right : 60px;
+
+}
+
+.P-right-position-info p {
+    font-size    : 25px;
+    line-height  : 107%;
+    color        : #FFFFFF;
+    margin-top   : 39px;
+    margin-right : 140px;
+    max-width    : 480px;
+    width        : 100%;
+}
+
+.P-multi-signature-result {
+    max-width     : 537px;
+    width         : 100%;
+    height        : 320px;
+    padding       : 30px;
+    border-radius : 20px;
+    position      : absolute;
+    left          : -2px;
+    bottom        : -60px;
+}
+
+
+/*==================-MULTI-SIGNATURE-STYLE-END-=====================*/
+/*====================-TREASURE-STYLE-START-========================*/
+.P-treasuary-section {
+    margin-top : -27px;
+}
+
+.P-left-position-block {
+    filter        : drop-shadow(0px 0px 30px rgba(0, 0, 0, 0.5));
+    border-radius : 20px;
+    min-height    : 395px;
+    padding       : 55px;
+}
+
+.P-left-position-info {
+    max-width : 500px;
+    width     : 100%;
+}
+
+.P-left-position-info p {
+    margin-top  : 30px;
+    font-size   : 25px;
+    color       : white;
+    line-height : 107%;
+    max-width   : 306px;
+}
+
+.P-left-position-info br {
+    display : none;
+}
+
+.P-treasuary-results-block1 {
+    width    : 476px;
+    height   : 561px;
+    position : absolute;
+    top      : -64px;
+    right    : 246px;
+}
+
+.P-treasuary-results-block2 {
+    width    : 427px;
+    height   : 270px;
+    position : absolute;
+    right    : -44px;
+    bottom   : -35px;
+}
+
+/*======================-TREASURE-STYLE-END-========================*/
+/*======================-SECURE-STYLE-START-========================*/
+.P-secure-section {
+    margin-top : -80px;
+}
+
+.P-secure-section .P-right-position-info h3 {
+    margin-right : 12px;
+}
+
+.P-secure-section .P-right-position-info p {
+    margin-right : 93px;
+}
+
+.P-secure-result-bg {
+    position      : absolute;
+    width         : 475px;
+    height        : 261px;
+    top           : 17px;
+    left          : 58px;
+    border-radius : 15px;
+}
+
+.P-secure-result-img {
+    position      : absolute;
+    width         : 521px;
+    height        : 288px;
+    top           : -33px;
+    left          : -16px;
+    border-radius : 15px;
+
+}
+
+/*======================-SECUREE-STYLE-END-=========================*/
+/*====================-PROPOSAL-STYLE-START-========================*/
+.P-proposal-section {
+    margin-top  : 47px;
+    margin-left : -6px;
+}
+
+.P-proposal-section .G-section-title {
+    margin-top  : 5px;
+    margin-left : 4px;
+}
+
+.P-proposal-section p {
+    margin-top   : 28px;
+    padding-left : 2px;
+    max-width    : 470px;
+}
+
+.P-proposal-section .P-left-position-block {
+    min-height : 401px;
+}
+
+.P-proposal-results {
+    position  : absolute;
+    right     : 20px;
+    bottom    : -98px;
+    max-width : 759px;
+    width     : 100%;
+    height    : 557px;
+}
+
+/*=====================-PROPOSAL-STYLE-END-=========================*/
+/*=====================-FOOTER-STYLE-START-=========================*/
+.P-footer {
+    margin-top : 30px;
+}
+
+.P-footer-main {
+    padding : 60px 0;
+}
+
+.P-footer-logo {
+    width        : 136px;
+    height       : 101px;
+    object-fit   : cover;
+    margin-right : 180px;
+}
+
+.P-footer-menu {
+    max-width : 240px;
+    width     : 100%;
+    margin-top: -5px;
+}
+
+.P-footer-menu li {
+    max-width    : 200px;
+    width        : 100%;
+    margin-right : 33px;
+}
+
+/*.P-footer-menu li:last-child {*/
+/*    margin-top : -27px;*/
+/*}*/
+
+.P-footer-menu li:hover {
+    background              : -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip : text;
+    -webkit-text-fill-color : transparent;
+    transition              : 0.3s;
+
+}
+
+.P-footer-menu li a {
+    color     : white;
+    font-size : 25px;
+}
+
+/*======================-FOOTER-STYLE-END-==========================*/

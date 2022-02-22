@@ -1,0 +1,50 @@
+@font-face {
+    font-family : 'Montserrat';
+    src         : url("Montserrat-Regular.ttf") format("truetype");
+    font-weight : normal;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : 'Montserrat';
+    src         : url("Montserrat-Light.ttf") format("truetype");
+    font-weight : 600;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : 'Montserrat';
+    src         : url("Montserrat-Medium.ttf") format("truetype");
+    font-weight : 500;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : 'Montserrat';
+    src         : url("Montserrat-Bold.ttf") format("truetype");
+    font-weight : bold;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : 'Montserrat';
+    src         : url("Montserrat-Black.ttf") format("truetype");
+    font-weight : 900;
+    font-style  : normal;
+}
+
+@font-face {
+    font-family : 'Druk-wide';
+    src         : url("Druk-Wide-Bold.otf") format("truetype");
+}
+
+
+@font-face {
+    font-family : 'Druk-wide-Medium';
+    src         : url("Druk-Wide-Medium.otf") format("truetype");
+}
+
+@font-face {
+    font-family : 'Neue-Plak-Regular';
+    src         : url("Neue-Plak-Regular.ttf") format("truetype");
+}
