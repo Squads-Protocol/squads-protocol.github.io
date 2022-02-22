@@ -1,0 +1,164 @@
+@import "/assets/font/fonts/font.css?v=123";
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+iframe,
+ol,
+ul,
+li,
+form,
+label,
+i,
+footer,
+header,
+menu,
+nav,
+a,
+table,
+thead,
+tbody,
+tfoot,
+tr,
+th,
+td,
+video,
+canvas,
+section,
+/*commonly used tags*/
+applet,
+object,
+blockquote,
+pre,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+ins,
+kbd,
+hgroup,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+dl,
+dt,
+dd,
+fieldset,
+legend,
+article,
+aside,
+details,
+embed,
+figure,
+figcaption,
+output,
+summary,
+time,
+mark,
+audio,
+center {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+input,
+button,
+select,
+textarea {
+    display: inline-block;
+    padding: 0;
+    border: 0;
+    outline: none;
+    font: inherit;
+}
+
+img,
+svg {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+    font-style: normal;
+    background-color: #000000;
+}
+
