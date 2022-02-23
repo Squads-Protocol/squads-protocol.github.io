@@ -100,8 +100,6 @@ nav,
 section {
     display: block;
 }
-
-ol,
 ul {
     list-style: none;
     padding: 0;

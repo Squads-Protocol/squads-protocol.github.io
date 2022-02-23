@@ -1041,9 +1041,9 @@
 /*        align-items    : center;*/
 /*    }*/
 
-/*    !*.P-footer-menu li:last-child {*!*/
-/*    !*    margin-top : 0;*!*/
-/*    !*}*!*/
+    /*.P-footer-menu li:last-child {*/
+    /*    margin-top : 0;*/
+    /*}*/
 
 /*    .P-footer-menu li {*/
 /*        text-align   : center;*/
@@ -1054,9 +1054,10 @@
 /*        font-size : 24px;*/
 /*    }*/
 
-/*    .P-footer-menu {*/
-/*        margin-top : 40px;*/
-/*    }*/
+    .footer-menu2 {
+        margin-top : 40px;
+        max-width: 250px;
+    }
 /*    .P-footer-menu li{max-width: inherit}*/
 
 /*    .P-footer-menu li:nth-child(5) {*/

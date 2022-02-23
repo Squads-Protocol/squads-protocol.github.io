@@ -358,6 +358,24 @@
 section{position:relative}
 
 /*======================-ORGANIZE-STYLE-END-========================*/
+
+
+/*======================-TERMS-STYLE-START-========================*/
+#terms{line-height: 20px;text-align: justify}
+#terms h1{font-weight: bold;font-size:30px;margin:10px 0 40px;color:#fff}
+#terms .G-container > ol{margin:0 18px}
+#terms .G-container > ol > li{margin-top:30px}
+#terms p{margin:25px 0}
+#terms .email{color:#3066A7}
+#terms ol li b{font-weight: bold}
+#terms ol ol{margin:35px 45px}
+#terms ol ol li{margin-bottom:6px}
+
+/*======================-TERMS-STYLE-END-========================*/
+
+
+
+
 /*================-MULTI-SIGNATURE-STYLE-START-=====================*/
 .P-multi-signature-section {
     margin-top       : 52px;
