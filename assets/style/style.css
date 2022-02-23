@@ -361,8 +361,8 @@ section{position:relative}
 
 
 /*======================-TERMS-STYLE-START-========================*/
-#terms{line-height: 20px}
-#terms h1{font-weight: bold;font-size:30px;margin:10px 0 40px}
+#terms{line-height: 20px;text-align: justify}
+#terms h1{font-weight: bold;font-size:30px;margin:10px 0 40px;color:#fff}
 #terms .G-container > ol{margin:0 18px}
 #terms .G-container > ol > li{margin-top:30px}
 #terms p{margin:25px 0}
