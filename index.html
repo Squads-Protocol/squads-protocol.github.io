@@ -1,394 +1,519 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Solana multisig management protocol for web3 native teams">
+    <meta charset="utf-8">
     <title>Squads</title>
-    <meta property="og:title" content="Squads">
-    <meta property="og:site_name" content="Squads.so">
-    <meta property="og:url" content="https://squads.so/">
-    <meta property="og:image" content="https://squads.so/assets/favicons/128x128.png" />
-    <meta property="og:description" content="Solana multisig management protocol for web3 native teams">
-    <meta property="og:type" content="product">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta property="og:image" content="images/favicon/logo-social.jpg">
+    <link rel="icon" href="/img/favicon.ico">
 
-    <link type="image/x-icon" rel="shortcut icon" href="/assets/favicons/favicon.ico">
-    <link type="image/png" sizes="24x24" rel="icon" href="/assets/favicons/24x24.png?v=1">
-    <link type="image/png" sizes="32x32" rel="icon" href="/assets/favicons/32x32.png?v=1">
-    <link type="image/png" sizes="48x48" rel="icon" href="/assets/favicons/48x48.png?v=1">
-    <link type="image/png" sizes="64x64" rel="icon" href="/assets/favicons/64x64.png?v=1">
-    <link type="image/png" sizes="128x128" rel="icon" href="/assets/favicons/128x128.png?v=1">
-    <!-- ====================== -LINKS-MY-START- ====================== -->
-    <link rel="stylesheet" href="./assets/style/flexbox.css">
-    <link rel="stylesheet" href="./assets/style/normalize.css?v=1">
-    <link rel="stylesheet" href="./assets/style/global.css">
-    <link rel="stylesheet" href="./assets/style/style.css?v=1">
-    <link rel="stylesheet" href="./assets/style/media.css?v=1">
-    <link rel="stylesheet" href="./assets/font/icons/style.css">
-    <!-- ======================= -LINKS-MY-END- ======================= -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3PLKNT0QYT"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#252525">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#252525">
 
-        gtag('config', 'G-3PLKNT0QYT');
-    </script>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="/css/variables.css?v=2.134">
+    <link rel="stylesheet" href="/fonts/Druk Wide/stylesheet.css?v=2.134">
+    <link rel="stylesheet" href="/fonts/Neue Plak/stylesheet.css?v=2.134">
+
+    <!-- reset CSS -->
+    <link rel="stylesheet" href="/css/reset.css?v=2.134">
+    <!-- Icons -->
+    <link rel="stylesheet" href="/css/icons.css?v=2.134">
+    <!-- Style Global -->
+    <link rel="stylesheet" href="/css/style.css?v=2.134">
+
+
+    <!-- Chunks template Style CSS -->
+    <link rel="stylesheet" href="/css/chunks-header.css?v=2.134"> <!-- header -->
+    <link rel="stylesheet" href="/css/chunks-main.css?v=2.134"> <!-- section "main" -->
+    <link rel="stylesheet" href="/css/advantages-section.css?v=2.134"> <!-- section "advantages" -->
+    <link rel="stylesheet" href="/css/our-partners.css?v=2.134"> <!-- section "our-partners" -->
+    <link rel="stylesheet" href="/css/what-multisig.css?v=2.134"> <!-- section "what-multisig" -->
+    <link rel="stylesheet" href="/css/features.css?v=2.138"> <!-- section "features" -->
+    <link rel="stylesheet" href="/css/investor.css?v=2.134"> <!-- section "investor" -->
+    <link rel="stylesheet" href="/css/footer.css?v=2.134"> <!-- footer -->
+
+
+
+
 </head>
-<body style="overflow-x: hidden">
-<!-- ====================== -HTML5-HEADER-START- ====================== -->
-<header class="P-header">
-    <div class="G-container">
-        <div class="P-header-block G-flex G-justify-between">
-            <a href="/" class="P-header-logo G-bg-contain" style="background-image: url('./assets/img/logo.png')"></a>
-            <div class="P-header-menu G-flex G-align-center G-justify-between">
-                <ul class="G-flex G-align-center G-bg-contain ">
-                    <li><a target="_blank" href="https://squads.medium.com/" class="P-new-chat-icon"
-                           style="background-image: url('./assets/img/header-images/new-chat.svg')"></a></li>
-                    <li><a target="_blank" href="https://twitter.com/squadsprotocol" class="P-twitter-icon G-bg-contain"
-                           style="background-image: url('./assets/img/header-images/twitter.svg')"></a></li>
-                    <li><a target="_blank" href="https://discord.gg/YPXz64TrKs" class="P-discord-icon G-bg-contain"
-                           style="background-image: url('./assets/img/header-images/discord.svg')"></a></li>
-                </ul>
-                <div class="P-header-button">
-                    <a target="_blank" href="https://app.squads.so/"><button class="G-bg-cover">Launch App</button></a>
-                </div>
+<body>
+
+<!-- header -->
+<header class="section-header">
+    <div class="container-xl">
+        <div class="header-grid__container">
+            <!-- logo -->
+            <div class="header-grid__col">
+                <a href="/" class="header-logo">
+                    <img src="/img/logo.svg" alt="logo" class="header-logo_img">
+                </a>
+            </div>
+            <!-- nav -->
+            <div class="header-grid__col">
+                <nav class="header-navigation">
+                    <ul class="header-navigation__list flex flex-v-center">
+                        <li class="header-navigation__item">
+                            <a href="#section-overview" class="header-navigation__link">Overview</a>
+                        </li>
+                        <li class="header-navigation__item">
+                            <a href="#section-multisig" class="header-navigation__link">What is a multisig?</a>
+                        </li>
+                        <li class="header-navigation__item">
+                            <a href="#section-features" class="header-navigation__link">Features</a>
+                        </li>
+                        <li class="header-navigation__item">
+                            <a href="https://www.wordcelclub.com/squadsprotocol.sol" target="_blank" class="header-navigation__link">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- event -->
+            <div class="header-grid__col">
+                <a href="https://v3.squads.so/" target="_blank" class="header-btn">
+                    <button type="button" class="btn btn-primary">Launch App</button>
+                </a>
+                <!-- btn mobile burger -->
+                <button class="btn btn-toggle_menu">
+                    <span class="btn-menu_line line-top"></span>
+                    <span class="btn-menu_line line-center"></span>
+                    <span class="btn-menu_line line-bottom"></span>
+                </button>
             </div>
         </div>
     </div>
 </header>
-<!-- ======================= -HTML5-HEADER-END- ======================= -->
-<section class="G-second-container" style="position: relative;z-index:999">
-    <picture>
-        <source media="(max-width: 575.98px)" srcset="/assets/img/Frame_15.png">
-        <img style="position:relative" src="/assets/img/svg/sec1.png">
-    </picture>
-    <picture>
-        <source media="(max-width: 575.98px)" srcset="/assets/img/Frame_15_11_1.png">
-        <img style="margin-top:-120px" src="">
-    </picture>
-
-    <!--    <div class="P-squards G-bg-cover" style="background-image: url('./assets/img/cover-section/background-grey.png');">
-            <div class="P-squards-block">
-          <span class="P-squards-block-img G-bg-cover"
-                style="background-image: url('./assets/img/cover-section/tshirt.png');"></span>
-                <h1 class="P-squards-title">SQuads</h1>
-                <div class="P-squards-info">
-                    <h3>Collaborative infrastructure for web3 native teams
-                        <span>
-                    <img src="./assets/img/cover-section/nd.svg" alt="nd">
-                    <p>Audited <br> by Neodyme</p>
-                </span>
-                    </h3>
-                </div>
-            </div>
-        </div>
-    --></section>
-<!--======================-SQUARDS-END-======================= -->
-
-
-<section class="P-blocks-section" style="position:relative;z-index:9">
-    <div class="G-container">
-        <div class="`P-blocks-main`">
-            <!--      <span class="P-blocks-main-line G-bg-cover"
-                        style="background-image: url('./assets/img/squards-images/lines-figur.png');"> </span>
-            --><!--            <div class="tabs P-blocks-main-tabs G-bg-cover"></div>
-            <div class="P-blocks-main-users G-bg-cover"
-                 style="background-image: url('/assets/img/fond/fonfon1.png')"></div>
-            <div class=" P-blocks-main-owner G-bg-cover"
-                 style="background-image: url('/assets/img/fond/f1.png')"></div>
-
-            <div class="P-blocks-main-balance G-bg-cover"
-                 style="background-image: url('./assets/img/squards-images/group3.png');"></div>
-            <div class="P-blocks-main-sending G-bg-cover"
-                 style="background-image: url('./assets/img/squards-images/group4.png');"></div>
-            <span class="P-blocks-main-colorLine G-bg-cover"
-                  style="background-image:url('./assets/img/squards-images/color-tsirt.png');"></span>
--->
-            <img class="sec-pc-none" src="/assets/img/svg/sec2.png" style="`transform:scale(1.1);margin-top:-40px;position: relative;z-index: 999;">
-
-            <!--            <span class="P-blocks-main-owner-mobile G-bg-cover"
-                              style="background-image:url('./assets/img/squards-images/mobile-owner.png');"></span>
-            -->        </div>
-    </div>
-</section>
-<!--======================-BLOCKS-END-======================= -->
 
 
 
-<section class="G-second-container P-support-section sec-pc-none">
-    <div class="P-support-block  G-bg-cover">
-        <h3 class="G-section-title">Supported by</h3>
-        <div class="P-support-partners G-flex G-wrap G-align-center" style="justify-content:center">
-            <div class="P-support-images P-support-1">
-                <picture>
-                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/Vector.png">
-                    <img class="fond1" src="./assets/img/fond1/f/vector.png" alt="support-svg">
-                </picture>
-            </div>
-            <div class="P-support-images P-support-2">
-                <picture>
-                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/jump.png">
-                    <img class="fond2" src="./assets/img/fond1/jump_crypto.png" alt="support-svg">
-                </picture>
-            </div>
-            <div class="P-support-images P-support-3">
-                <picture>
-                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/delphi.png">
-                    <img class="fond3" src="./assets/img/fond1/f/delphi.png" alt="support-svg">
-                </picture>
-            </div>
-            <div class="P-support-images P-support-4">
-                <picture>
-                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/collab.png">
-                    <img class="fond4" src="./assets/img/fond1/f/collab.png" alt="support-svg">
-                </picture>
-            </div>
-            <div class="P-support-images P-support-5">
-                <picture>
-                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/recip1.png">
-                    <img class="fond5" src="./assets/img/fond1/f/recip1.png" alt="support-svg">
-                </picture>
-            </div>
-            <div class="P-support-images P-support-6">
-                <picture>
-                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/volt_capital_1.png">
-                    <img class="fond6" src="./assets/img/fond1/f/volt.png" alt="support-svg">
-                </picture>
-            </div>
-            <div class="P-support-images P-support-7">
-                <picture>
-                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/davinc.png">
-                    <img class="fond7" src="./assets/img/fond1/f/davinci.png" alt="support-svg">
-                </picture>
-            </div>
-            <div class="P-support-images P-support-8">
-                <picture>
-                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/6thman.png">
-                    <img class="fond8" src="./assets/img/fond1/f/chaotic.png" alt="support-svg">
-                </picture>
-            </div>
-            <div class="P-support-images P-support-9">
-                <picture>
-                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/chaotic_capital.png">
-                    <img class="fond9" src="./assets/img/fond1/f/6thman.png" alt="support-svg">
-                </picture>
-            </div>
-            <div class="P-support-images P-support-10">
-                <picture>
-                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/seed_club.png">
-                    <img class="fond10" src="./assets/img/fond1/f/seed_club.png" alt="support-svg">
-                </picture>
-            </div>
-            <div class="P-support-images P-support-11">
-                <picture>
-                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/republic.png">
-                    <img class="fond11" src="./assets/img/fond1/f/solana.png" alt="support-svg">
-                </picture>
-            </div>
-            <div class="P-support-images P-support-12">
-                <picture>
-                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/soldana.png">
-                    <img class="fond12" src="./assets/img/fond1/f/republic.png" alt="support-svg">
-                </picture>
-            </div>
-            <div class="P-support-images P-support-13">
-                <picture>
-                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/block.png">
-                    <img class="fond13" src="./assets/img/fond1/f/block.png" alt="support-svg">
-                </picture>
-            </div>
-            <div class="P-support-images P-support-14">
-                <picture>
-                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/816.png">
-                    <img class="fond14" src="./assets/img/fond1/f/816.png" alt="support-svg">
-                </picture>
-            </div>
-            <div class="P-support-images P-support-15">
-                <picture>
-                    <source media="(max-width: 575.98px)" srcset="./assets/img/fond/reverie.png">
-                    <img class="fond15" src="./assets/img/fond1/f/reverie.png" alt="support-svg">
-                </picture>
-            </div>
-        </div>
-    </div>
-</section>
-<!--======================-SUPPORT-END-======================= -->
+<!-- Main screen -->
+<section class="section-main" id="section-overview">
+    <div class="container-xl">
+        <div class="grid-container">
 
-<section class="P-organize-section">
-    <div class="G-container" style="padding:0 20px">
+            <div class="design-elements">
+                <i class="icon plus icon-top-left"></i>
+                <i class="icon plus icon-top-right"></i>
+                <i class="icon plus icon-bottom-left"></i>
+                <i class="icon plus icon-bottom-right"></i>
+                <i class="icon graph-mark-vertical"></i>
+            </div>
 
-        <picture>
-            <source media="(max-width: 575.98px)" srcset="assets/img/svg/sec4.png">
-            <img src="/assets/img/svg/sec41.png">
-        </picture>
+            <div class="title-label">
+                <img src="/img/squads-text-white.svg" alt="logo">
+            </div>
 
-
-        <!--        <div class="P-organize-block">
-                    <h2>Organize,<br> make decisions and manage digital assets together</h2>
-                    <div class="P-organize-block-item P-organize-item-first">
-                        <h3 class="G-section-title">Ship together</h3>
-                        <p>Vote on your project direction, store VC raised funds and pay
-                            contributors</p>
-                        <span class="P-block-line-img G-bg-cover"
-                              style="background-image: url('./assets/img/mini-lines.png');"></span>
-                    </div>
-                    <div class="P-organize-block-item P-organize-item-second">
-                        <h3 class="G-section-title">Contribute together</h3>
-                        <p>Provide services to DAOs, receive bounties and distribute
-                            them</p>
-                        <span class="P-block-line-img G-bg-cover"
-                              style="background-image: url('./assets/img/mini-lines.png');"></span>
-                    </div>
-                    <div class="P-organize-block-item P-organize-item-third">
-                        <h3 class="G-section-title">Ape in together</h3>
-                        <p>Pool funds, co-invest and share profits</p>
-                        <span class="P-block-line-img G-bg-cover"
-                              style="background-image: url('./assets/img/mini-lines.png');"></span>
+            <div class="rhomb-container rhomb-container_one">
+                <div class="box-ratio">
+                    <div class="content">
+                        <div class="row-content">
+                            <div class="top-col">
+                                <p class="text-desc">Squads Protocol: the multisig standard you were looking for on Solana</p>
+                            </div>
+                            <div class="bottom-col">
+                                <p class="text-secondary">Securely manage your treasury, program upgrades, and tokens with your Squad.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-        -->    </div>
-</section>
-<!--======================-ORGANIZE-END-======================= -->
+            </div>
 
-<section class="P-multi-signature-section sec-pc-none">
-    <div class="G-container" style="padding:0 20px">
-        <img src="/assets/img/svg/sec5.png">
-        <!--
-                <div class="P-right-position-block G-flex G-justify-end">
-                    <div class="P-right-position-info G-bg-cover G-flex G-align-end G-direction-column"
-                         style="background-image: url('./assets/img/bg-grey.png');">
-                        <h3 class="G-section-title">
-                            Multi-signature
-                        </h3>
-                        <p>Manage team assets by requiring multiple signatures to confirm a
-                            transaction</p>
-                    </div>
-                    <div class="P-multi-signature-result G-bg-cover" style="background-image: url('./assets/img/signatur-cover.png');">
+            <a href="https://v3.squads.so/" target="_blank" class="rhomb-container rhomb-container_two">
+                <div class="box-ratio">
+                    <div class="content">
+                        <div class="row-content">
+                            <div class="top-col">
+                                <p class="text-index">Launch App</p>
+                            </div>
+                            <div class="bottom-col">
+                                <i class="icon arrow-diagonally"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
-        -->    </div>
-</section>
-<!--======================-MULTI-SIGNATURE-END-======================= -->
-
-<section class="P-treasuary-section sec-pc-none">
-    <div class="G-container" style="padding:0 20px">
-        <img src="/assets/img/svg/sec6.png">
-
-        <!--        <div class="gradient1 P-left-position-block G-bg-cover G-flex G-justify-between">
-                    <div class="P-left-position-info">
-                        <h3 class="G-section-title">
-                            Treasury diversif<br/>ication
-                        </h3>
-                        <p>Diversify your assets via built in swap feature</p>
-                    </div>
-                    <div class="P-treasuary-results">
-                        <div class="P-treasuary-results-block1 G-bg-cover"
-                             style="background-image: url('./assets/img/block2.png');"></div>
-                        <div class="P-treasuary-results-block2 G-bg-cover"
-                             style="background-image: url('./assets/img/block3.png');"></div>
-                    </div>
-                </div>
-        -->    </div>
-
-</section>
-<!--======================-TREASURE-END-======================= -->
-
-<section class="P-secure-section sec-pc-none">
-    <div class="G-container" style="padding:0 20px">
-
-        <img src="/assets/img/svg/sec7.png">
-        <!--
-                <div class="P-right-position-block G-flex G-justify-end">
-                    <div class="P-right-position-info G-bg-cover G-flex G-align-end G-direction-column"
-                         style="background-image: url('./assets/img/bg-grey.png');">
-                        <h3 class="G-section-title">
-                            Secure vault
-                        </h3>
-                        <p>Hold fungible tokens and NFTs in a secure vault owned and control
-                            by your team</p>
-                    </div>
-                    <div class="P-secure-result">
-                        <div class="G-bg-cover P-secure-result-bg"
-                             style="background-image: url('./assets/img/block5.png');"></div>
-                        <div class="G-bg-cover P-secure-result-img"
-                             style="background-image: url('./assets/img/squards-images/group3.png');"></div>
-                    </div>
-
-                </div>
-        -->    </div>
-</section>
-<!--======================-SECUREE-END-======================= -->
-
-<section class="P-proposal-section">
-    <div class="G-container" style="padding:0 20px">
-
-        <picture>
-            <source media="(max-width: 575.98px)" srcset="/assets/img/g111.png">
-            <img src="">
-        </picture>
-
-        <picture>
-            <source media="(max-width: 575.98px)" srcset="/assets/img/g113.png">
-            <img src="">
-        </picture>
-
-        <picture>
-            <source media="(max-width: 575.98px)" srcset="/assets/img/g112.png">
-            <img src="/assets/img/svg/sec8.png">
-        </picture>
-
-        <picture>
-            <source media="(max-width: 575.98px)" srcset="/assets/img/g114.png">
-            <img class="g114" src="">
-        </picture>
-        <!--
-                <div class="gradient2 P-left-position-block G-bg-cover G-flex G-justify-between">
-                    <div class="P-left-position-info">
-                        <h3 class="G-section-title">
-                            Proposal framework
-                        </h3>
-                        <p>Initiate proposals and vote with your team, recording results
-                            on-chain</p>
-                    </div>
-                    <div class="P-proposal-results G-bg-cover" style="background-image: url('./assets/img/proposal-image1.png')">
-
-                    </div>
-                </div>
-        -->    </div>
-</section>
-<!--======================-PROPOSAL-END-======================= -->
-
-<!-- ===================== -HTML5-FOOTER-START- ======================= -->
-<footer class="P-footer">
-    <div class="G-container">
-        <div class="P-footer-main  G-flex">
-            <a href="/" class="P-footer-logo">
-                <img src="./assets/img/logo/logo-footer.svg" alt="logo-footer">
             </a>
-            <ul class="P-footer-menu G-flex G-direction-column">
-                <li><a target="_blank" href="https://squads.medium.com/">Medium</a></li>
-                <li><a target="_blank" href="https://discord.gg/YPXz64TrKs">Discord</a></li>
-                <li><a target="_blank" href="https://twitter.com/squadsprotocol">Twitter</a></li>
-                <li><a target="_blank" href="https://github.com/squads-dapp/program">GitHub</a></li>
-            </ul>
-            <ul class="P-footer-menu G-flex G-direction-column footer-menu2">
-                <li><a href="https://docs.squads.so/squads-docs/">Docs</a></li>
-<!--                            <li><a href="#">Code</a></li>-->
-                <li><a href="/terms.html">Terms of service</a></li>
-                <li><a href="/disclaimer.html">Protocol disclaimer</a></li>
-            </ul>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- advantages-section -->
+<section class="advantages-section">
+    <div class="container-lg">
+        <div class="row-content">
+            <div class="design-elements">
+                <i class="icon plus icon-bottom-left"></i>
+                <i class="icon plus icon-bottom-right"></i>
+                <i class="icon graph-mark-gorizontal"></i>
+            </div>
+            <div class="top-col">
+                <div class="grid-container">
+                    <div class="item-col item-col_one">
+                        <p class="text"><span class="count">2500+</span> multisigs deployed</p>
+                    </div>
+                    <div class="item-col item-col_two">
+                        <p class="text">Live and tested on Solana mainnet since February 2022</p>
+                    </div>
+                    <div class="item-col item-col_three">
+                        <p class="text">audited by OtterSec and Bramah Systems</p>
+                        <div class="item-col_logo">
+                            <img src="/img/hero-logo-1.svg" alt="logo">
+                            <img src="/img/hero-logo-2.svg" alt="logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-col">
+                <embed src="/img/preview-image-1.svg?v=2.134" alt="img" class="preview-photo">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Our composable partners -->
+<section class="section-our-partners">
+    <div class="container-xl">
+        <div class="grid-container">
+            <div class="col-heading">
+                <h2 class="title">Our composable partners</h2>
+            </div>
+            <div class="col-logo">
+                <a href="https://www.cardinal.so/" target="_blank">
+                    <img src="/img/logo-partner-1.svg?v=2.134" alt="logo">
+                </a>
+                <a href="https://www.dialect.to/" target="_blank">
+                    <img src="/img/logo-partner-2.svg" alt="logo">
+                </a>
+                <a href="https://katana.so/" target="_blank">
+                    <img src="/img/logo-partner-3.svg" alt="logo">
+                </a>
+                <a href="https://raydium.io/" target="_blank">
+                    <img src="/img/logo-partner-4.svg" alt="logo">
+                </a>
+                <a href="https://bonfida.org/" target="_blank">
+                    <img src="/img/logo-partner-5.svg" alt="logo">
+                </a>
+                <a href="https://pyth.network/" target="_blank">
+                    <img src="/img/logo-partner-6.svg" alt="logo">
+                </a>
+                <a href="https://magiceden.io/" target="_blank">
+                    <img src="/img/logo-partner-7.svg" alt="logo">
+                </a>
+            </div>
+        </div>
+        <div class="design-elements">
+            <i class="icon plus icon-bottom-left"></i>
+            <i class="icon plus icon-bottom-right"></i>
+        </div>
+    </div>
+</section>
+
+
+<!-- What is a multisig? -->
+<section class="what-multisig" id="section-multisig">
+    <div class="container-xl">
+        <div class="grid-container">
+            <div class="title-label">
+                <img src="/img/text-multisig.svg" alt="logo">
+            </div>
+            <div class="left-col">
+                <a href="https://v3.squads.so/" target="_blank" class="rhomb-container rhomb-container_two">
+                    <div class="box-ratio">
+                        <div class="content">
+                            <div class="row-content">
+                                <div class="top-col">
+                                    <p class="text-index">Launch App</p>
+                                </div>
+                                <div class="bottom-col">
+                                    <i class="icon arrow-diagonally"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="right-col">
+                <ul class="list-desc">
+                    <li class="list-desc_item">
+                       <div class="heading-line">
+                           <span class="count">01</span>
+                           <div class="line"></div>
+                           <div class="square"></div>
+                       </div>
+                       <div class="row-content">
+                           <p class="head">Multi-signature</p>
+                           <p class="desc">A multisig requires multiple digital signatures in order to approve transactions. This is opposed to individual web3 wallets, which only require one signature. </p>
+                       </div>
+                   </li>
+                    <li class="list-desc_item">
+                       <div class="heading-line">
+                           <span class="count">02</span>
+                           <div class="line"></div>
+                           <div class="square"></div>
+                       </div>
+                       <div class="row-content">
+                           <p class="head">Security</p>
+                           <p class="desc">Multisigs spread the attack vector necessary for your assets to be compromised. By requiring confirmations from multiple private keys, a single point of failure is eliminated.</p>
+                       </div>
+                   </li>
+                    <li class="list-desc_item">
+                       <div class="heading-line">
+                           <span class="count">03</span>
+                           <div class="line"></div>
+                           <div class="square"></div>
+                       </div>
+                       <div class="row-content">
+                           <p class="head">Collective Ownership</p>
+                           <p class="desc">Multisigs allow teams to own and manage their on-chain assets together. You get to choose who is on your multisig.</p>
+                       </div>
+                   </li>
+                    <li class="list-desc_item">
+                       <div class="heading-line">
+                           <span class="count">04</span>
+                           <div class="line"></div>
+                           <div class="square"></div>
+                       </div>
+                       <div class="row-content">
+                           <p class="head">Self-Custody</p>
+                           <p class="desc">Your on-chain assets are always in your team’s control. By securing them in a multisig, you forego the risk of centralized entities losing your funds.</p>
+                       </div>
+                   </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Features -->
+<section class="section-features" id="section-features">
+    <div class="container-xl">
+        <div class="row-heading">
+            <h2 class="title">Features</h2>
+        </div>
+        <div class="grid-container">
+
+            <div class="item-card item-card_one">
+                <div class="design-elements">
+                    <span class="count">01</span>
+                    <i class="icon plus icon-top-right"></i>
+                    <i class="icon square icon-bottom-left"></i>
+                    <i class="icon square icon-bottom-right"></i>
+                </div>
+                <div class="rhomb-background">
+                    <img src="/img/features-rhomb-1.svg" alt="vector">
+                </div>
+                <div class="row-content">
+                    <div class="block-text">
+                        <p class="heading">Multisig wallet</p>
+                        <p class="desc" style="max-width: 260px">Spin up a multi-signature wallet on Solana in a few clicks. Secure, powerful and user-friendly.</p>
+                    </div>
+
+                    <picture>
+                        <source srcset="/img/f_1.svg?v=1.129" media="(max-width: 767px)" class="features-screen">
+                        <img src="/img/f_1.svg?v=1.129" alt="image" class="features-screen" style="max-height: 294px">
+                    </picture>
+                </div>
+            </div>
+
+            <div class="item-card item-card_two">
+                <div class="design-elements">
+                    <span class="count">02</span>
+                    <i class="icon plus icon-top-right"></i>
+                    <i class="icon square icon-bottom-left"></i>
+                    <i class="icon square icon-bottom-right"></i>
+                </div>
+                <div class="rhomb-background">
+                    <img src="/img/features-rhomb-2.svg" alt="vector">
+                </div>
+                <div class="row-content">
+                    <div class="block-text">
+                        <p class="heading">Treasury management</p>
+                        <p class="desc" style="max-width: 310px">Securely store your treasury in the multisig vault. You can do swaps, invest in yield generating strategies, borrow, lend, stream, and vest tokens directly from the Squads interface.</p>
+                    </div>
+                    <picture>
+                        <source srcset="/img/f_2.svg?v=1.129" media="(max-width: 767px)" class="features-screen">
+                        <img src="/img/f_2.svg?v=1.129" alt="image" class="features-screen" style="max-height: 346px">
+                    </picture>
+
+                </div>
+            </div>
+
+            <div class="item-card item-card_three">
+                <div class="design-elements">
+                    <span class="count">03</span>
+                    <i class="icon plus icon-top-right"></i>
+                    <i class="icon square icon-bottom-left"></i>
+                    <i class="icon square icon-bottom-right"></i>
+                </div>
+                <div class="rhomb-background">
+                    <img src="/img/features-rhomb-3.svg" alt="vector">
+                </div>
+                <div class="row-content">
+                    <div class="block-text">
+                        <p class="heading">Program management</p>
+                        <p class="desc" style="max-width: 290px">Upgrade Solana programs with a multisig instead of relying on a single key. View upgrade history, change upgrade authority, and manage program upgrades together with your Squad.</p>
+                    </div>
+                    <picture>
+                        <source srcset="/img/f_3.svg?v=1.130" media="(max-width: 767px)" class="features-screen">
+                        <img src="/img/f_3.svg?v=1.130" alt="image" class="features-screen" style="max-height: 323px">
+                    </picture>
+                </div>
+            </div>
+
+            <div class="item-card white-card">
+                <div class="design-elements">
+                    <i class="icon plus icon-top-right"></i>
+                    <i class="icon square icon-bottom-left"></i>
+                    <i class="icon square icon-bottom-right"></i>
+                </div>
+                <div class="row-content">
+
+                    <div class="rhomb-container">
+                        <span class="count">04</span>
+                        <div class="box-ratio">
+                            <div class="content">
+                                <div class="row-content">
+                                    <div class="top-col">
+                                        <p class="text-index">Buy NFTs from Magic Eden together</p>
+                                    </div>
+                                    <div class="bottom-col">
+                                        <img src="/img/features-logo-1.svg" alt="logo" class="features-logo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rhomb-container">
+                        <span class="count">05</span>
+                        <div class="box-ratio">
+                            <div class="content">
+                                <div class="row-content">
+                                    <div class="top-col">
+                                        <p class="text-index">Link your Twitter identity with Cardinal</p>
+                                    </div>
+                                    <div class="bottom-col">
+                                        <img src="/img/features-logo-2.svg" alt="logo" class="features-logo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rhomb-container">
+                        <span class="count">06</span>
+                        <div class="box-ratio">
+                            <div class="content">
+                                <div class="row-content">
+                                    <div class="top-col">
+                                        <p class="text-index">Send assets to Bonfida’s .sol domains</p>
+                                    </div>
+                                    <div class="bottom-col">
+                                        <img src="/img/features-logo-3.svg" alt="logo" class="features-logo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rhomb-container">
+                        <span class="count">07</span>
+                        <div class="box-ratio">
+                            <div class="content">
+                                <div class="row-content">
+                                    <div class="top-col">
+                                        <p class="text-index">Keep up with your Squad’s activity with Dialect notifications</p>
+                                    </div>
+                                    <div class="bottom-col">
+                                        <img src="/img/features-logo-4.svg" alt="logo" class="features-logo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="design-elements">
+            <i class="icon plus icon-bottom-left"></i>
+            <i class="icon graph-mark-gorizontal"></i>
+            <i class="icon plus icon-bottom-right"></i>
+        </div>
+    </div>
+</section>
+
+
+<!-- Meet the investor Squad -->
+<section class="section-investor">
+    <div class="container-xl">
+        <div class="grid-container">
+            <div class="col-heading">
+                <h2 class="title">Meet the <br> investor Squad</h2>
+            </div>
+            <div class="col-logo">
+                <img src="/img/investor-logo-1.svg" alt="logo">
+                <img src="/img/investor-logo-2.svg" alt="logo">
+                <img src="/img/investor-logo-3.svg" alt="logo">
+                <img src="/img/investor-logo-4.svg" alt="logo">
+                <img src="/img/investor-logo-5.svg" alt="logo">
+            </div>
+        </div>
+        <div class="design-elements">
+            <i class="icon plus icon-bottom-left"></i>
+            <i class="icon plus icon-bottom-right"></i>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div class="container-xl">
+        <div class="grid-container">
+
+            <div class="left-col">
+                <a href="/"><img src="/img/logo-text.svg" alt="logo"></a>
+                <p class="footer-info">All rights reserved</p>
+                <p class="footer-info">© Squads Protocol 2022</p>
+            </div>
+
+            <div class="center-col">
+                <div class="nav-col">
+<!--                    <div class="item-col">-->
+<!--                        <p class="name">Product</p>-->
+<!--                        <a href="/" class="link">Overview</a>-->
+<!--                        <a href="/" class="link">Security</a>-->
+<!--                        <a href="/" class="link">Blog</a>-->
+<!--                    </div>-->
+                    <div class="item-col">
+                        <p class="name">Resources</p>
+                        <a href="https://github.com/squads-dapp/squads-mpl" target="_blank" class="link">Github</a>
+                        <a href="https://docs.squads.so/squads-v3-docs/" target="_blank" class="link">Documentation</a>
+                        <a href="https://twitter.com/squadsprotocol" target="_blank" class="link">Twitter</a>
+                        <a href="https://discord.com/invite/YPXz64TrKs" target="_blank" class="link">Discord</a>
+                    </div>
+                    <div class="item-col">
+                        <p class="name">Legal</p>
+                        <a href="/terms.html" class="link">Terms of service</a>
+                        <a href="/disclaimer.html" class="link">Protocol disclaimer</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </footer>
-<!-- ======================= -HTML5-FOOTER-END- ======================= -->
 
-<!-- ===================== -SCRIPT-PLUGIN-START- ===================== -->
-<!-- ====================== -SCRIPT-PLUGIN-END- ====================== -->
-<!-- ======================= -SCRIPT-MY-START- ======================= -->
-<!-- ======================== -SCRIPT-MY-END- ======================== -->
+<script src="/js/jquery-3.6.0.min.js"></script>
+<script src="/js/script.js?v=2.134"></script>
 
 </body>
 </html>

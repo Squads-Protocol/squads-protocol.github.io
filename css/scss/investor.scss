@@ -1,0 +1,77 @@
+.section-investor {
+  margin-top: 140px;
+  margin-bottom: 45px;
+
+  .design-elements {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1564px;
+    margin: 0 auto;
+    margin-top: 45px;
+
+    .icon {
+      font-size: 23px;
+      background-color: #9F9F9F;
+    }
+  }
+
+  .grid-container {
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 50px;
+    align-items: center;
+    max-width: 1640px;
+
+    .col-heading {
+      .title {
+        font-family: 'Druk Wide';
+        font-weight: 500;
+        font-size: 30px;
+        color: var(--gray-500);
+        max-width: 270px;
+      }
+    }
+
+    .col-logo {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      grid-gap: 50px;
+      flex-wrap: wrap;
+      width: 100%;
+      max-width: 1320px;
+
+      img {
+        width: auto;
+        max-height: 45px;
+        transition: all 0.2s;
+
+        &:hover {
+          filter: brightness(0);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .section-investor {
+    .grid-container {
+      flex-direction: column;
+      align-items: initial;
+      grid-gap: 36px;
+
+      .col-heading {
+        .title {
+          max-width: 100%;
+          font-size: 28px;
+        }
+      }
+
+      .col-logo {
+        justify-content: center;
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Neue Plak';
+    src: url('NeuePlak-ExtendedBold.eot');
+    src: local('Neue Plak Extended Bold'), local('NeuePlak-ExtendedBold'),
+        url('NeuePlak-ExtendedBold.eot?#iefix') format('embedded-opentype'),
+        url('NeuePlak-ExtendedBold.woff2') format('woff2'),
+        url('NeuePlak-ExtendedBold.woff') format('woff'),
+        url('NeuePlak-ExtendedBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Plak';
+    src: url('NeuePlak-ExtendedUltraLight.eot');
+    src: local('Neue Plak Extended Ultra Light'), local('NeuePlak-ExtendedUltraLight'),
+        url('NeuePlak-ExtendedUltraLight.eot?#iefix') format('embedded-opentype'),
+        url('NeuePlak-ExtendedUltraLight.woff2') format('woff2'),
+        url('NeuePlak-ExtendedUltraLight.woff') format('woff'),
+        url('NeuePlak-ExtendedUltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Plak';
+    src: url('NeuePlak-ExtendedBlack.eot');
+    src: local('Neue Plak Extended Black'), local('NeuePlak-ExtendedBlack'),
+        url('NeuePlak-ExtendedBlack.eot?#iefix') format('embedded-opentype'),
+        url('NeuePlak-ExtendedBlack.woff2') format('woff2'),
+        url('NeuePlak-ExtendedBlack.woff') format('woff'),
+        url('NeuePlak-ExtendedBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Plak';
+    src: url('NeuePlak-ExtendedLight.eot');
+    src: local('Neue Plak Extended Light'), local('NeuePlak-ExtendedLight'),
+        url('NeuePlak-ExtendedLight.eot?#iefix') format('embedded-opentype'),
+        url('NeuePlak-ExtendedLight.woff2') format('woff2'),
+        url('NeuePlak-ExtendedLight.woff') format('woff'),
+        url('NeuePlak-ExtendedLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Plak';
+    src: url('NeuePlak-ExtendedThin.eot');
+    src: local('Neue Plak Extended Thin'), local('NeuePlak-ExtendedThin'),
+        url('NeuePlak-ExtendedThin.eot?#iefix') format('embedded-opentype'),
+        url('NeuePlak-ExtendedThin.woff2') format('woff2'),
+        url('NeuePlak-ExtendedThin.woff') format('woff'),
+        url('NeuePlak-ExtendedThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Plak';
+    src: url('NeuePlak-ExtendedSemiBold.eot');
+    src: local('Neue Plak Extended Semi Bold'), local('NeuePlak-ExtendedSemiBold'),
+        url('NeuePlak-ExtendedSemiBold.eot?#iefix') format('embedded-opentype'),
+        url('NeuePlak-ExtendedSemiBold.woff2') format('woff2'),
+        url('NeuePlak-ExtendedSemiBold.woff') format('woff'),
+        url('NeuePlak-ExtendedSemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Plak';
+    src: url('NeuePlak-ExtendedRegular.eot');
+    src: local('Neue Plak Extended'), local('NeuePlak-ExtendedRegular'),
+        url('NeuePlak-ExtendedRegular.eot?#iefix') format('embedded-opentype'),
+        url('NeuePlak-ExtendedRegular.woff2') format('woff2'),
+        url('NeuePlak-ExtendedRegular.woff') format('woff'),
+        url('NeuePlak-ExtendedRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Plak';
+    src: url('NeuePlak-ExtendedExtraBlack.eot');
+    src: local('Neue Plak Extended Extra Black'), local('NeuePlak-ExtendedExtraBlack'),
+        url('NeuePlak-ExtendedExtraBlack.eot?#iefix') format('embedded-opentype'),
+        url('NeuePlak-ExtendedExtraBlack.woff2') format('woff2'),
+        url('NeuePlak-ExtendedExtraBlack.woff') format('woff'),
+        url('NeuePlak-ExtendedExtraBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
