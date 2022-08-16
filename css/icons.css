@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+.icon {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+    font-size: 16px;
+    background-color: #000;
+}
+
+.icon.arrow-diagonally {
+    mask-image: url(/icons/arrow-diagonally.svg);
+    -webkit-mask-image: url(/icons/arrow-diagonally.svg);
+}
+
+.icon.plus {
+    mask-image: url(/icons/plus.svg);
+    -webkit-mask-image: url(/icons/plus.svg);
+}
+
+.icon.graph-mark-vertical {
+    mask-image: url(/icons/graph-mark-vertical.svg);
+    -webkit-mask-image: url(/icons/graph-mark-vertical.svg);
+}
+
+.icon.graph-mark-gorizontal {
+    mask-image: url(/icons/graph-mark-gorizontal.svg);
+    -webkit-mask-image: url(/icons/graph-mark-gorizontal.svg);
+}

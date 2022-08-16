@@ -1,0 +1,84 @@
+.section-investor {
+  margin-top: 145px;
+  margin-bottom: 45px;
+}
+.section-investor .design-elements {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1564px;
+  margin: 0 auto;
+  margin-top: 65px;
+}
+.section-investor .design-elements .icon {
+  font-size: 23px;
+  background-color: #9F9F9F;
+}
+.section-investor .grid-container {
+  display: flex;
+  justify-content: space-between;
+  grid-gap: 50px;
+  align-items: center;
+  max-width: 1640px;
+}
+.section-investor .grid-container .col-heading .title {
+  font-family: "Druk Wide";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 86%;
+  color: var(--gray-500);
+  max-width: 450px;
+}
+.section-investor .grid-container .col-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  grid-gap: 50px;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1170px;
+}
+.section-investor .grid-container .col-logo img {
+  width: auto;
+  max-height: 45px;
+  transition: all 0.2s;
+}
+.section-investor .grid-container .col-logo img:hover {
+  filter: brightness(0);
+}
+
+@media (max-width: 1440px) {
+  .section-investor .grid-container .col-logo {
+    max-width: 900px;
+  }
+}
+@media (max-width: 767px) {
+  .section-investor .grid-container {
+    flex-direction: column;
+    align-items: initial;
+    grid-gap: 36px;
+  }
+  .section-investor .grid-container .col-heading .title {
+    max-width: 100%;
+    font-size: 28px;
+  }
+  .section-investor .grid-container .col-logo {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-investor .grid-container .col-logo {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+  }
+  .section-investor .grid-container img:last-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .section-investor .grid-container img {
+    margin: 0 auto;
+  }
+}

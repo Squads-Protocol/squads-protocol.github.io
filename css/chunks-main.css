@@ -1,0 +1,235 @@
+.section-main {
+  margin-bottom: 30px;
+}
+.section-main .grid-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*grid-gap: 20px;*/
+  padding-top: 44px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #9F9F9F;
+}
+.section-main .grid-container .design-elements .icon {
+  position: absolute;
+  background-color: #9F9F9F;
+  font-size: 23px;
+}
+.section-main .grid-container .design-elements .icon.icon-top-left {
+  top: 42px;
+  left: 4.5%;
+}
+.section-main .grid-container .design-elements .icon.icon-top-right {
+  top: 42px;
+  right: 4.5%;
+}
+.section-main .grid-container .design-elements .icon.icon-bottom-left {
+  bottom: 67px;
+  left: 4.5%;
+}
+.section-main .grid-container .design-elements .icon.icon-bottom-right {
+  bottom: 67px;
+  right: 4.5%;
+}
+.section-main .grid-container .design-elements .icon.graph-mark-vertical {
+  left: -64px;
+  top: 43.5%;
+  font-size: 34px;
+  background-color: var(--gray-500);
+}
+.section-main .grid-container .title-label {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.section-main .grid-container .title-label img {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 60px;
+  max-width: 1658px;
+  opacity: 0.4;
+}
+.section-main .grid-container .rhomb-container {
+  width: 100%;
+  max-width: 613px;
+  margin-right: 20px;
+}
+.section-main .grid-container .rhomb-container:last-child {
+  margin-right: 0;
+}
+.section-main .grid-container .rhomb-container .box-ratio .content {
+  background-color: transparent;
+  background-image: url(/img/rhomb-vector.svg?v=1);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 80px;
+  transition: all 0.2s;
+}
+.section-main .grid-container .rhomb-container .box-ratio .content .row-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  padding: 35px;
+  color: var(--gray-500);
+}
+.section-main .grid-container .rhomb-container .box-ratio .content .row-content .bottom-col {
+  display: flex;
+}
+.section-main .grid-container .rhomb-container .box-ratio .content .row-content .bottom-col .icon {
+  margin-left: auto;
+  font-size: 30px;
+  background-color: #6D6D6D;
+  transition: all 0.2s;
+}
+.section-main .grid-container .rhomb-container .box-ratio .content .row-content .text-desc {
+  font-family: "Druk Wide";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 93%;
+}
+.section-main .grid-container .rhomb-container .box-ratio .content .row-content .text-secondary {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 117%;
+  max-width: 320px;
+  opacity: 0.8;
+}
+.section-main .grid-container .rhomb-container .box-ratio .content .row-content .text-index {
+  font-family: "Druk Wide";
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 93%;
+}
+.section-main .grid-container .rhomb-container:hover .box-ratio .content {
+  filter: invert(0.05);
+}
+.section-main .grid-container .rhomb-container:hover .box-ratio .content .row-content .bottom-col .icon {
+  transform: translate(10px, 10px);
+}
+
+@media (max-width: 1500px) {
+  .section-main .grid-container .design-elements .icon.graph-mark-vertical {
+    left: -25px;
+    top: 43%;
+  }
+  .section-main .grid-container .rhomb-container {
+    max-width: 575px;
+  }
+  .section-main .grid-container .rhomb-container .box-ratio .content .row-content {
+    padding: 25px;
+  }
+  .section-main .grid-container .title-label img {
+    margin-top: 0;
+  }
+  .section-main .grid-container .design-elements .icon.icon-top-left {
+    left: 6%;
+  }
+  .section-main .grid-container .design-elements .icon.icon-top-right {
+    right: 6%;
+  }
+  .section-main .grid-container .design-elements .icon.icon-bottom-left {
+    left: 6%;
+  }
+  .section-main .grid-container .design-elements .icon.icon-bottom-right {
+    right: 6%;
+  }
+  .section-main .grid-container {
+    padding-bottom: 70px;
+  }
+}
+@media (max-width: 1300px) {
+  .section-main .grid-container .design-elements .icon.icon-top-left {
+    top: 25px;
+    left: 2%;
+  }
+  .section-main .grid-container .design-elements .icon.icon-top-right {
+    top: 25px;
+    right: 2%;
+  }
+  .section-main .grid-container .design-elements .icon.icon-bottom-left {
+    bottom: 30px;
+    left: 2%;
+  }
+  .section-main .grid-container .design-elements .icon.icon-bottom-right {
+    bottom: 30px;
+    right: 2%;
+  }
+  .section-main .grid-container .design-elements .icon.graph-mark-vertical {
+    display: none;
+  }
+  .section-main .grid-container .rhomb-container .box-ratio .content {
+    padding: 6vw;
+  }
+  .section-main .grid-container .rhomb-container .box-ratio .content .row-content .text-desc {
+    font-size: 2.5vw;
+  }
+  .section-main .grid-container .rhomb-container .box-ratio .content .row-content .text-secondary {
+    font-size: 16px;
+  }
+  .section-main .grid-container .rhomb-container .box-ratio .content .row-content .text-index {
+    font-size: 5vw;
+  }
+}
+@media (max-width: 767px) {
+  .section-main .grid-container {
+    flex-direction: column;
+    grid-gap: 32px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  .section-main .grid-container .title-label {
+    display: none;
+  }
+  .section-main .grid-container .design-elements .icon {
+    font-size: 23px;
+  }
+  .section-main .grid-container .design-elements .icon.icon-top-left {
+    left: 0;
+  }
+  .section-main .grid-container .design-elements .icon.icon-top-right {
+    right: 0;
+  }
+  .section-main .grid-container .design-elements .icon.icon-bottom-left {
+    bottom: 30px;
+    left: 0;
+  }
+  .section-main .grid-container .design-elements .icon.icon-bottom-right {
+    bottom: 30px;
+    right: 0;
+  }
+  .section-main .grid-container .rhomb-container.rhomb-container_one {
+    margin-right: auto;
+  }
+  .section-main .grid-container .rhomb-container.rhomb-container_one .box-ratio:before {
+    padding-top: initial;
+  }
+  .section-main .grid-container .rhomb-container.rhomb-container_one .box-ratio .content {
+    position: initial;
+    padding: 0;
+    background-image: initial;
+  }
+  .section-main .grid-container .rhomb-container.rhomb-container_one .box-ratio .content .row-content {
+    padding: 0;
+  }
+  .section-main .grid-container .rhomb-container.rhomb-container_one .box-ratio .content .row-content .text-desc {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .section-main .grid-container .rhomb-container.rhomb-container_one .box-ratio .content .row-content .text-secondary {
+    font-size: 18px;
+    max-width: 90%;
+  }
+  .section-main .grid-container .rhomb-container .box-ratio .content {
+    padding: 11vw;
+  }
+  .section-main .grid-container .rhomb-container .box-ratio .content .row-content .text-index {
+    font-size: 32px;
+  }
+}

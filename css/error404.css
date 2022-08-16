@@ -1,0 +1,16 @@
+.notFound{font-size:30px;font-family: "Druk Wide";color:var(--gray-500);text-align: center;margin:50px 0 20px 0;}
+.error404{margin:0 auto}
+
+.section-main .container-xl{position: relative;padding:230px 20px 200px}
+.design-elements .icon{position: absolute;background-color: #9F9F9F;font-size: 23px;}
+.design-elements .icon-top-left{top:53px;left:10%;}
+.design-elements .icon-top-right{top:53px;right:10%;}
+.design-elements .icon-bottom-left{bottom:53px;left:10%;}
+.design-elements .icon-bottom-right{bottom:53px;right:10%;}
+
+@media (max-width: 1024px) {
+    .design-elements .icon-top-left{top:53px;left:29px}
+    .design-elements .icon-top-right{top:53px;right:29px}
+    .design-elements .icon-bottom-left{bottom:53px;left:29px}
+    .design-elements .icon-bottom-right{bottom:53px;right:29px}
+}
