@@ -260,6 +260,12 @@
   bottom: 0;
 }
 
+@media (max-width: 1400px) {
+  .section-features .grid-container .item-card.white-card .row-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 @media (max-width: 1350px) {
   .section-features .grid-container .item-card .row-content {
     padding: 0 64px;
