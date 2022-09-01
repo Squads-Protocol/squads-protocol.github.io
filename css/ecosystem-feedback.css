@@ -1,0 +1,136 @@
+.ecosystem-feedback {
+    margin-top: 55px;
+}
+
+.ecosystem-feedback .col-heading {
+    margin-bottom: 55px;
+}
+
+.ecosystem-feedback .col-heading .title {
+    font-family: "Druk Wide";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 86%;
+    color: #6D6D6D;
+}
+
+.ecosystem-feedback .container-carousel {
+    position: relative;
+    max-width: 1564px;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .ecosystem-feedback .container-carousel {
+        margin: 0 17px;
+    }
+}
+
+.ecosystem-feedback .container-carousel .control-panel-btn .splide__arrows {
+    position: absolute;
+    top: calc(50% - 19px);
+    padding: 0;
+
+}
+
+.ecosystem-feedback .container-carousel .control-panel-btn .splide__arrows i {
+    background-color: #9F9F9F;
+    font-size: 22px;
+}
+
+.ecosystem-feedback .container-carousel .control-panel-btn .splide__arrows:hover i {
+    background-color: #000;
+}
+
+.ecosystem-feedback .container-carousel .control-panel-btn .splide__arrow--prev {
+    left: -38px;
+}
+
+.ecosystem-feedback .container-carousel .control-panel-btn .splide__arrow--next {
+    right: -38px;
+}
+
+@media (max-width: 767px) {
+    .ecosystem-feedback .container-carousel .control-panel-btn .splide__arrows i {
+        font-size: 16px;
+    }
+
+    .ecosystem-feedback .container-carousel .control-panel-btn .splide__arrow--prev {
+        left: -30px;
+    }
+
+    .ecosystem-feedback .container-carousel .control-panel-btn .splide__arrow--next {
+        right: -30px;
+    }
+}
+
+.ecosystem-feedback .splide-feedback .splide__list {
+    display: flex;
+    align-items: center;
+}
+
+.ecosystem-feedback .splide-feedback .item {
+    max-width: 335px;
+    background: #F4F4F4;
+    border-radius: 25px;
+    padding: 25px;
+    margin-right: 20px;
+}
+
+@media (max-width: 767px) {
+    .ecosystem-feedback .splide-feedback .item {
+        max-width: none;
+    }
+}
+
+.ecosystem-feedback .splide-feedback .item .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.ecosystem-feedback .splide-feedback .item .header .avatar {
+    margin-right: 16px;
+}
+
+.ecosystem-feedback .splide-feedback .item .header .avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    object-fit: contain;
+}
+
+.ecosystem-feedback .splide-feedback .item .header .name-user {
+    display: flex;
+    flex-direction: column;
+}
+
+.ecosystem-feedback .splide-feedback .item .header .name-user .name {
+    font-family: 'Neue Plak';
+    font-size: 16px;
+    font-weight: bold;
+    color: #6D6D6D;
+}
+
+.ecosystem-feedback .splide-feedback .item .header .name-user .nickname {
+    font-family: "Neue Plak";
+    font-size: 16px;
+    font-weight: 500;
+    color: #6D6D6D;
+    opacity: 0.4;
+}
+
+.ecosystem-feedback .splide-feedback .item .comment {
+
+}
+
+.ecosystem-feedback .splide-feedback .item .comment p {
+    font-size: 16px;
+    line-height: 117%;
+    color: #6D6D6D;
+    margin-bottom: 20px;
+}
+
+.ecosystem-feedback .splide-feedback .item .comment p:last-child {
+    margin-bottom: 0;
+}

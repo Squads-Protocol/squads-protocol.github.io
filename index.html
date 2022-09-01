@@ -37,6 +37,13 @@
     <link rel="stylesheet" href="/css/reset.css?v=2.134">
     <!-- Icons -->
     <link rel="stylesheet" href="/css/icons.css?v=2.134">
+    <!-- Owl carousel -->
+<!--    <link rel="stylesheet" href="/plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">-->
+<!--    <link rel="stylesheet" href="/plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">-->
+    <!-- Splide -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/themes/splide-default.min.css">
+
     <!-- Style Global -->
     <link rel="stylesheet" href="/css/style.css?v=2.134">
 
@@ -49,6 +56,7 @@
     <link rel="stylesheet" href="/css/what-multisig.css?v=2.134"> <!-- section "what-multisig" -->
     <link rel="stylesheet" href="/css/features.css?v=2.138"> <!-- section "features" -->
     <link rel="stylesheet" href="/css/investor.css?v=2.134"> <!-- section "investor" -->
+    <link rel="stylesheet" href="/css/ecosystem-feedback.css?v=2.134"> <!-- section "investor" -->
     <link rel="stylesheet" href="/css/footer.css?v=2.134"> <!-- footer -->
 
 
@@ -389,6 +397,28 @@
                 </div>
             </div>
 
+            <div class="item-card item-card_four">
+                <div class="design-elements">
+                    <span class="count">04</span>
+                    <i class="icon plus icon-top-right"></i>
+                    <i class="icon square icon-bottom-left"></i>
+                    <i class="icon square icon-bottom-right"></i>
+                </div>
+                <div class="rhomb-background">
+                    <img src="/img/features-rhomb-4.svg" alt="vector">
+                </div>
+                <div class="row-content">
+                    <div class="block-text">
+                        <p class="heading">TX Builder</p>
+                        <p class="desc" style="max-width: 310px">Create custom transactions and interact with Anchor and pure Rust Solana programs directly from your Squad. Populate custom transactions with arbitrary instructions and approve them together.</p>
+                    </div>
+                    <picture>
+                        <source srcset="/img/features-screen-4_mob.svg?v=1.132" media="(max-width: 767px)" class="features-screen">
+                        <img src="/img/features-screen-4_pc.svg?v=1.132" alt="image" class="features-screen" style="max-height: 330px">
+                    </picture>
+                </div>
+            </div>
+
             <div class="item-card white-card">
                 <div class="design-elements">
                     <i class="icon plus icon-top-right"></i>
@@ -398,7 +428,7 @@
                 <div class="row-content">
 
                     <div class="rhomb-container">
-                        <span class="count">04</span>
+                        <span class="count">05</span>
                         <div class="box-ratio">
                             <div class="content">
                                 <div class="row-content">
@@ -414,7 +444,7 @@
                     </div>
 
                     <div class="rhomb-container">
-                        <span class="count">05</span>
+                        <span class="count">06</span>
                         <div class="box-ratio">
                             <div class="content">
                                 <div class="row-content">
@@ -430,7 +460,7 @@
                     </div>
 
                     <div class="rhomb-container">
-                        <span class="count">06</span>
+                        <span class="count">07</span>
                         <div class="box-ratio">
                             <div class="content">
                                 <div class="row-content">
@@ -446,7 +476,7 @@
                     </div>
 
                     <div class="rhomb-container">
-                        <span class="count">07</span>
+                        <span class="count">08</span>
                         <div class="box-ratio">
                             <div class="content">
                                 <div class="row-content">
@@ -460,36 +490,229 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="rhomb-container">
+                        <span class="count">09</span>
+                        <div class="box-ratio">
+                            <div class="content">
+                                <div class="row-content">
+                                    <div class="top-col">
+                                        <p class="text-index" style="max-width: 178px">Swap tokens with Jupiter as a Squad</p>
+                                    </div>
+                                    <div class="bottom-col">
+                                        <img src="/img/features-logo-5.svg" alt="logo" class="features-logo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- ************************ empty block ************************ -->
+
+                    <div class="rhomb-container mob-hidden">
+                        <span class="count"></span>
+                        <div class="box-ratio">
+                            <div class="content">
+                                <div class="row-content">
+                                    <div class="top-col">
+                                        <p class="text-index empty" style="max-width: 178px">Loading...</p>
+                                    </div>
+                                    <div class="bottom-col">
+                                        <img src="/img/features-logo-4.svg" alt="logo" class="features-logo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rhomb-container mob-hidden">
+                        <span class="count"></span>
+                        <div class="box-ratio">
+                            <div class="content">
+                                <div class="row-content">
+                                    <div class="top-col">
+                                        <p class="text-index empty" style="max-width: 178px">Loading...</p>
+                                    </div>
+                                    <div class="bottom-col">
+                                        <img src="/img/features-logo-4.svg" alt="logo" class="features-logo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="rhomb-container mob-hidden">
+                        <span class="count"></span>
+                        <div class="box-ratio">
+                            <div class="content">
+                                <div class="row-content">
+                                    <div class="top-col">
+                                        <p class="text-index empty" style="max-width: 178px">Loading...</p>
+                                    </div>
+                                    <div class="bottom-col">
+                                        <img src="/img/features-logo-4.svg" alt="logo" class="features-logo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
         </div>
-        <div class="design-elements">
-            <i class="icon plus icon-bottom-left"></i>
-            <i class="icon graph-mark-gorizontal"></i>
-            <i class="icon plus icon-bottom-right"></i>
-        </div>
+<!--        <div class="design-elements">-->
+<!--            <i class="icon plus icon-bottom-left"></i>-->
+<!--            <i class="icon graph-mark-gorizontal"></i>-->
+<!--            <i class="icon plus icon-bottom-right"></i>-->
+<!--        </div>-->
     </div>
 </section>
 
 
 <!-- Meet the investor Squad -->
-<section class="section-investor">
+<!--<section class="section-investor">-->
+<!--    <div class="container-xl">-->
+<!--        <div class="grid-container">-->
+<!--            <div class="col-heading">-->
+<!--                <h2 class="title">Meet the <br> investor Squad</h2>-->
+<!--            </div>-->
+<!--            <div class="col-logo">-->
+<!--                <img src="/img/investor-logo-1.svg" alt="logo">-->
+<!--                <img src="/img/investor-logo-2.svg" alt="logo">-->
+<!--                <img src="/img/investor-logo-3.svg" alt="logo">-->
+<!--                <img src="/img/investor-logo-4.svg" alt="logo">-->
+<!--                <img src="/img/investor-logo-5.svg" alt="logo">-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="design-elements">-->
+<!--            <i class="icon plus icon-bottom-left"></i>-->
+<!--            <i class="icon plus icon-bottom-right"></i>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+
+<!-- Ecosystem feedback -->
+<section class="ecosystem-feedback">
     <div class="container-xl">
         <div class="grid-container">
             <div class="col-heading">
-                <h2 class="title">Meet the <br> investor Squad</h2>
+                <h2 class="title">Ecosystem <br>feedback</h2>
             </div>
-            <div class="col-logo">
-                <img src="/img/investor-logo-1.svg" alt="logo">
-                <img src="/img/investor-logo-2.svg" alt="logo">
-                <img src="/img/investor-logo-3.svg" alt="logo">
-                <img src="/img/investor-logo-4.svg" alt="logo">
-                <img src="/img/investor-logo-5.svg" alt="logo">
+
+            <div class="container-carousel">
+
+                <div class="splide splide-feedback">
+                    <div class="splide__track">
+                        <ul class="splide__list">
+                            <li class="splide__slide">
+                                <!-- feedback -->
+                                <div class="item">
+                                    <div class="header">
+                                        <div class="avatar">
+                                            <img src="/img/avatar-1.png" alt="avatar">
+                                        </div>
+                                        <div class="name-user">
+                                            <p class="name">Kash Dhanda</p>
+                                            <p class="nickname">@kashdhanda</p>
+                                        </div>
+                                    </div>
+                                    <div class="comment">
+                                        <p class="text-md">DAMN! <br>Squads Protocol v3 is bananas.</p>
+                                        <p class="text-md">- ~$0.10 deployment cost <br> - Gorgeous new UX/UI (incl mobile!) <br> - Integrations with <b>Dialect, Bonfida, MagicEden, Cardinal & Pyth</b>
+                                            <br>- Open source + <b>Anchor</b> verified</p>
+                                        <p class="text-md">Huge shout out to Simkin Stepan and the team!</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <!-- feedback -->
+                                <div class="item">
+                                    <div class="header">
+                                        <div class="avatar">
+                                            <img src="/img/avatar-2.png" alt="avatar">
+                                        </div>
+                                        <div class="name-user">
+                                            <p class="name">Mike Dudas (🏌️‍♂️, ⛳️)</p>
+                                            <p class="nickname">@mdudas</p>
+                                        </div>
+                                    </div>
+                                    <div class="comment">
+                                        <p class="text-md">Love to see the <b>Solana</b> ecosystem maturing via impressive products like <b>Squads Protocol.</b></p>
+                                        <p class="text-md">This ecosystem growth is happening extremely fast on any time scale relative to historical blockchain app & infra development.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <!-- feedback -->
+                                <div class="item">
+                                    <div class="header">
+                                        <div class="avatar">
+                                            <img src="/img/avatar-3.png" alt="avatar">
+                                        </div>
+                                        <div class="name-user">
+                                            <p class="name">edgar</p>
+                                            <p class="nickname">@edgarpavlovsky</p>
+                                        </div>
+                                    </div>
+                                    <div class="comment">
+                                        <p class="text-md">4/ The v3 product suite is kind of ridiculous. On top of basic multisig functionality sits:</p>
+                                        <p class="text-md">👉 A custom transaction builder <br>👉 Program management <br>👉 A suite of third-party integrations</p>
+                                        <p class="text-md">I don't know how else to say it: it's everything you need, and all the things you want.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <!-- feedback -->
+                                <div class="item">
+                                    <div class="header">
+                                        <div class="avatar">
+                                            <img src="/img/avatar-4.png" alt="avatar">
+                                        </div>
+                                        <div class="name-user">
+                                            <p class="name">PsyDO</p>
+                                            <p class="nickname">@PsyOptions</p>
+                                        </div>
+                                    </div>
+                                    <div class="comment">
+                                        <p class="text-md">Excited for Simkin Stepan and team! We’re excited to have had early access and are excited to see an ecosystem of products flourish using this new standard.</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="splide__slide">
+                                <!-- feedback -->
+                                <div class="item">
+                                    <div class="header">
+                                        <div class="avatar">
+                                            <img src="/img/avatar-5.png" alt="avatar">
+                                        </div>
+                                        <div class="name-user">
+                                            <p class="name">buffalu 🤖💦</p>
+                                            <p class="nickname">@buffalu__</p>
+                                        </div>
+                                    </div>
+                                    <div class="comment">
+                                        <p class="text-md">We're super excited to use this!!! huge step forward for multisigs. check out that sexy UI too!</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="splide__arrows control-panel-btn">
+                        <button type="button" class="splide__arrows btn splide__arrow--prev"><i class="icon arrow-left"></i></button>
+                        <button type="button" class="splide__arrows btn splide__arrow--next"><i class="icon arrow-right"></i></button>
+                    </div>
+                </div>
+
+<!--                <div class="arrow-container_custom">-->
+<!--                    <button class="btn btn-arrow btn-arrow-prev"><i class="icon arrow-left"></i></button>-->
+<!--                    <button class="btn btn-arrow btn-arrow-next"><i class="icon arrow-right"></i></button>-->
+<!--                </div>-->
             </div>
-        </div>
-        <div class="design-elements">
-            <i class="icon plus icon-bottom-left"></i>
-            <i class="icon plus icon-bottom-right"></i>
         </div>
     </div>
 </section>
@@ -532,7 +755,12 @@
 </footer>
 
 <script src="/js/jquery-3.6.0.min.js"></script>
+<!--<script src="/plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.4.2/dist/js/splide-extension-auto-scroll.min.js"></script>
 <script src="/js/script.js?v=2.134"></script>
+
+<script src="/js/ecosystem-feedback.js?v=2.134"></script>
 
 </body>
 </html>

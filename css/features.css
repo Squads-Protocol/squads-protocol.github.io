@@ -1,6 +1,7 @@
 .section-features .row-heading {
   margin-bottom: 55px;
 }
+
 .section-features .row-heading .title {
   font-family: "Druk Wide";
   font-weight: 400;
@@ -8,10 +9,12 @@
   line-height: 86%;
   color: #6D6D6D;
 }
+
 .section-features .grid-container {
   display: flex;
   flex-direction: column;
 }
+
 .section-features .grid-container .item-card {
   position: relative;
   background-color: #252525;
@@ -32,32 +35,40 @@
   align-items: flex-end;
   justify-content: center;
 }
-.section-features .grid-container .item-card .rhomb-background img {
 
-}
+.section-features .grid-container .item-card .rhomb-background img {}
 
 .section-features .grid-container .item-card.item-card_one .rhomb-background img {
   margin-right: -75px;
 }
 
-.section-features .grid-container .item-card.item-card_two .rhomb-background {
-
-}
+.section-features .grid-container .item-card.item-card_two .rhomb-background {}
 
 .section-features .grid-container .item-card.item-card_three .rhomb-background {
   align-items: flex-start;
 }
+
 .section-features .grid-container .item-card.item-card_three .rhomb-background img {
   margin-left: -75px;
+}
+
+.section-features .grid-container .item-card.item-card_four .rhomb-background {
+  align-items: center;
+}
+
+.section-features .grid-container .item-card.item-card_four .rhomb-background img {
+
 }
 
 
 .section-features .grid-container .item-card:last-child {
   margin-bottom: 0;
 }
+
 .section-features .grid-container .item-card .design-elements {
   margin: 0;
 }
+
 .section-features .grid-container .item-card .design-elements .count {
   position: absolute;
   top: 33px;
@@ -65,28 +76,34 @@
   font-size: 13px;
   color: #5B5B5B;
 }
+
 .section-features .grid-container .item-card .design-elements .icon {
   position: absolute;
 }
+
 .section-features .grid-container .item-card .design-elements .icon.icon-top-right {
   top: 30px;
   right: 30px;
   font-size: 23px;
   background-color: #9F9F9F;
 }
+
 .section-features .grid-container .item-card .design-elements .icon.icon-bottom-left {
   left: 37px;
   bottom: 35px;
 }
+
 .section-features .grid-container .item-card .design-elements .icon.icon-bottom-right {
   right: 37px;
   bottom: 35px;
 }
+
 .section-features .grid-container .item-card .design-elements .icon.square {
   width: 7px;
   height: 7px;
   background-color: #fff;
 }
+
 .section-features .grid-container .item-card .row-content {
   position: relative;
   z-index: 2;
@@ -97,6 +114,7 @@
   max-width: 1514px;
   height: 397px;
 }
+
 .section-features .grid-container .item-card .row-content .block-text .heading {
   font-family: "Druk Wide";
   font-weight: 400;
@@ -106,6 +124,7 @@
   margin-bottom: 43px;
   max-width: 300px;
 }
+
 .section-features .grid-container .item-card .row-content .block-text .desc {
   font-family: "Neue Plak";
   font-weight: 400;
@@ -114,21 +133,25 @@
   color: #FFFFFF;
   opacity: 0.5;
 }
+
 .section-features .grid-container .item-card .row-content .features-screen {
   width: auto;
   max-width: 650px;
   height: 100%;
   object-fit: contain;
 }
+
 .section-features .grid-container .item-card.white-card {
   position: relative;
   background-color: #F4F4F4 !important;
   color: #000;
   min-height: 397px;
 }
+
 .section-features .grid-container .item-card.white-card .design-elements .icon.square {
   background-color: var(--gray-500);
 }
+
 .section-features .grid-container .item-card.white-card .row-content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -136,8 +159,9 @@
   justify-content: space-between;
   padding: 50px;
   height: auto;
-  max-width: 100% ;
+  max-width: 100%;
 }
+
 .section-features .grid-container .item-card.white-card .row-content .rhomb-container {
   position: relative;
   display: flex;
@@ -146,6 +170,13 @@
   margin: 0 auto;
   margin-top: auto;
 }
+
+@media (max-width: 767px) {
+  .section-features .grid-container .item-card.white-card .row-content .rhomb-container.mob-hidden {
+    display: none;
+  }
+}
+
 .section-features .grid-container .item-card.white-card .row-content .rhomb-container .count {
   position: absolute;
   top: -15px;
@@ -153,6 +184,7 @@
   font-size: 13px;
   color: #5B5B5B;
 }
+
 .section-features .grid-container .item-card.white-card .row-content .rhomb-container .box-ratio .content {
   background-color: transparent;
   background-image: url(/img/rhomb-empty-vector.svg);
@@ -163,6 +195,7 @@
   padding-right: 40px;
   transition: all 0.2s;
 }
+
 .section-features .grid-container .item-card.white-card .row-content .rhomb-container .box-ratio .content .row-content {
   display: flex;
   flex-direction: column;
@@ -173,44 +206,56 @@
   padding: 0;
   color: var(--gray-500);
 }
+
 .section-features .grid-container .item-card.white-card .row-content .rhomb-container .box-ratio .content .row-content .bottom-col {
   display: flex;
   justify-content: flex-end;
 }
+
 .section-features .grid-container .item-card.white-card .row-content .rhomb-container .box-ratio .content .row-content .bottom-col .features-logo {
   width: auto;
   min-width: initial;
   margin-right: 20px;
 }
+
 .section-features .grid-container .item-card.white-card .row-content .rhomb-container .box-ratio .content .row-content .text-index {
   font-family: "Druk Wide";
   font-weight: 400;
   font-size: 18px;
   line-height: 93%;
 }
-.section-features .container-xl > .design-elements {
+
+.section-features .grid-container .item-card.white-card .row-content .rhomb-container .box-ratio .content .row-content .text-index.empty {
+  color: #E7E7E7;
+}
+
+.section-features .container-xl>.design-elements {
   position: relative;
   width: 100%;
   max-width: 1564px;
   margin: 0 auto;
   margin-top: 80px;
 }
-.section-features .container-xl > .design-elements .icon {
+
+.section-features .container-xl>.design-elements .icon {
   position: absolute;
   font-size: 23px;
   background-color: #9F9F9F;
 }
-.section-features .container-xl > .design-elements .icon.icon-bottom-left {
+
+.section-features .container-xl>.design-elements .icon.icon-bottom-left {
   left: 0;
   bottom: 0;
 }
-.section-features .container-xl > .design-elements .icon.graph-mark-gorizontal {
+
+.section-features .container-xl>.design-elements .icon.graph-mark-gorizontal {
   left: 15%;
   bottom: -10px;
   background-color: var(--gray-500);
   font-size: 34px;
 }
-.section-features .container-xl > .design-elements .icon.icon-bottom-right {
+
+.section-features .container-xl>.design-elements .icon.icon-bottom-right {
   right: 0;
   bottom: 0;
 }
@@ -228,6 +273,7 @@
     max-width: 600px;
   }
 }
+
 @media (max-width: 1250px) {
   .section-features .grid-container .item-card .row-content .features-screen {
     max-width: 500px;
@@ -238,10 +284,12 @@
   .section-features .grid-container .item-card.white-card .row-content {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .section-features .grid-container .item-card.white-card .row-content .rhomb-container {
     margin: 0 auto;
   }
 }
+
 @media (max-width: 991px) {
   .section-features .grid-container .item-card .row-content {
     align-items: initial;
@@ -249,48 +297,60 @@
     grid-gap: 30px;
     padding: 60px 0;
   }
+
   .section-features .grid-container .item-card .rhomb-background {
     display: none !important;
   }
+
   .section-features .grid-container .item-card .row-content .block-text {
     margin: 0 60px;
   }
+
   .section-features .grid-container .item-card .row-content .features-screen {
     margin: 0 auto;
   }
+
   .section-features .grid-container .item-card .design-elements .count {
     top: 20px;
     left: 20px;
     font-size: 13px;
   }
+
   .section-features .grid-container .item-card .design-elements .icon.icon-top-right {
     top: 20px;
     right: 20px;
     font-size: 23px;
   }
+
   .section-features .grid-container .item-card .design-elements .icon.icon-bottom-left {
     left: 20px;
     bottom: 20px;
   }
+
   .section-features .grid-container .item-card .design-elements .icon.icon-bottom-right {
     right: 20px;
     bottom: 20px;
   }
+
   .section-features .grid-container .item-card .design-elements .icon.square {
     width: 7px;
     height: 7px;
   }
+
   .section-features .grid-container .item-card .row-content {
     grid-gap: 20px;
     height: auto;
   }
+
   .section-features .grid-container .item-card .row-content .block-text {
     margin: 0 30px;
   }
+
   .section-features .grid-container .item-card .row-content .block-text .heading {
     font-size: 22px;
     margin-bottom: 20px;
   }
+
   .section-features .grid-container .item-card .row-content .features-screen {
     margin: initial;
     margin-left: -10px;

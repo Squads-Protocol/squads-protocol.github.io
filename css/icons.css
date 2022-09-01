@@ -33,3 +33,13 @@
     mask-image: url(/icons/graph-mark-gorizontal.svg);
     -webkit-mask-image: url(/icons/graph-mark-gorizontal.svg);
 }
+
+.icon.arrow-left {
+    mask-image: url(/icons/arrow-left.svg);
+    -webkit-mask-image: url(/icons/arrow-left.svg);
+}
+
+.icon.arrow-right {
+    mask-image: url(/icons/arrow-right.svg);
+    -webkit-mask-image: url(/icons/arrow-right.svg);
+}
