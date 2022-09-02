@@ -25,8 +25,8 @@
                     </div>
                     <div class="item-col">
                         <p class="name">Legal</p>
-                        <a href="/terms.php" class="link">Terms of service</a>
-                        <a href="/disclaimer.php" class="link">Protocol disclaimer</a>
+                        <a href="/terms.html" class="link">Terms of service</a>
+                        <a href="/disclaimer.html" class="link">Protocol disclaimer</a>
                     </div>
                 </div>
             </div>

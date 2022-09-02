@@ -15,7 +15,7 @@
                             <a href="/" class="header-navigation__link">Overview</a>
                         </li>
                         <li class="header-navigation__item">
-                            <a href="/security.php" class="header-navigation__link">Security</a>
+                            <a href="/security.html" class="header-navigation__link">Security</a>
                         </li>
                         <li class="header-navigation__item">
                             <a href="javascript:void(0)" class="header-navigation__link">About</a>

@@ -18,6 +18,7 @@
     position: relative;
     max-width: 1564px;
     margin: 0 auto;
+    height: max-content;
 }
 
 @media (max-width: 767px) {
