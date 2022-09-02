@@ -51,7 +51,7 @@
     <!-- Chunks template Style CSS -->
     <link rel="stylesheet" href="/css/chunks-header.css?v=2.563457"> <!-- header -->
     <link rel="stylesheet" href="/css/footer.css?v=2.563457"> <!-- footer -->
-    <link rel="stylesheet" href="/css/disclaimer.css?v=2.563457"> <!-- section "main" -->
+    <link rel="stylesheet" href="/css/error404.css?v=2.563457"> <!-- section "main" -->
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -112,15 +112,20 @@
     </div>
 </header>
 
-<div id="app">
-    <section class="section-disclaimer">
-        <div class="container-xl">
-            <h1>PROTOCOL DISCLAIMER</h1>
-            <p>Squads is a decentralized protocol that helps web3-native teams organize, make decisions on-chain and manage digital assets together using codified membership, multi-signature wallets (multi-sigs) called “Vaults,” and tokenless, on-chain voting for governance. Your use of the Squads protocol involves various risks, including, but not limited to, risks inherent to cryptographic systems and blockchain-based networks. Before using the Squads protocol, you should review the relevant documentation to make sure you understand how Squads protocol works.</p>
-            <p>THE SQUADS PROTOCOL IS PROVIDED “AS IS”, AT YOUR OWN RISK, AND WITHOUT WARRANTIES OF ANY KIND. Although SELIMOR INVESTMENTS LIMITED (“Selimor”) developed the initial code for the Squads protocol, Selimor does not provide, own, or control the Squads protocol, which is run by smart contracts deployed on the Solana blockchain. No developer or entity involved in creating the Squads protocol will be liable for any claims or damages whatsoever associated with your use, inability to use, or your interaction with other users of, the Squads protocol, including any direct, indirect, incidental, special, exemplary, punitive or consequential damages, or loss of profits, cryptocurrencies, tokens, or anything else of value.</p>
+<section class="section-main" id="section-overview">
+    <div class="container-xl">
+        <div class="design-elements">
+            <i class="icon plus icon-top-left"></i>
+            <i class="icon plus icon-top-right"></i>
+            <i class="icon plus icon-bottom-left"></i>
+            <i class="icon plus icon-bottom-right"></i>
         </div>
-    </section>
-</div>
+
+        <img class="error404" src="/img/error404.svg">
+        <div class="notFound">Page not found</div>
+    </div>
+</section>
+
 
 <footer>
     <div class="container-xl">
@@ -162,7 +167,6 @@
 <script src="/js/jquery-3.6.0.min.js"></script>
 <!-- Index Script -->
 <script src="/js/script.js?v=2.563457"></script>
-<script src="/js/ecosystem-feedback.js?v=2.563457"></script>
 
 </body>
 </html>
