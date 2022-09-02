@@ -1,13 +1,5 @@
 $(document).ready(function () {
 
-    $('.section-header .header-navigation__link').on("click", function(e){
-//        e.preventDefault();
-        var anchor = $(this).attr('href');
-        $('html, body').stop().animate({
-            scrollTop: $(anchor).offset().top - 120
-        }, 800);
-    });
-
     // toggle menu
     $('.section-header .btn-toggle_menu').click(function (data) {
         var menuList = []

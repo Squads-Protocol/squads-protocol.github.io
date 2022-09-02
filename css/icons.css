@@ -19,6 +19,11 @@
     -webkit-mask-image: url(/icons/arrow-diagonally.svg);
 }
 
+.icon.arrow-diagonally2 {
+    mask-image: url(/icons/arrow-diagonally2.svg);
+    -webkit-mask-image: url(/icons/arrow-diagonally2.svg);
+}
+
 .icon.plus {
     mask-image: url(/icons/plus.svg);
     -webkit-mask-image: url(/icons/plus.svg);

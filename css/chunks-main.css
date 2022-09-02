@@ -6,8 +6,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  /*grid-gap: 20px;*/
-  padding-top: 44px;
   padding-bottom: 30px;
   border-bottom: 1px solid #9F9F9F;
 }

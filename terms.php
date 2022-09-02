@@ -1,91 +1,15 @@
-<!doctype html>
-<html lang="ru">
-<head>
-    <meta charset="utf-8">
-    <title>Squads | Terms of Service</title>
-    <meta name="description" content="The multisig standard you were looking for on Solana">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="icon" href="/img/favicon.ico">
+<?
+include $_SERVER['DOCUMENT_ROOT'].'/controllers/controller.php';
+$templates->head("Terms of Service");
+$templates->links_head(["css"=>['terms']])?>
 
-    <!-- Chrome, Firefox OS and Opera -->
-    <meta name="theme-color" content="#252525">
-    <!-- iOS Safari -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="#252525">
-    <meta property="og:title" content="Squads">
-    <meta property="og:site_name" content="Squads.so">
-    <meta property="og:url" content="https://squads.so/">
-    <meta property="og:image" content="/logo-ssr.jpeg">
-    <meta property="og:description" content="The multisig standard you were looking for on Solana">
-    <meta property="og:type" content="product">
-    <meta name="twitter:title" content="Squads">
-    <meta name="twitter:image" content="/logo-ssr.jpeg">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:description" content="The multisig standard you were looking for on Solana">
-    <meta name="next-head-count" content="12">
-    <meta property="og:updated_time" content="1660657933">
-
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <link rel="stylesheet" href="/css/variables.css?v=2.134">
-    <link rel="stylesheet" href="/fonts/Druk Wide/stylesheet.css?v=2.134">
-    <link rel="stylesheet" href="/fonts/Neue Plak/stylesheet.css?v=2.134">
-
-    <!-- reset CSS -->
-    <link rel="stylesheet" href="/css/reset.css?v=2.134">
-    <!-- Icons -->
-    <link rel="stylesheet" href="/css/icons.css?v=2.134">
-    <!-- Style Global -->
-    <link rel="stylesheet" href="/css/style.css?v=2.134">
-
-
-    <!-- Chunks template Style CSS -->
-    <link rel="stylesheet" href="/css/chunks-header.css?v=2.134"> <!-- header -->
-    <link rel="stylesheet" href="/css/chunks-main.css?v=2.134"> <!-- section "main" -->
-    <link rel="stylesheet" href="/css/advantages-section.css?v=2.134"> <!-- section "advantages" -->
-    <link rel="stylesheet" href="/css/our-partners.css?v=2.134"> <!-- section "our-partners" -->
-    <link rel="stylesheet" href="/css/what-multisig.css?v=2.134"> <!-- section "what-multisig" -->
-    <link rel="stylesheet" href="/css/features.css?v=2.138"> <!-- section "features" -->
-    <link rel="stylesheet" href="/css/investor.css?v=2.134"> <!-- section "investor" -->
-    <link rel="stylesheet" href="/css/footer.css?v=2.134"> <!-- footer -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3PLKNT0QYT"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-3PLKNT0QYT');
-    </script>
-
-
-    <style rel="stylesheet">
-        a{color:#00A3FF}
-    </style>
-
-</head>
-<body>
 <!-- header -->
-<header class="section-header">
-    <div class="container-xl">
-        <div class="header-grid__container">
-            <!-- logo -->
-            <div class="header-grid__col">
-                <a href="/" class="header-logo">
-                    <img src="/img/logo.svg" alt="logo" class="header-logo_img">
-                </a>
-            </div>
-        </div>
-    </div>
-</header>
+<?$templates->load('header')?>
 
-<section class="section-main" id="section-overview">
-    <div class="container-xl" style="padding-top:50px;">
-        <div style="padding-left: 30px">
-            <h1 style="margin-bottom:15px">Terms of Service</h1>
+<section class="section-terms" id="section-overview">
+    <div class="container-xl">
+        <div>
+            <h1>Terms of Service</h1>
             <p>THESE TERMS CREATE A BINDING CONTRACT BETWEEN YOU AND <b>SELIMOR INVESTMENTS LIMITED.</b> BY USING OUR SERVICES (DEFINED BELOW), YOU AGREE TO BE BOUND BY THESE TERMS.</p>
             <p>IF YOU DO NOT ACCEPT THESE TERMS, YOU MUST NOT AND ARE NOT AUTHORIZED TO USE ANY OF OUR SERVICES.</p>
             <p>ARBITRATION NOTICE: THESE TERMS CONTAIN AN ARBITRATION CLAUSE FOR USERS IN THE UNITED STATES AND CANADA, WHICH PROVISION IS CONTAINED BELOW UNDER THE HEADING "DISPUTE RESOLUTION". IF YOU ARE LOCATED IN THE UNITED STATES OR CANADA, YOU AGREE THAT DISPUTES BETWEEN YOU AND SQUADS (DEFINED BELOW) WILL BE RESOLVED BY BINDING, INDIVIDUAL ARBITRATION, AND YOU WAIVE YOUR RIGHT TO A TRIAL BY JURY OR TO PARTICIPATE AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS ACTION OR OTHER REPRESENTATIVE PROCEEDING.</p>
@@ -306,44 +230,7 @@
 </section>
 
 
-<footer>
-    <div class="container-xl">
-        <div class="grid-container">
+    <!-- footer -->
+<?$templates->load('footer')?>
 
-            <div class="left-col">
-                <a href="/"><img src="/img/logo-text.svg" alt="logo"></a>
-                <p class="footer-info">All rights reserved</p>
-                <p class="footer-info">© Squads Protocol 2022</p>
-            </div>
-
-            <div class="center-col">
-                <div class="nav-col">
-                    <!--                    <div class="item-col">-->
-                    <!--                        <p class="name">Product</p>-->
-                    <!--                        <a href="/" class="link">Overview</a>-->
-                    <!--                        <a href="/" class="link">Security</a>-->
-                    <!--                        <a href="/" class="link">Blog</a>-->
-                    <!--                    </div>-->
-                    <div class="item-col">
-                        <p class="name">Resources</p>
-                        <a href="https://github.com/squads-dapp/squads-mpl" target="_blank" class="link">Github</a>
-                        <a href="https://docs.squads.so/squads-v3-docs/" target="_blank" class="link">Documentation</a>
-                        <a href="https://twitter.com/squadsprotocol" target="_blank" class="link">Twitter</a>
-                        <a href="https://discord.com/invite/YPXz64TrKs" target="_blank" class="link">Discord</a>
-                    </div>
-                    <div class="item-col">
-                        <p class="name">Legal</p>
-                        <a href="/terms.html" class="link">Terms of service</a>
-                        <a href="/disclaimer.html" class="link">Protocol disclaimer</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<script src="/js/jquery-3.6.0.min.js"></script>
-<script src="/js/script.js?v=2.134"></script>
-
-</body>
-</html>
+<?$templates->script_head()?>

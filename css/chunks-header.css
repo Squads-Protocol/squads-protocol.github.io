@@ -2,6 +2,7 @@
   position: sticky;
   top: 0;
   z-index: 100;
+  margin-bottom: 44px;
   background: rgba(239, 239, 239, 0.9);
   backdrop-filter: blur(6px);
 }
@@ -140,12 +141,16 @@
   }
 }
 @media (max-width: 991px) {
+  .section-header {
+    margin-bottom: 25px;
+  }
+
   .section-header .header-grid__container {
     padding: 0;
     height: 80px;
   }
   .section-header .header-grid__container .header-navigation,
-.section-header .header-grid__container .header-btn {
+  .section-header .header-grid__container .header-btn {
     display: none;
   }
   .section-header .header-grid__container .btn-toggle_menu {

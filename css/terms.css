@@ -1,0 +1,31 @@
+.section-terms h1 {
+    font-family: "Druk Wide";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 86%;
+    color: #6D6D6D;
+    margin-bottom: 30px;
+}
+
+.section-terms p,
+.section-terms ol,
+.section-terms b,
+.section-terms li {
+    font-family: "Neue Plak";
+    font-size: 16px;
+    color: #6D6D6D;
+    margin-bottom: 15px;
+}
+
+.section-terms ol {
+    padding-left: 18px;
+}
+
+.section-terms ol li {
+    margin-bottom: 15px;
+}
+
+.section-terms ol li b {
+    display: block;
+    margin-bottom: 10px;
+}

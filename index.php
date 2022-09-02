@@ -1,128 +1,21 @@
-<!doctype html>
-<html lang="ru">
-<head>
-    <meta charset="utf-8">
-    <title>Squads | Solana Multisig Standard</title>
-    <meta name="description" content="The multisig standard you were looking for on Solana">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="icon" href="/img/favicon.ico?123">
-    <!-- Chrome, Firefox OS and Opera -->
-    <meta name="theme-color" content="#252525">
-    <!-- iOS Safari -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="#252525">
-    <meta property="og:title" content="Squads">
-    <meta property="og:site_name" content="Squads.so">
-    <meta property="og:url" content="https://squads.so/">
-    <meta property="og:image" content="/logo-ssr.jpeg">
-    <meta property="og:description" content="The multisig standard you were looking for on Solana">
-    <meta property="og:type" content="product">
-    <meta name="twitter:title" content="Squads">
-    <meta name="twitter:image" content="/logo-ssr.jpeg">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:description" content="The multisig standard you were looking for on Solana">
-    <meta name="next-head-count" content="12">
-    <meta property="og:updated_time" content="1660657933">
-
-
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <link rel="stylesheet" href="/css/variables.css?v=2.136">
-    <link rel="stylesheet" href="/fonts/Druk Wide/stylesheet.css?v=2.136">
-    <link rel="stylesheet" href="/fonts/Neue Plak/stylesheet.css?v=2.136">
-
-    <!-- reset CSS -->
-    <link rel="stylesheet" href="/css/reset.css?v=2.136">
-    <!-- Icons -->
-    <link rel="stylesheet" href="/css/icons.css?v=2.136">
-    <!-- Owl carousel -->
-<!--    <link rel="stylesheet" href="/plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">-->
-<!--    <link rel="stylesheet" href="/plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">-->
-    <!-- Splide -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/splide.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/css/themes/splide-default.min.css">
-
-    <!-- Style Global -->
-    <link rel="stylesheet" href="/css/style.css?v=2.136">
-
-
-    <!-- Chunks template Style CSS -->
-    <link rel="stylesheet" href="/css/chunks-header.css?v=2.136"> <!-- header -->
-    <link rel="stylesheet" href="/css/chunks-main.css?v=2.136"> <!-- section "main" -->
-    <link rel="stylesheet" href="/css/advantages-section.css?v=2.136"> <!-- section "advantages" -->
-    <link rel="stylesheet" href="/css/our-partners.css?v=2.136"> <!-- section "our-partners" -->
-    <link rel="stylesheet" href="/css/what-multisig.css?v=2.136"> <!-- section "what-multisig" -->
-    <link rel="stylesheet" href="/css/features.css?v=2.138"> <!-- section "features" -->
-    <link rel="stylesheet" href="/css/investor.css?v=2.136"> <!-- section "investor" -->
-    <link rel="stylesheet" href="/css/ecosystem-feedback.css?v=2.136"> <!-- section "investor" -->
-    <link rel="stylesheet" href="/css/footer.css?v=2.136"> <!-- footer -->
-
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3PLKNT0QYT"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-3PLKNT0QYT');
-    </script>
-
-
-</head>
-<body>
+<?
+include $_SERVER['DOCUMENT_ROOT'].'/controllers/controller.php';
+$templates->head("Squads");
+$templates->links_head(["css"=>[
+    'chunks-main',
+    'advantages-section',
+    'our-partners',
+    'what-multisig',
+    'features',
+    'investor',
+    'ecosystem-feedback',
+]])?>
 
 <!-- header -->
-<header class="section-header">
-    <div class="container-xl">
-        <div class="header-grid__container">
-            <!-- logo -->
-            <div class="header-grid__col">
-                <a href="/" class="header-logo">
-                    <img src="/img/logo.svg" alt="logo" class="header-logo_img">
-                </a>
-            </div>
-            <!-- nav -->
-            <div class="header-grid__col">
-                <nav class="header-navigation">
-                    <ul class="header-navigation__list flex flex-v-center">
-                        <li class="header-navigation__item">
-                            <a href="#section-overview" class="header-navigation__link">Overview</a>
-                        </li>
-                        <li class="header-navigation__item">
-                            <a href="#section-multisig" class="header-navigation__link">What is a multisig?</a>
-                        </li>
-                        <li class="header-navigation__item">
-                            <a href="#section-features" class="header-navigation__link">Features</a>
-                        </li>
-                        <li class="header-navigation__item">
-                            <a href="https://www.wordcelclub.com/squadsprotocol.sol" target="_blank" class="header-navigation__link">Blog</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <!-- event -->
-            <div class="header-grid__col">
-                <a href="https://v3.squads.so/" target="_blank" class="header-btn">
-                    <button type="button" class="btn btn-primary">Launch App</button>
-                </a>
-                <!-- btn mobile burger -->
-                <button class="btn btn-toggle_menu">
-                    <span class="btn-menu_line line-top"></span>
-                    <span class="btn-menu_line line-center"></span>
-                    <span class="btn-menu_line line-bottom"></span>
-                </button>
-            </div>
-        </div>
-    </div>
-</header>
-
-
+<?$templates->load('header')?>
 
 <!-- Main screen -->
-<section class="section-main" id="section-overview">
+<section class="section-main">
     <div class="container-xl">
         <div class="grid-container">
 
@@ -413,8 +306,8 @@
                         <p class="desc" style="max-width: 310px">Create custom transactions and interact with Anchor and pure Rust Solana programs directly from your Squad. Populate custom transactions with arbitrary instructions and approve them together.</p>
                     </div>
                     <picture>
-                        <source srcset="/img/features-screen-4_mob.svg?v=1.132" media="(max-width: 767px)" class="features-screen">
-                        <img src="/img/features-screen-4_pc.svg?v=1.132" alt="image" class="features-screen" style="max-height: 330px">
+                        <source srcset="/img/features-screen-4_mob.svg?v=1.133" media="(max-width: 767px)" class="features-screen">
+                        <img src="/img/features-screen-4_mob.svg?v=1.133" alt="image" class="features-screen" style="max-height: 330px">
                     </picture>
                 </div>
             </div>
@@ -563,11 +456,6 @@
                 </div>
             </div>
         </div>
-<!--        <div class="design-elements">-->
-<!--            <i class="icon plus icon-bottom-left"></i>-->
-<!--            <i class="icon graph-mark-gorizontal"></i>-->
-<!--            <i class="icon plus icon-bottom-right"></i>-->
-<!--        </div>-->
     </div>
 </section>
 
@@ -707,60 +595,18 @@
                         <button type="button" class="splide__arrows btn splide__arrow--next"><i class="icon arrow-right"></i></button>
                     </div>
                 </div>
-
-<!--                <div class="arrow-container_custom">-->
-<!--                    <button class="btn btn-arrow btn-arrow-prev"><i class="icon arrow-left"></i></button>-->
-<!--                    <button class="btn btn-arrow btn-arrow-next"><i class="icon arrow-right"></i></button>-->
-<!--                </div>-->
             </div>
         </div>
     </div>
 </section>
 
 
-<footer>
-    <div class="container-xl">
-        <div class="grid-container">
+<?$templates->load('footer')?>
 
-            <div class="left-col">
-                <a href="/"><img src="/img/logo-text.svg" alt="logo"></a>
-                <p class="footer-info">All rights reserved</p>
-                <p class="footer-info">© Squads Protocol 2022</p>
-            </div>
 
-            <div class="center-col">
-                <div class="nav-col">
-<!--                    <div class="item-col">-->
-<!--                        <p class="name">Product</p>-->
-<!--                        <a href="/" class="link">Overview</a>-->
-<!--                        <a href="/" class="link">Security</a>-->
-<!--                        <a href="/" class="link">Blog</a>-->
-<!--                    </div>-->
-                    <div class="item-col">
-                        <p class="name">Resources</p>
-                        <a href="https://github.com/squads-dapp/squads-mpl" target="_blank" class="link">Github</a>
-                        <a href="https://docs.squads.so/squads-v3-docs/" target="_blank" class="link">Documentation</a>
-                        <a href="https://twitter.com/squadsprotocol" target="_blank" class="link">Twitter</a>
-                        <a href="https://discord.com/invite/YPXz64TrKs" target="_blank" class="link">Discord</a>
-                    </div>
-                    <div class="item-col">
-                        <p class="name">Legal</p>
-                        <a href="/terms.html" class="link">Terms of service</a>
-                        <a href="/disclaimer.html" class="link">Protocol disclaimer</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
 
-<script src="/js/jquery-3.6.0.min.js"></script>
-<!--<script src="/plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>-->
+<!-- Splide -->
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.7/dist/js/splide.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide-extension-auto-scroll@0.4.2/dist/js/splide-extension-auto-scroll.min.js"></script>
-<script src="/js/script.js?v=2.136"></script>
 
-<script src="/js/ecosystem-feedback.js?v=2.136"></script>
-
-</body>
-</html>
+<?$templates->script_head(["js"=>['ecosystem-feedback']])?>

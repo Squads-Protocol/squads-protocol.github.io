@@ -8,6 +8,10 @@ body {
   background-color: var(--gray-100);
 }
 
+#app {
+  min-height: calc(100vh - 330px);
+}
+
 /* ----------- container ----------- */
 .container-xl {
   width: 100%;

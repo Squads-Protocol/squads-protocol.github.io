@@ -1,0 +1,16 @@
+.section-disclaimer h1 {
+    font-family: "Druk Wide";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 86%;
+    color: #6D6D6D;
+    margin-bottom: 30px;
+}
+
+.section-disclaimer p {
+    font-family: "Neue Plak";
+    font-weight: 400;
+    font-size: 18px;
+    color: #6D6D6D;
+    margin-bottom: 15px;
+}
