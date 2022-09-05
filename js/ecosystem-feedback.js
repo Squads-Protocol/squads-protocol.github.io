@@ -11,6 +11,7 @@ $(document).ready(function () {
         breakpoints: {
             767: {
                 perPage: 1,
+                perMove: 1,
                 autoWidth: true,
                 autoScroll: {
                     speed: 1,

@@ -18,7 +18,7 @@
                             <a href="/security.html" class="header-navigation__link">Security</a>
                         </li>
                         <li class="header-navigation__item">
-                            <a href="javascript:void(0)" class="header-navigation__link">About</a>
+                            <a href="/about.html" class="header-navigation__link">About</a>
                         </li>
                         <li class="header-navigation__item">
                             <a href="https://www.wordcelclub.com/squadsprotocol.sol" target="_blank" class="header-navigation__link">Blog</a>

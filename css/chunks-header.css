@@ -30,6 +30,9 @@
   color: var(--gray-500);
   transition: all 0.2s;
 }
+.section-header .header-grid__container .header-navigation .header-navigation__list .header-navigation__item .header-navigation__link.active {
+  font-weight: bold;
+}
 .section-header .header-grid__container .header-navigation .header-navigation__list .header-navigation__item .header-navigation__link:hover {
   color: #000;
 }
