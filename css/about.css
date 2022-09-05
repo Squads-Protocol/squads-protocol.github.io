@@ -293,7 +293,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    grid-column-gap: 55px;
+    grid-column-gap: 60px;
     grid-row-gap: 30px;
     max-width: 1410px;
     margin: 0 auto;
@@ -314,6 +314,12 @@
 .section-investor .custody-society {
     position: relative;
     overflow: hidden;
+}
+
+@media (max-width: 1500px) {
+    .section-investor .wrapper-container > .grid-container {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 1300px) {
