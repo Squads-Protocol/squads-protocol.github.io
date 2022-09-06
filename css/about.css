@@ -17,6 +17,7 @@
 
 .section-main .heading-text h1 {
     font-family: 'Druk Wide';
+    font-weight: 400;
     font-size: 30px;
     color: #6D6D6D;
     margin-bottom: 40px;
@@ -73,9 +74,28 @@
     opacity: 0.4;
 }
 
+@media (max-width: 1500px) {
+    .section-main .grid-container .design-elements .icon.graph-mark-vertical {
+        left: -24px;
+    }
+    .section-main .grid-container .title-label img {
+        width: 80%;
+    }
+    .section-teams .col-heading {
+        padding-left: 76px;
+    }
+}
+
 @media (max-width: 1200px) {
     .section-main .heading-text {
         padding-left: 70px;
+    }
+    .section-teams .col-heading {
+        padding-left: 0;
+    }
+
+    .section-main .grid-container .design-elements .icon.graph-mark-vertical {
+        left: -14px;
     }
 }
 
@@ -84,6 +104,14 @@
         padding-left: 0;
         padding-top: 110px;
         padding-bottom: 140px;
+    }
+
+    .section-main .grid-container .design-elements .icon.graph-mark-vertical {
+        display: none;
+    }
+
+    .section-teams .col-heading {
+        padding-left: 0;
     }
 
     .section-main .heading-text h1 {
