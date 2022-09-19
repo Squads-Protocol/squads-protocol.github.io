@@ -21,6 +21,10 @@
     height: max-content;
 }
 
+.ecosystem-feedback .container-carousel .splide__list {
+    height: max-content;
+}
+
 @media (max-width: 767px) {
     .ecosystem-feedback .container-carousel {
         margin: 0 17px;
