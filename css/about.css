@@ -411,7 +411,7 @@
 .section-investor .custody-society .grid-container-logo {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     flex-wrap: wrap;
     grid-column-gap: 58px;
     grid-row-gap: 24px;
@@ -524,7 +524,8 @@
     .section-investor .custody-society .grid-container-logo {
         /*display: grid;*/
         /*grid-template-columns: repeat(4, auto);*/
-        grid-column-gap: 9px;
+        grid-column-gap: 7px;
+        justify-content:space-between;
     }
 
     .section-investor .wrapper-container .grid-container img {
