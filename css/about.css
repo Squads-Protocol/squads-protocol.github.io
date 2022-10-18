@@ -468,7 +468,7 @@
 @media (max-width: 1300px) {
     .section-investor .custody-society .grid-container-logo {
         grid-column-gap: 40px;
-        grid-row-gap: 26px;
+        grid-row-gap: 30px;
         max-width: 530px;
     }
 }
@@ -524,7 +524,7 @@
     .section-investor .custody-society .grid-container-logo {
         /*display: grid;*/
         /*grid-template-columns: repeat(4, auto);*/
-        grid-column-gap: 22px;
+        grid-column-gap: 13px;
     }
 
     .section-investor .wrapper-container .grid-container img {
