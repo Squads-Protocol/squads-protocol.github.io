@@ -308,7 +308,7 @@
     font-size: 30px;
     line-height: 94%;
     color: #6D6D6D;
-    max-width: 330px;
+    max-width: 336px;
 }
 
 .section-investor .wrapper-container .container-lg {
@@ -468,7 +468,7 @@
 @media (max-width: 1300px) {
     .section-investor .custody-society .grid-container-logo {
         grid-column-gap: 40px;
-        grid-row-gap: 30px;
+        grid-row-gap: 26px;
         max-width: 530px;
     }
 }
@@ -522,9 +522,9 @@
     }
 
     .section-investor .custody-society .grid-container-logo {
-        display: grid;
-        grid-template-columns: repeat(4, auto);
-        grid-column-gap: 30px;
+        /*display: grid;*/
+        /*grid-template-columns: repeat(4, auto);*/
+        grid-column-gap: 23px;
     }
 
     .section-investor .wrapper-container .grid-container img {
