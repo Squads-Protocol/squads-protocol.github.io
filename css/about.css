@@ -524,7 +524,7 @@
     .section-investor .custody-society .grid-container-logo {
         /*display: grid;*/
         /*grid-template-columns: repeat(4, auto);*/
-        grid-column-gap: 13px;
+        grid-column-gap: 9px;
     }
 
     .section-investor .wrapper-container .grid-container img {
