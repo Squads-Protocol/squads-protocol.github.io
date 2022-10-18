@@ -13,6 +13,15 @@
   top: 0;
   left: 0;
 }
+@media (max-width: 991px) {
+  .what-multisig .grid-container .title-label {
+    width: 100%;
+    top: -80px;
+  }
+  .what-multisig .grid-container .title-label img {
+    width: 100%;
+  }
+}
 .what-multisig .grid-container .left-col,
 .what-multisig .grid-container .right-col {
   position: relative;

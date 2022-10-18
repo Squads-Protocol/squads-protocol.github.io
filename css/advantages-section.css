@@ -1,8 +1,10 @@
+.advantages-section {
+  margin-bottom: 100px;
+}
 .advantages-section .row-content {
   position: relative;
   padding: 30px 30px 50px;
   color: #FFFFFF;
-  margin-bottom: 51px;
 }
 .advantages-section .row-content .design-elements .icon {
   position: absolute;

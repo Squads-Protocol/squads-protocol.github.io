@@ -131,6 +131,13 @@
     grid-column-start: 1;
     grid-column-end: 3;
 }
+.section-grid-advantages .grid-container .item-adv:last-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.section-grid-advantages .grid-container .item-adv:last-child .btn {
+    margin-top: 30px;
+}
 
 .section-grid-advantages .grid-container .item-adv .design-elements {
 
@@ -265,22 +272,29 @@
 }
 
 @media (max-width: 1300px) {
-    .section-grid-advantages .grid-container {
-        grid-template-columns: 1fr;
-    }
-
-    .section-grid-advantages .grid-container .item-adv:first-child {
-        grid-column-start: initial;
-        grid-column-end: initial;
-    }
-
     .section-grid-advantages .grid-container .item-adv:first-child .img-block {
         position: absolute !important;
         right: 40px !important;
     }
+
+    .section-grid-advantages .grid-container .item-adv:not(:last-child) .img-block {
+        right: -30px;
+    }
+
+    .section-grid-advantages .grid-container .item-adv:not(:last-child) .img-block img {
+        width: 60%;
+    }
 }
 
 @media (max-width: 991px) {
+    .section-grid-advantages .grid-container {
+        grid-template-columns: 1fr;
+    }
+    .section-grid-advantages .grid-container .item-adv:first-child,
+    .section-grid-advantages .grid-container .item-adv:last-child {
+        grid-column-start: initial;
+        grid-column-end: initial;
+    }
     .section-grid-advantages .grid-container .item-adv:first-child .img-block,
     .section-grid-advantages .grid-container .item-adv .img-block {
         position: relative !important;
@@ -289,6 +303,16 @@
     .section-grid-advantages .grid-container .item-adv .img-block {
         right: auto !important;
         margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section-grid-advantages .grid-container .item-adv .img-block img {
+        width: 100% !important;
+    }
+
+    .section-grid-advantages .grid-container .item-adv:last-child .img-block {
+        margin-top: -60px;
     }
 
     .section-grid-advantages .grid-container .item-adv .block-text .heading {
@@ -334,11 +358,6 @@
     }
 }
 
-
-
-.section-start {
-
-}
 
 .section-start .grid-container .rhomb-container {
     display: flex;
