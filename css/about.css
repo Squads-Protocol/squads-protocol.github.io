@@ -387,10 +387,7 @@
     align-items: center;
     justify-content: space-between;
     grid-gap: 80px;
-}
-
-.section-investor .custody-society .block-text {
-
+    max-width: 1331px;
 }
 
 .section-investor .custody-society .block-text .heading {
@@ -411,11 +408,15 @@
 .section-investor .custody-society .grid-container-logo {
     display: flex;
     align-items: center;
-    /*justify-content: space-between;*/
+    justify-content: space-between;
     flex-wrap: wrap;
-    grid-column-gap: 58px;
+    grid-column-gap: 69px;
     grid-row-gap: 24px;
-    max-width: 852px;
+    max-width: 867px;
+}
+
+.section-investor .custody-society .grid-container-logo img {
+    max-height: 35px;
 }
 
 .section-investor .custody-society .design-elements i {
