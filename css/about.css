@@ -311,12 +311,18 @@
     max-width: 336px;
 }
 
+@media (max-width: 767px) {
+    .section-investor .col-heading .title {
+        font-size: 28px;
+    }
+}
+
 .section-investor .wrapper-container .container-lg {
     max-width: 1564px;
     padding: 0;
 }
 
-.section-investor .wrapper-container  > .grid-container {
+.section-investor .wrapper-container .grid-container-meet-investor {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -345,29 +351,23 @@
 }
 
 @media (max-width: 1500px) {
-    .section-investor .wrapper-container > .grid-container {
-        justify-content: center;
-    }
-}
-
-@media (max-width: 1300px) {
-    .section-investor .wrapper-container .grid-container {
-        justify-content: center;
+    .section-investor .wrapper-container .grid-container-meet-investor {
+        justify-content: start;
     }
 }
 
 @media (max-width: 767px) {
-    .section-investor .wrapper-container .grid-container {
+    .section-investor .wrapper-container .grid-container-meet-investor {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    .section-investor .wrapper-container .grid-container img {
+    .section-investor .wrapper-container .grid-container-meet-investor img {
         margin:  0 auto;
         grid-column-gap: 35px;
     }
 
-    .section-investor .wrapper-container .grid-container a:last-child {
+    .section-investor .wrapper-container .grid-container-meet-investor a:last-child {
         grid-column-start: 1;
         grid-column-end: 3;
     }
@@ -523,14 +523,15 @@
     }
 
     .section-investor .custody-society .grid-container-logo {
-        /*display: grid;*/
-        /*grid-template-columns: repeat(4, auto);*/
-        grid-column-gap: 7px;
-        justify-content:space-between;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 22px;
+        justify-content: center;
     }
 
     .section-investor .wrapper-container .grid-container img {
-        max-height: 30px;
+        max-height: 29px;
+        margin: 0 auto;
     }
 }
 
