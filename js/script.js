@@ -62,7 +62,9 @@ $(document).ready(function () {
             closeMobileMenu();
         });
     })
-
+    $('.clickHref').click(function(){
+        clickHref($(this).data('href'));
+    });
 });
 
 // open mob menu
@@ -79,4 +81,17 @@ function closeMobileMenu() {
     $('body').removeClass('noScroll')
     $('.mobile-navigation').removeClass('open');
     $('.section-header .btn-toggle_menu').removeClass('open');
+}
+
+function clickHref(href){
+    var hrefs = {
+        'MagicEden':'https://docs.squads.so/squads-v3-docs/integrations/magic-eden',
+        'Cardinal':'https://docs.squads.so/squads-v3-docs/integrations/cardinal',
+        'Bonfida':'https://docs.squads.so/squads-v3-docs/integrations/bonfida',
+        'Dialect':'https://docs.squads.so/squads-v3-docs/integrations/dialect',
+        'Jupiter':'https://docs.squads.so/squads-v3-docs/integrations/jupiter',
+        'Stakewiz':'https://docs.squads.so/squads-v3-docs/integrations/staking/stakewiz',
+        'Explorer':'https://docs.squads.so/squads-v3-docs/navigating-your-squad/owners-and-settings'
+    };
+    document.location = hrefs[href];
 }
