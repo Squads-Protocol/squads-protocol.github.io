@@ -91,7 +91,10 @@ function clickHref(href){
         'Dialect':'https://docs.squads.so/squads-v3-docs/integrations/dialect',
         'Jupiter':'https://docs.squads.so/squads-v3-docs/integrations/jupiter',
         'Stakewiz':'https://docs.squads.so/squads-v3-docs/integrations/staking/stakewiz',
-        'Explorer':'https://docs.squads.so/squads-v3-docs/navigating-your-squad/owners-and-settings'
+        'Explorer':'https://docs.squads.so/squads-v3-docs/navigating-your-squad/owners-and-settings',
+        'twitterStepan':'https://twitter.com/SimkinStepan',
+        'twitterDeni':'https://twitter.com/deni_ersht',
+        'twitterSean':'https://twitter.com/gansersol'
     };
     document.location = hrefs[href];
 }

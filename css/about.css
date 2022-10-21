@@ -405,6 +405,7 @@
     opacity: 0.5;
 }
 
+.section-investor .custody-society .grid-container-logo a {min-width: 50px}
 .section-investor .custody-society .grid-container-logo {
     display: flex;
     align-items: center;
@@ -542,10 +543,16 @@
 .section-build .grid-container {
     position: relative;
 }
-
+.section-build .col-heading .title{
+    font-family: "Druk Wide";
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 86%;
+    color: #6D6D6D;
+}
 .section-build .grid-container .title-label {
     position: absolute;
-    top: -45px;
+    top: 90px;
 }
 
 .section-build .grid-container .title-label .text {
@@ -601,10 +608,16 @@
     padding-bottom: 35px;
 }
 
+.section-build .grid-container .list-nav .item:hover .title{
+    color: var(--gray-700);
+    /*transform: translateX(20px);*/
+    padding-left: 20px;
+}
 .section-build .grid-container .list-nav .item .row-content .title {
     font-family: 'Druk Wide';
     font-size: 22px;
     color: #6D6D6D;
+    transition: all 0.2s;
 }
 
 .section-build .grid-container .design-elements {
@@ -619,6 +632,7 @@
 .section-build .grid-container .design-elements i {
     font-size: 7px;
     background-color: #6D6D6D;
+    margin-top: 40px;
 }
 
 @media (max-width: 1820px) {
