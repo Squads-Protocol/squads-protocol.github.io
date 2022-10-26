@@ -1,9 +1,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Disclaimer | Solana Multisig Standard</title>
+    <title>Post "Introducing Squads V3" | Blog</title>
     <meta name="description" content="The multisig standard you were looking for on Solana">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="icon" href="/img/favicon.ico?123">
@@ -50,16 +49,18 @@
 
 
     <!-- Chunks template Style CSS -->
-    <link rel="stylesheet" href="/css/chunks-header.css?v=2.563478"> <!-- header -->
-    <link rel="stylesheet" href="/css/footer.css?v=2.563478"> <!-- footer -->
-    <link rel="stylesheet" href="/css/error404.css?v=2.563478"> <!-- section "main" -->
+    <link rel="stylesheet" href="/css/blog-post.css?v=2.563478"> <!-- section "post" -->
 
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3PLKNT0QYT"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-3PLKNT0QYT');
@@ -92,8 +93,8 @@
                             <a href="/about.html" class="header-navigation__link">About</a>
                         </li>
                         <li class="header-navigation__item">
-<!--                            <a href="https://www.wordcelclub.com/squadsprotocol.sol" target="_blank" class="header-navigation__link">Blog</a>-->
-                            <a href="/blog.html" class="header-navigation__link">Blog</a>
+                            <!--              <a href="https://www.wordcelclub.com/squadsprotocol.sol" target="_blank" class="header-navigation__link">Blog</a>-->
+                            <a href="/blog.html" class="header-navigation__link active">Blog</a>
                         </li>
                     </ul>
                 </nav>
@@ -114,17 +115,17 @@
     </div>
 </header>
 
-<section class="section-main" id="section-overview">
-    <div class="container-xl">
-        <div class="design-elements">
-            <i class="icon plus icon-top-left"></i>
-            <i class="icon plus icon-top-right"></i>
-            <i class="icon plus icon-bottom-left"></i>
-            <i class="icon plus icon-bottom-right"></i>
-        </div>
 
-        <img class="error404" src="/img/error404.svg">
-        <div class="notFound">Page not found</div>
+<section class="section-header-post">
+    <div class="container-xl">
+        <div class="grid-container">
+            <h2 class="title-post">Introducing Squads V3</h2>
+            <img src="/img/blog/header-logo.svg" alt="logo" class="logo">
+            <div class="info-block">
+                <p class="date">08/16/22</p>
+                <p class="text">Introducing Squads V3</p>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -170,6 +171,7 @@
         </div>
     </div>
 </footer>
+
 
 <!-- Jquery -->
 <script src="/js/jquery-3.6.0.min.js"></script>
