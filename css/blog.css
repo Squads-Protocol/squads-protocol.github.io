@@ -1,6 +1,6 @@
 .section-header-main {
   overflow: hidden;
-  margin-bottom: 110px;
+  margin-bottom: 100px;
 }
 
 .section-header-main .grid-container {
@@ -102,7 +102,7 @@
 
 .section-list-post .list-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   outline: 2px solid #efefef;
   outline-offset: -1px;
   padding-top: 1px;
@@ -151,6 +151,12 @@
   }
   .section-list-post .list-container .item-post:hover .logo {
     filter: invert(0.05);
+  }
+}
+
+@media (max-width: 1600px) {
+  .section-list-post .list-container {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
