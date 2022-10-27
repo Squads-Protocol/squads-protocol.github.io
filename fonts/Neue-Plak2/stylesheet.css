@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Neue Plak Ultra';
+    src: url('NeuePlak-UltraLight.eot');
+    src: local('Neue Plak Ultra Light'), local('NeuePlak-UltraLight'),
+        url('NeuePlak-UltraLight.eot?#iefix') format('embedded-opentype'),
+        url('NeuePlak-UltraLight.woff2') format('woff2'),
+        url('NeuePlak-UltraLight.woff') format('woff'),
+        url('NeuePlak-UltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Plak';
+    src: url('NeuePlak-Thin.eot');
+    src: local('Neue Plak Thin'), local('NeuePlak-Thin'),
+        url('NeuePlak-Thin.eot?#iefix') format('embedded-opentype'),
+        url('NeuePlak-Thin.woff2') format('woff2'),
+        url('NeuePlak-Thin.woff') format('woff'),
+        url('NeuePlak-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Plak Text';
+    src: url('NeuePlakText-Regular.eot');
+    src: local('Neue Plak Text'), local('NeuePlakText-Regular'),
+        url('NeuePlakText-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NeuePlakText-Regular.woff2') format('woff2'),
+        url('NeuePlakText-Regular.woff') format('woff'),
+        url('NeuePlakText-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Plak';
+    src: url('NeuePlak-Light.eot');
+    src: local('Neue Plak Light'), local('NeuePlak-Light'),
+        url('NeuePlak-Light.eot?#iefix') format('embedded-opentype'),
+        url('NeuePlak-Light.woff2') format('woff2'),
+        url('NeuePlak-Light.woff') format('woff'),
+        url('NeuePlak-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Plak';
+    src: url('NeuePlak-Black.eot');
+    src: local('Neue Plak Black'), local('NeuePlak-Black'),
+        url('NeuePlak-Black.eot?#iefix') format('embedded-opentype'),
+        url('NeuePlak-Black.woff2') format('woff2'),
+        url('NeuePlak-Black.woff') format('woff'),
+        url('NeuePlak-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Plak';
+    src: url('NeuePlak-Regular.eot');
+    src: local('Neue Plak'), local('NeuePlak-Regular'),
+        url('NeuePlak-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NeuePlak-Regular.woff2') format('woff2'),
+        url('NeuePlak-Regular.woff') format('woff'),
+        url('NeuePlak-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Plak';
+    src: url('NeuePlak-Bold.eot');
+    src: local('Neue Plak Bold'), local('NeuePlak-Bold'),
+        url('NeuePlak-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NeuePlak-Bold.woff2') format('woff2'),
+        url('NeuePlak-Bold.woff') format('woff'),
+        url('NeuePlak-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Plak';
+    src: url('NeuePlak-SemiBold.eot');
+    src: local('Neue Plak SemiBold'), local('NeuePlak-SemiBold'),
+        url('NeuePlak-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('NeuePlak-SemiBold.woff2') format('woff2'),
+        url('NeuePlak-SemiBold.woff') format('woff'),
+        url('NeuePlak-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neue Plak Extra';
+    src: url('NeuePlak-ExtraBlack.eot');
+    src: local('Neue Plak Extra Black'), local('NeuePlak-ExtraBlack'),
+        url('NeuePlak-ExtraBlack.eot?#iefix') format('embedded-opentype'),
+        url('NeuePlak-ExtraBlack.woff2') format('woff2'),
+        url('NeuePlak-ExtraBlack.woff') format('woff'),
+        url('NeuePlak-ExtraBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
