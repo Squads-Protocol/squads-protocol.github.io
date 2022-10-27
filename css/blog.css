@@ -182,4 +182,7 @@
   .section-list-post .list-container .item-post:nth-child(2n) {
     padding-left: 10px;
   }
+  .section-list-post .list-container .item-post .logo {
+    width: 158px;
+  }
 }
