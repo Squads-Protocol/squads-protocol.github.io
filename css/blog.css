@@ -1,0 +1,188 @@
+.section-header-main {
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+
+.section-header-main .grid-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 570px;
+}
+
+.section-header-main .grid-container .title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translate(0, -50%);
+  font-family: 'Druk Wide';
+  font-weight: 400;
+  font-size: 140px;
+  line-height: 86%;
+  margin-top: -12px;
+  display: flex;
+  align-items: center;
+  color: rgba(249, 249, 249, 0.9);
+  opacity: 0.9;
+  white-space: nowrap;
+}
+
+.section-header-main .grid-container .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: -6px;
+  z-index: 2;
+}
+
+.section-header-main .grid-container .info-block {
+  margin-top: auto;
+  padding-bottom: 10px;
+}
+
+.section-header-main .grid-container .info-block .date {
+  font-family: 'Neue Plak';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 117%;
+  color: #6D6D6D;
+  margin-bottom: 28px;
+}
+
+.section-header-main .grid-container .info-block .text {
+  font-family: 'Druk Wide';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 92%;
+  display: flex;
+  align-items: flex-end;
+  color: #6D6D6D;
+  max-width: 190px;
+}
+
+@media (max-width: 1200px) {
+  .section-header-main .grid-container {
+    height: 490px;
+  }
+  .section-header-main .grid-container .title {
+    font-size: 115px;
+    line-height: 86%;
+    margin-top: -32px;
+    margin-left: 26px;
+  }
+  .section-header-main .grid-container .logo {
+    width: 404px;
+    height: auto;
+    margin-top: -24px;
+  }
+  .section-header-main .grid-container .info-block {
+    margin-left: 26px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-header-main .grid-container {
+    align-items: center;
+    height: 410px;
+  }
+  .section-header-main .grid-container .title {
+    font-size: 57px;
+    margin-left: 0;
+  }
+  .section-header-main .grid-container .logo {
+    width: 250px;
+  }
+  .section-header-main .grid-container .info-block {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+
+.section-list-post .list-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  outline: 2px solid #efefef;
+  outline-offset: -1px;
+  padding-top: 1px;
+  margin: 0 auto;
+  max-width: 1584px;
+}
+
+.section-list-post .list-container .item-post {
+  display: flex;
+  flex-direction: column;
+  padding: 25px 34px 32px;
+  border: 1px solid #9F9F9F;
+  height: 360px;
+  margin-left: -1px;
+  margin-bottom: -1px;
+}
+
+.section-list-post .list-container .item-post .date {
+  font-family: 'Neue Plak';
+  font-weight: 400;
+  font-size: 13px;
+  color: #5B5B5B;
+  margin-bottom: 22px;
+}
+
+.section-list-post .list-container .item-post .title-post {
+  font-family: 'Druk Wide';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 92%;
+  max-width: 225px;
+  color: #6D6D6D;
+  transition: 0.2s;
+}
+
+.section-list-post .list-container .item-post .logo {
+  margin-left: auto;
+  margin-top: auto;
+  transition: 0.2s;
+}
+
+@media (min-width: 991px) {
+  .section-list-post .list-container .item-post:hover .title-post {
+    color: #3e3e3e;
+    transform: translateX(10px);
+  }
+  .section-list-post .list-container .item-post:hover .logo {
+    filter: invert(0.05);
+  }
+}
+
+@media (max-width: 1600px) {
+  .section-list-post .list-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1300px) {
+  .section-list-post .list-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 991px) {
+  .section-list-post .list-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .section-list-post .list-container .item-post {
+    border-left-color: transparent;
+    border-right-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .section-list-post .list-container .item-post:nth-child(2n+1) {
+    padding-right: 10px;
+  }
+  .section-list-post .list-container .item-post:nth-child(2n) {
+    padding-left: 10px;
+  }
+  .section-list-post .list-container .item-post .logo {
+    width: 158px;
+  }
+}

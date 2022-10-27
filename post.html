@@ -1,0 +1,268 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Post "Introducing Squads V3" | Blog</title>
+    <meta name="description" content="The multisig standard you were looking for on Solana">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="icon" href="/img/favicon.ico?123">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#252525">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#252525">
+    <meta property="og:title" content="Squads">
+    <meta property="og:site_name" content="Squads.so">
+    <meta property="og:url" content="https://squads.so/">
+    <meta property="og:image" content="/logo-ssr.jpeg">
+    <meta property="og:description" content="The multisig standard you were looking for on Solana">
+    <meta property="og:type" content="product">
+    <meta name="twitter:title" content="Squads">
+    <meta name="twitter:image" content="/logo-ssr.jpeg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:description" content="The multisig standard you were looking for on Solana">
+    <meta name="next-head-count" content="12">
+    <meta property="og:updated_time" content="1660657933">
+
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+    <!-- CSS variables -->
+    <link rel="stylesheet" href="/css/variables.css?v=2.563479">
+    <!-- font "Druk Wide" -->
+    <link rel="stylesheet" href="/fonts/Druk Wide/stylesheet.css?v=2.563479">
+    <!-- font "Neue Plak" -->
+    <link rel="stylesheet" href="/fonts/Neue-Plak2/stylesheet.css?v=2.563479">
+    <!-- reset CSS -->
+    <link rel="stylesheet" href="/css/reset.css?v=2.563479">
+    <!-- Icons -->
+    <link rel="stylesheet" href="/css/icons.css?v=2.563479">
+    <!-- Style Global -->
+    <link rel="stylesheet" href="/css/style.css?v=2.563479">
+    <!-- Header -->
+    <link rel="stylesheet" href="/css/chunks-header.css?v=2.563479">
+    <!-- Footer -->
+    <link rel="stylesheet" href="/css/footer.css?v=2.563479">
+
+
+    <!-- Chunks template Style CSS -->
+    <link rel="stylesheet" href="/css/blog-post.css?v=2.563479"> <!-- section "post" -->
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3PLKNT0QYT"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-3PLKNT0QYT');
+    </script>
+
+</head>
+<body>
+
+<!-- header -->
+<header class="section-header">
+    <div class="container-xl">
+        <div class="header-grid__container">
+            <!-- logo -->
+            <div class="header-grid__col">
+                <a href="/" class="header-logo">
+                    <img src="/img/logo.svg" alt="logo" class="header-logo_img">
+                </a>
+            </div>
+            <!-- nav -->
+            <div class="header-grid__col">
+                <nav class="header-navigation">
+                    <ul class="header-navigation__list flex flex-v-center">
+                        <li class="header-navigation__item">
+                            <a href="/" class="header-navigation__link">Overview</a>
+                        </li>
+                        <li class="header-navigation__item">
+                            <a href="/security.html" class="header-navigation__link">Security</a>
+                        </li>
+                        <li class="header-navigation__item">
+                            <a href="/about.html" class="header-navigation__link">About</a>
+                        </li>
+                        <li class="header-navigation__item">
+                            <!--              <a href="https://www.wordcelclub.com/squadsprotocol.sol" target="_blank" class="header-navigation__link">Blog</a>-->
+                            <a href="/blog.html" class="header-navigation__link active">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- event -->
+            <div class="header-grid__col">
+                <a href="https://v3.squads.so/" target="_blank" class="header-btn">
+                    <button type="button" class="btn btn-primary">Launch App</button>
+                </a>
+                <!-- btn mobile burger -->
+                <button class="btn btn-toggle_menu">
+                    <span class="btn-menu_line line-top"></span>
+                    <span class="btn-menu_line line-center"></span>
+                    <span class="btn-menu_line line-bottom"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<section class="section-container-post">
+    <div class="container-xl">
+        <div class="grid-container">
+            <h2 class="title-post">Introducing Squads V3</h2>
+            <img src="/img/blog/header-logo(not_arrow).svg?v=2.1" alt="logo" class="logo">
+            <div class="info-block">
+                <p class="date">08/16/22</p>
+                <p class="text">Introducing Squads V3</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-post-text">
+        <p>Every blockchain ecosystem needs a reliable multi-signature wallet standard. Multisig wallets enable democratic co-ownership and enhanced security of on chain assets, two features that normal hot wallets cannot provide. Multisigs are an essential part of the security stack. They are used by individuals, teams, DAOs and institutions looking to securely manage their on chain assets without relying on a single point of failure.</p>
+        <p>Our vision for Squads was always about bringing a reliable and user friendly multisig experience to the Solana ecosystem. With Squads V2 mainnet launch on February 24th we embarked on a path to realize this vision. Squads V2 allows users to spin up a multisig wallet in seconds, store and send their digital assets, do swaps, and earn yield on assets stored inside their Squad. In less than 6 months, over 2,500 multisigs were deployed, with many established teams and DAOs relying on V2 to custody their treasuries. Yet, over the course of developing and iterating on V2, we came to a number of realizations:</p>
+        <ul>
+            <li>
+                <p>multisigs go way beyond treasury custody and management - they have the potential to be the core infrastructure for web3 native teams to manage all kinds of on-chain assets such as programs and tokens, making multisigs an essential part of the workflow tooling stack for teams dealing with blockchain development (next to Jira, Slack and others);</p>
+            </li>
+            <li>
+                <p>as of today, for treasury custody, most teams on Solana rely on centralized solutions due to lack of a reliable Solana-native decentralized multisig and choose to upgrade their programs with a single key usually stored on a Ledger;</p>
+            </li>
+            <li>
+                <p>Solana needs a multisig standard that the ecosystem can unite behind which does not make tradeoffs when it comes to satisfying the security criteria for a reliable multisig standard, those include making codebase open source, multiple audits, peer reviews and more.</p>
+            </li>
+        </ul>
+        <div class="hr"></div>
+        <h2>Why V3 is the One</h2>
+        <p>In developing V3 we had the following objectives:</p>
+        <ul class="margin-small">
+            <li><p>security-first approach</p></li>
+            <li><p>minimal codebase</p></li>
+            <li><p>agnostic architecture allowing users to manage all kinds of on-chain assets and workflows</p></li>
+            <li><p>minimal network fees for users</p></li>
+            <li><p>intuitive and user-friendly interface and user experience advanced features for “pro” users</p></li>
+            <li><p>composability friendliness.</p></li>
+        </ul>
+        <h3>1. Security</h3>
+        <p>When designing V3, we set out a criteria of what properties a secure multisig standard on Solana should have:</p>
+        <ul class="margin-small">
+            <li><p>multiple independent audits by reputable firms</p></li>
+            <li><p>open source and minimal codebase written in Anchor</p></li>
+            <li><p>peer reviews by experienced developers in the space</p></li>
+            <li><p>Sec3 premium tool running for any changes to the on-chain code.</p></li>
+        </ul>
+        <img src="/img/blog/post-1-1.svg" alt="img">
+        <p>To ensure that V3 is secure we have written a new program in Anchor and audited it with Bramah Systems and OtterSec - some of the best security audit firms in the space. We are also relying on Sec3 premium tool every time V3 on-chain code is altered. The on-chain code for V3 was purposely made minimal so it would be easier to audit and review. You can do it right now, just go to our Github. We plan to make the V3 program non-upgradeable in the near future and are currently exploring ways to complete formal verification.</p>
+        <p>To help us refine the V3 standard we have formed a collective of teams called Self Custody Society (SCS for short), to be our trusted partners and allies in the push to create the multisig standard that Solana ecosystem can unite behind and rely on (more on SCS in a section below).</p>
+        <h3>2. Product</h3>
+        <p>We could not have missed the opportunity to rethink the user interface and user experience for Squads V3. The new interface is clean, simple and agnostic, with numerous design choices guided by the extensive feedback we got from our V2 users over the course of the last few months.</p>
+        <img src="/img/blog/post-1-2.svg" alt="img">
+        <p>As of today, the core features of V3 include:</p>
+        <ul class="margin-small">
+            <li><p><b>basic multisig functionality</b> - sending / receiving assets</p></li>
+            <li><p><b>program management</b> - you now can upgrade Solana programs with a multisig instead of relying on a single key, view upgrade history, and manage upgrade authority</p></li>
+            <li><p><b>transaction builder</b> - initiate custom transactions and populate them with arbitrary instructions to interact with Solana programs (written in Anchor) directly from your multisig.</p></li>
+        </ul>
+        <p>For the launch we have also completed a number of integrations such as:</p>
+        <ul class="margin-small">
+            <li><p>Dialect notifications allowing users to stay up to date with events of the Squads they are in</p></li>
+            <li><p>Bonfida’s Solana Naming Service so users can send assets to .sol domains</p></li>
+            <li><p>Magic Eden integration allowing to buy listed NFTs directly from your Squad</p></li>
+            <li><p>Cardinal identity integration allowing to link Twitter to your Squad membership</p></li>
+            <li><p>Pyth integration to display price feeds throughout the app.</p></li>
+        </ul>
+        <p>The cost of network fees for Squad deployment as well as any transaction initiation has been significantly optimized (85% cheaper than V2) and made dynamic. Setting up your multisig with Squads is now by far the cheapest option in the ecosystem. You can learn more about the network fees involved in the relevant section of our docs.</p>
+        <p>Finally, Squads V3 is available on mobile starting from today.</p>
+        <img src="/img/blog/post-1-3.svg" alt="img">
+        <h3>03. Roadmap</h3>
+        <p>In the course of the next few weeks and months we will advance the capabilities of every Squad in the following directions:</p>
+        <ul class="margin-small">
+            <li><p><b>treasury management</b> - batch payments, swaps, streaming, vesting, integrations with treasury management and lending protocols, and more</p></li>
+            <li><p><b>token management</b> - mint / burn fungible tokens and NFTs, manage their properties such as update authority and metadata</p></li>
+            <li><p><b>DAOs and Squads</b> - our long-awaited Realms integration allowing Solana DAOs to spin up subDAOs, populate them with members, and manage them via on-chain voting</p></li>
+            <li><p><b>xNFT Backpack and Android mobile</b> - we are currently working on Squads V3 xNFT as well as an Android mobile app to make sure that Squads users have an intuitive native mobile experience on Saga phones when they arrive.</p></li>
+        </ul>
+        <div class="hr"></div>
+        <h2>Introducing SCS</h2>
+        <img src="/img/blog/post-1-4.svg" alt="img">
+        <p>Early on, when the work on V3 had just begun, we knew that we wanted to get as much feedback as possible on the direction that we are taking so we turned to fellow teams and builders for guidance and support. That idea has bloomed into something we now call Self Custody Society (SCS for short), which is a collective of teams who helped us refine both the standard and the product experience for V3. Moving forward, SCS will continue to provide feedback on the codebase and user experience as well as helping us promote the benefits of self custody and multisig use throughout the Solana ecosystem and beyond. Currently, SCS consists of the following teams: Katana, Grape, Cardinal, Dialect, Hubble, Strata, Genopets, Drift, PsyOptions, Tensor, Clockwork, Helius, Jito Labs, Magna, Ratio Finance, Marginfi and Streamflow.</p>
+        <p>Currently, SCS members have early access to new features, get integration preference, and receive awesome-looking membership NFTs, but this is just the beginning as there are a lot more things in store. Reach out if you would like to join SCS today, there is no KYC, just a vibe check.</p>
+        <img src="/img/blog/post-1-5.svg" alt="img">
+        <div class="hr"></div>
+        <h2 style="max-width: 490px">The great migration from V2 to V3</h2>
+        <p>V2 Squads are not compatible with V3, so migration will have to occur manually. To make this a better experience we will soon make all the rent / network fees spent by users on V2 reclaimable (more information on that next week). Our team is available 24/7 to guide you through V3 set up and assist with asset migration. While technical support will still be provided for V2, we strongly encourage all users to transition to V3, as we consider it a massive improvement on all fronts that all multisig enthusiasts should experience for themselves.</p>
+        <div class="hr"></div>
+
+        <div class="learn-more">
+            <h3>Learn more</h3>
+            <ul>
+                <li><a href="#">Create a Squad</a></li>
+                <li><a href="#">Read the documentation</a></li>
+                <li><a href="#">Review the code</a></li>
+                <li><a href="#">Join the community</a></li>
+            </ul>
+        </div>
+
+
+    </div>
+</section>
+
+<footer>
+    <div class="container-xl">
+        <div class="grid-container">
+
+            <div class="left-col">
+                <a href="/"><img src="/img/logo-text.svg" alt="logo"></a>
+                <p class="footer-info">All rights reserved</p>
+                <p class="footer-info">© Squads Protocol 2022</p>
+            </div>
+
+            <div class="center-col">
+                <div class="nav-col">
+                    <div class="item-col">
+                        <p class="name">Product</p>
+                        <a href="/" class="link">Overview</a>
+                        <a href="security.html" class="link">Security</a>
+                        <a href="https://www.wordcelclub.com/squadsprotocol.sol" class="link">Blog</a>
+                    </div>
+                    <div class="item-col">
+                        <p class="name">Resources</p>
+                        <a href="https://github.com/squads-dapp/squads-mpl" target="_blank" class="link">Github</a>
+                        <a href="https://docs.squads.so/squads-v3-docs/" target="_blank" class="link">Documentation</a>
+                        <a href="https://twitter.com/squadsprotocol" target="_blank" class="link">Twitter</a>
+                        <a href="https://discord.com/invite/YPXz64TrKs" target="_blank" class="link">Discord</a>
+                        <a href="https://www.npmjs.com/package/@sqds/sdk" target="_blank" class="link">SDK</a>
+                    </div>
+                    <div class="item-col">
+                        <p class="name">Company</p>
+                        <a href="/about.html" class="link">About</a>
+                        <!--                        <a href="" class="link">Brand kit</a>-->
+                    </div>
+                    <div class="item-col">
+                        <p class="name">Legal</p>
+                        <a href="/terms.html" class="link">Terms of service</a>
+                        <a href="/disclaimer.html" class="link">Protocol disclaimer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Jquery -->
+<script src="/js/jquery-3.6.0.min.js"></script>
+<!-- Index Script -->
+<script src="/js/script.js?v=2.563479"></script>
+
+</body>
+</html>
