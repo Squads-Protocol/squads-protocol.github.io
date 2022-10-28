@@ -411,7 +411,7 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    grid-column-gap: 69px;
+    grid-column-gap: 64px;
     grid-row-gap: 24px;
     max-width: 867px;
 }
