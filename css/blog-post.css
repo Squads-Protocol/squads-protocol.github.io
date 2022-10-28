@@ -186,6 +186,7 @@
 .section-container-post .content-post-text ul li {
   position: relative;
   padding-left: 60px;
+  margin-bottom: 23px;
 }
 
 .section-container-post .content-post-text ul li:before {
@@ -256,6 +257,10 @@
     margin-right: -17px;
     width: calc(100% + 34px);
     max-width: initial;
+  }
+
+  .section-container-post .content-post-text ul li {
+    padding-left: 30px;
   }
 }
 
