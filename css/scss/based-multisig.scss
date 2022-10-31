@@ -1,0 +1,419 @@
+@font-face {
+  font-family: 'TTInterphasesProMono-Bd';
+  src: url('/fonts/TT-Interphases-Pro-Mono-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TTInterphasesProMono-Rg';
+  src: url('/fonts/TT-Interphases-Pro-Mono-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Argent Pixel CF';
+  src: url("/fonts/ArgentPixelCF-Italic.otf") format("opentype");
+}
+
+body {
+  background-color: #0D0D0D;
+  overflow: hidden;
+}
+
+.container-xl {
+  max-width: calc(1761px + 200px);
+
+  @media (max-width: 1500px) {
+    padding: 0 45px;
+  }
+
+  @media (max-width: 1300px) {
+    padding: 0 21px;
+  }
+}
+
+.section-main {
+  position: relative;
+  height: 650px;
+  margin-bottom: 58px;
+
+  @media (max-width: 991px) {
+    height: 567px;
+  }
+
+  .header-block {
+    position: relative;
+    z-index: 3;
+    height: 79px;
+
+    .header-aside {
+      position: relative;
+      max-width: 1768px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr auto;
+
+      .left-col {
+        .box-black {
+          width: 100%;
+          height: calc(100% - 1px);
+          background-color: #101010;
+          border: 1px solid #434343;
+          border-top: none;
+          border-right: none;
+          border-radius: 0 0 0 10px;
+        }
+      }
+
+      .right-col {
+        position: relative;
+
+        .header-design-elements {
+          position: absolute;
+          top: 17px;
+          right: 23px;
+        }
+      }
+
+      .mobile-header {
+        height: 79px;
+        background-image: url(/img/based-multisig/header-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 100% 100%;
+      }
+
+      @media (min-width: 991px) {
+        .mobile-header {
+          display: none;
+        }
+      }
+
+      @media (max-width: 991px) {
+        .left-col,
+        .right-col {
+          display: none;
+        }
+      }
+
+      nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        padding-left: 60px;
+
+        @media (max-width: 991px) {
+          padding-left: 20px;
+        }
+      }
+    }
+
+  }
+
+  .grid-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/based-multisig/header-grid-2.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+    @media (max-width: 1500px) {
+      background-position: 88% 100%;
+    }
+  }
+
+  .wrapper-container {
+    position: relative;
+    height: calc(100% - 69px);
+    margin-top: -10px;
+
+    .container-xl {
+      position: relative;
+      height: 100%;
+      width: 100%;
+    }
+
+    .squads-logo {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin-top: 5px;
+
+      @media (max-width: 1500px) {
+        width: 460px;
+      }
+
+      @media (max-width: 991px) {
+        width: 290px;
+      }
+    }
+
+    .text-center {
+      position: relative;
+      top: 50%;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 91%;
+      transform: translate(0, -50%);
+      margin-top: -14px;
+      margin-left: 76px;
+
+      @media (max-width: 1500px) {
+        margin-left: 0;
+      }
+
+      @media (max-width: 1300px) {
+        margin-top: -24px;
+        max-width: 100%;
+      }
+
+      @media (max-width: 1300px) {
+        margin-top: 6px;
+      }
+
+      .text-based {
+        width: max-content;
+        margin-bottom: 30px;
+      }
+
+      .text-multisig {
+        width: max-content;
+        margin-left: auto;
+
+        @media (max-width: 1500px) {
+          margin-right: 73px;
+        }
+      }
+
+      .marks-icon {
+        position: absolute;
+        right: -75px;
+        bottom: 0;
+      }
+
+      .text-by {
+        position: absolute;
+        right: -78px;
+        bottom: -44px;
+
+        font-family: 'TTInterphasesProMono-Rg';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: right;
+        color: #FFFFFF;
+        opacity: 0.5;
+      }
+
+      @media (max-width: 1300px) {
+        .text-based {
+          width: 685px;
+        }
+        .text-multisig {
+          width: 841px;
+          margin-right: 0;
+        }
+
+        .marks-icon {
+          right: 0;
+          bottom: -40px;
+        }
+
+        .text-by {
+          right: 0;
+          bottom: -78px;
+        }
+      }
+
+      @media (max-width: 991px) {
+        .text-based {
+          width: 88%;
+          margin-bottom: 15px;
+        }
+        .text-multisig {
+          width: 97%;
+        }
+
+        .marks-icon {
+          bottom: -100px;
+        }
+
+        .text-by {
+          text-align: center;
+          width: 100%;
+          bottom: -144px;
+        }
+      }
+    }
+
+    .design-element {
+      .design-element-1 {
+        position: absolute;
+        top: 25px;
+        right: -2px;
+      }
+
+      .design-element-2 {
+        position: absolute;
+        bottom: -26px;
+        right: -2px;
+      }
+
+      .design-element-3 {
+        position: absolute;
+        bottom: -26px;
+        left: -1px;
+      }
+
+      .design-element-4 {
+        position: absolute;
+        top: 52%;
+        left: 4px;
+
+        @media (max-width: 991px) {
+          top: 22%;
+        }
+      }
+    }
+
+    .footer-section {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      grid-gap: 23px;
+      width: 100%;
+      margin-bottom: -29px;
+
+      @media (max-width: 1300px) {
+        margin-bottom: -40px;
+      }
+
+      @media (max-width: 1300px) {
+        margin-bottom: -20px;
+      }
+
+      .line {
+        width: 100%;
+        height: 1px;
+        background-color: #434343;
+        margin-bottom: 25px;
+      }
+
+      .design-element-1 {
+        margin-left: -1px;
+      }
+
+      .design-element-2 {
+        margin-right: -2px;
+      }
+    }
+  }
+}
+
+
+.section-content {
+  .wrapper-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1327px;
+    margin: 0 auto;
+
+    @media (max-width: 1500px) {
+      max-width: 1100px;
+    }
+
+    @media (max-width: 1300px) {
+      max-width: 835px;
+    }
+
+    @media (max-width: 991px) {
+      flex-direction: column;
+      grid-gap: 46px;
+      padding: 0 17px;
+    }
+
+    .text-intro {
+      position: relative;
+      font-family: 'TTInterphasesProMono-Rg';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 109.5%;
+      color: #FFFFFF;
+      max-width: 411px;
+
+      &:before {
+        content: '';
+        position: absolute;
+        top: 10px;
+        right: calc(100% + 43px);
+        width: 100%;
+        height: 1px;
+        background-image: url(/img/based-multisig/line-92.svg);
+
+        @media (max-width: 1300px) {
+          display: none;
+        }
+      }
+    }
+
+    .container-btn {
+      display: flex;
+      grid-gap: 20px;
+
+      @media (max-width: 991px) {
+        flex-direction: column;
+        width: 100%;
+        grid-gap: 15px;
+      }
+
+      .btn-link {
+        align-items: center;
+        width: 217px;
+        height: 65px;
+        background-color: #FFA41B;
+        box-shadow: 0px 0px 25px rgba(255, 164, 27, 0.65);
+        border-radius: 5px;
+
+        font-family: 'TTInterphasesProMono-Bd';
+        font-weight: 700;
+        font-size: 18px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+        color: #000000;
+
+        &:hover {
+          background-color: #db8c15;
+        }
+
+        @media (max-width: 1300px) {
+          width: 167px;
+        }
+
+        @media (max-width: 991px) {
+          width: 100%;
+          height: 53px;
+        }
+      }
+    }
+  }
+}
