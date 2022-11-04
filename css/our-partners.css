@@ -59,6 +59,9 @@
   width: 100%;
   max-width: 1010px;
 }
+.section-our-partners .grid-container .col-logo a{
+  /*height:32px;*/
+}
 
 @media (max-width: 1500px) {
   .section-our-partners .grid-container .col-logo {

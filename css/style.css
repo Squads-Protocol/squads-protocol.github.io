@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'TT_Interphases_bold';
+  src: url("../fonts/TT-Interphases-Pro-Mono-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: 'TT_Interphases_reg';
+  src: url("../fonts/TT-Interphases-Pro-Mono-Regular.otf") format("opentype");
+}
 
 body {
   font-family: "Neue Plak";
@@ -91,6 +99,29 @@ body {
 .btn.large {
   padding: 15px 25px;
   font-size: 21px;
+}
+.btn_animate{
+  width: 250px;height:80px;position: fixed;bottom:30px;right:0;z-index:99;
+  box-sizing:border-box;
+  cursor: pointer;
+}
+.btn_animate div{
+  display: none;
+  background-color: #FFA41B;
+  border-radius: 5px;
+  color: #000;
+  font-size: 15px;
+  text-align: center;
+  margin: 10px 36px;
+  font-family: "TT_Interphases_reg";
+  font-weight: 600;
+  padding: 19px 18px;
+}
+.btn_animate:hover img{
+  display:none
+}
+.btn_animate:hover div{
+  display:block
 }
 
 /* ----------- headings ----------- */

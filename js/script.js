@@ -65,6 +65,10 @@ $(document).ready(function () {
     $('.clickHref').click(function(){
         clickHref($(this).data('href'));
     });
+
+    $(".btn_animate").click(function (){
+        document.location = "https://based.squads.so/";
+    });
 });
 
 // open mob menu
