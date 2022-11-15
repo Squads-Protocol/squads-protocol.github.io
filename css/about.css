@@ -458,7 +458,7 @@
 
 @media (max-width: 1500px) {
     .section-investor .custody-society .grid-container-logo {
-        grid-column-gap: 50px;
+        grid-column-gap: 29px;
         max-width: 650px;
     }
 
