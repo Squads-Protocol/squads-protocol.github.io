@@ -173,7 +173,7 @@
     padding: 25px 20px 56px;
   }
   .advantages-section .row-content .top-col .grid-container .item-col .text {
-    max-width: 100% !important;
+    max-width: calc(100% - 100px) !important;
   }
   .advantages-section .row-content .top-col .grid-container .item-col.item-col_one .text {
     display: flex;
@@ -194,7 +194,7 @@
     margin-left: -30px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .advantages-section .row-content .top-col .grid-container .item-col .text {
     font-size: 4.5vw;
   }
@@ -202,7 +202,5 @@
     font-size: 7vw;
   }
 
-  .advantages-section .row-content .top-col .grid-container .item-col.item-col_three .text {
-    max-width: 92% !important;
-  }
+
 }
