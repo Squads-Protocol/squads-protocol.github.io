@@ -6,7 +6,6 @@
   font-family: 'TT_Interphases_reg';
   src: url("../fonts/TT-Interphases-Pro-Mono-Regular.otf") format("opentype");
 }
-
 body {
   font-family: "Neue Plak";
   min-height: 100vh;

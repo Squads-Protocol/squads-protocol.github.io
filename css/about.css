@@ -703,4 +703,16 @@
         white-space: initial;
         line-height: 82%;
     }
+
+    .section-build {
+        margin-top: 130px;
+    }
+
+    .section-build .col-heading .title {
+        display: none;
+    }
+
+    .section-build .grid-container .title-label {
+        top: -70px;
+    }
 }
