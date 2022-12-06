@@ -98,7 +98,9 @@ function clickHref(href){
         'Explorer':'https://docs.squads.so/squads-v3-docs/navigating-your-squad/owners-and-settings',
         'twitterStepan':'https://twitter.com/SimkinStepan',
         'twitterDeni':'https://twitter.com/deni_ersht',
-        'twitterSean':'https://twitter.com/gansersol'
+        'twitterSean':'https://twitter.com/gansersol',
+        'jito':'https://docs.squads.so/squads-v3-docs/integrations/staking/jitosol',
+        'deadgods':'https://docs.squads.so/squads-v3-docs/integrations/staking/deadgods'
     };
-    document.location = hrefs[href];
+    window.open(hrefs[href], '_blank');
 }
