@@ -348,7 +348,7 @@
     align-items: initial;
     flex-direction: column;
     grid-gap: 30px;
-    padding: 60px 0 !important;
+/*    padding: 60px 0 !important; */
   }
 
   .section-features .grid-container .item-card .rhomb-background {
