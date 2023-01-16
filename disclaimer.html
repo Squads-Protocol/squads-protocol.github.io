@@ -23,6 +23,12 @@
     <meta name="twitter:description" content="The multisig standard you were looking for on Solana">
     <meta name="next-head-count" content="12">
     <meta property="og:updated_time" content="1660657933">
+    <meta http-equiv="Content-Security-Policy" content="
+            default-src 'self' https://www.googletagmanager.com;
+            img-src 'self';
+            connect-src 'self' https://www.google-analytics.com;
+            style-src 'self' 'unsafe-inline';
+        ">
 
 
     <!--[if lt IE 9]>
@@ -57,13 +63,7 @@
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-3PLKNT0QYT"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-3PLKNT0QYT');
-    </script>
+    <script type="javascript" src="/js/metrics.js"></script>
 
 </head>
 <body>
@@ -171,7 +171,6 @@
 <script src="/js/jquery-3.6.0.min.js"></script>
 <!-- Index Script -->
 <script src="/js/script.js?v=2.563489"></script>
-<script src="/js/ecosystem-feedback.js?v=2.563489"></script>
 
 </body>
 </html>
