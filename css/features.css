@@ -178,6 +178,7 @@
   background-color: #F4F4F4 !important;
   color: #000;
   min-height: 397px;
+  margin-top:15px;
 }
 
 .section-features .grid-container .item-card.white-card .design-elements .icon.square {
@@ -216,6 +217,8 @@
   font-size: 13px;
   color: #5B5B5B;
 }
+
+
 
 .section-features .grid-container .item-card.white-card .row-content .rhomb-container .box-ratio .content {
   background-color: transparent;
@@ -344,6 +347,10 @@
 }
 
 @media (max-width: 991px) {
+  .section-features .grid-container .item-card.white-card .row-content .rhomb-container .count{
+    top:15px
+  }
+
   .section-features .grid-container .item-card .row-content {
     align-items: initial;
     flex-direction: column;
